@@ -2,7 +2,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'PEP8 فارسی'
+project = 'Python PEP8 Persian Translation'
 copyright = 'Hanif Birgani'
 author = 'Hanif Birgani'
 
