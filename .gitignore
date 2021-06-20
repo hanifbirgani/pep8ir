@@ -1,0 +1,6 @@
+_build
+_resources
+.vscode
+.idea
+.pyc
+_pep8.rst

@@ -1,0 +1,4 @@
+[build]
+  base = ""
+  publish = "_build/html/"
+  command = "chmod +x start.sh && ./start.sh"
