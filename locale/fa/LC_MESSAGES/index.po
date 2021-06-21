@@ -599,7 +599,7 @@ msgstr ""
 
 #: ../../_pep8.rst:470
 msgid "Immediately before a comma, semicolon, or colon::"
-msgstr ""
+msgstr "بلافاصله پس از یک ویرگول، نقطه‌ویرگول یا دونقطه::"
 
 #: ../../_pep8.rst:480
 msgid ""
