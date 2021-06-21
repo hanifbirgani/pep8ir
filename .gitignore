@@ -6,3 +6,4 @@ _resources
 .vscode
 .idea
 .pyc
+*.mo
