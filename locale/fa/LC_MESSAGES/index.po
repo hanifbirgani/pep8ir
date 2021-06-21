@@ -114,13 +114,15 @@ msgstr ""
 
 #: ../../_pep8.rst:41
 msgid "Some other good reasons to ignore a particular guideline:"
-msgstr ""
+msgstr "دلایل خوب دیگری برای نادیده گرفتن یک راهنما:"
 
 #: ../../_pep8.rst:43
 msgid ""
 "When applying the guideline would make the code less readable, even for "
 "someone who is used to reading code that follows this PEP."
 msgstr ""
+"هنگامی که بکارگیری این شیوه‌نامه باعث شود خوانایی کد پایین بیاید، حتی زمانی "
+"که خوانندهٔ کد هم از این شیوه‌نامه پیروی کند."
 
 #: ../../_pep8.rst:46
 msgid ""
@@ -128,18 +130,24 @@ msgid ""
 "historic reasons) -- although this is also an opportunity to clean up "
 "someone else's mess (in true XP style)."
 msgstr ""
+"برای یکدست بودن با دیگر کدهایی که از قبل در پروژه موجود است -- هرچند این "
+"شاید فرصتی برای پاکسازی خرابکاری دیگران هم باشد."
 
 #: ../../_pep8.rst:50
 msgid ""
 "Because the code in question predates the introduction of the guideline and "
 "there is no other reason to be modifying that code."
 msgstr ""
+"کدهای موجود، قبل از بوجود آمدن این شیوه‌نامه نوشته شده‌اند و دلیل دیگری (بجز"
+" اعمال این شیوه‌نامه) برای بازنویسی آن‌ها وجود ندارد."
 
 #: ../../_pep8.rst:53
 msgid ""
 "When the code needs to remain compatible with older versions of Python that "
 "don't support the feature recommended by the style guide."
 msgstr ""
+"وقتی نیاز است کدها با نگارش‌های قدیمی پایتون سازگار باشند و نگارش‌های قدیمی "
+"پایتون از روش‌های گفته شده در این شیوه‌نامه پشتیبانی نکنند."
 
 #: ../../_pep8.rst:58
 msgid "Code Lay-out"
@@ -165,7 +173,7 @@ msgstr ""
 
 #: ../../_pep8.rst:103
 msgid "The 4-space rule is optional for continuation lines."
-msgstr ""
+msgstr "رعایت قانون ۴-فاصله برای خطوط ادامه‌دار الزامی نیست."
 
 #: ../../_pep8.rst:105
 msgid "Optional::"
@@ -347,17 +355,17 @@ msgstr ""
 
 #: ../../_pep8.rst:277
 msgid "Blank Lines"
-msgstr ""
+msgstr "خطوط خالی"
 
 #: ../../_pep8.rst:279
 msgid ""
 "Surround top-level function and class definitions with two blank lines."
-msgstr ""
+msgstr "قبل از تعریف توابع سطح بالا و کلاس‌ها از دو خط خالی استفاده کنید."
 
 #: ../../_pep8.rst:282
 msgid ""
 "Method definitions inside a class are surrounded by a single blank line."
-msgstr ""
+msgstr "قبل از تعریف روش‌ها درون کلاس، از یک خط خالی استفاده کنید."
 
 #: ../../_pep8.rst:285
 msgid ""
@@ -968,7 +976,7 @@ msgstr ""
 
 #: ../../_pep8.rst:870
 msgid "ASCII Compatibility"
-msgstr ""
+msgstr "سازگاری اَسکی"
 
 #: ../../_pep8.rst:872
 msgid ""
@@ -1031,7 +1039,7 @@ msgstr ""
 
 #: ../../_pep8.rst:916
 msgid "Exception Names"
-msgstr ""
+msgstr "نام استثناها"
 
 #: ../../_pep8.rst:918
 msgid ""
@@ -1042,7 +1050,7 @@ msgstr ""
 
 #: ../../_pep8.rst:923
 msgid "Global Variable Names"
-msgstr ""
+msgstr "نام متغیرهای عمومی"
 
 #: ../../_pep8.rst:925
 msgid ""
@@ -1060,7 +1068,7 @@ msgstr ""
 
 #: ../../_pep8.rst:935
 msgid "Function and Variable Names"
-msgstr ""
+msgstr "نام توابع و متغیرها"
 
 #: ../../_pep8.rst:937
 msgid ""
@@ -1070,7 +1078,7 @@ msgstr ""
 
 #: ../../_pep8.rst:940
 msgid "Variable names follow the same convention as function names."
-msgstr ""
+msgstr "نام متغیرها از همان قواعد نامگذاری توابع پیروی می‌کند."
 
 #: ../../_pep8.rst:942
 msgid ""
@@ -1146,7 +1154,7 @@ msgstr ""
 
 #: ../../_pep8.rst:987
 msgid "Designing for Inheritance"
-msgstr ""
+msgstr "طراحی برای ارث‌بری"
 
 #: ../../_pep8.rst:989
 msgid ""
@@ -1170,6 +1178,8 @@ msgid ""
 "We don't use the term \"private\" here, since no attribute is really private"
 " in Python (without a generally unnecessary amount of work)."
 msgstr ""
+"اینجا ما از عبارت «خصوصی» استفاده نمی‌کنیم، به این دلیل که هیچ مشخصه‌ای در "
+"پایتون واقعاً خصوصی نیست."
 
 #: ../../_pep8.rst:1003
 msgid ""
@@ -1183,11 +1193,11 @@ msgstr ""
 
 #: ../../_pep8.rst:1011
 msgid "With this in mind, here are the Pythonic guidelines:"
-msgstr ""
+msgstr "با در نظر داشتن این نکات، راهنمای پایتونی انجام کار به این صورت است:"
 
 #: ../../_pep8.rst:1013
 msgid "Public attributes should have no leading underscores."
-msgstr ""
+msgstr "مشخصه‌های عمومی نباید با زیرخط (underscore) شروع شوند."
 
 #: ../../_pep8.rst:1015
 msgid ""
