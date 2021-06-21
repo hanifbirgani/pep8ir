@@ -1794,8 +1794,8 @@ msgstr ""
 
 #: ../../_pep8.rst:1515
 msgid "Copyright"
-msgstr ""
+msgstr "کپی‌رایت"
 
 #: ../../_pep8.rst:1517
 msgid "This document has been placed in the public domain."
-msgstr ""
+msgstr "این شیوه‌نامه به صورت آزاد در دسترس همگان قرار گرفته است."
