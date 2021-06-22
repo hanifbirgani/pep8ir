@@ -46,8 +46,10 @@
     const highlights = document.querySelectorAll('.highlight')
     highlights.forEach(item => {
       if (item.textContent.includes('# Correct')) {
+        item.innerHTML = item.innerHTML.replace('# Correct:', '# درست:');
         item.classList.add('correct-code');
       } else if (item.textContent.includes('# Wrong')) {
+        item.innerHTML = item.innerHTML.replace('# Wrong:', '# غلط:');
         item.classList.add('wrong-code');
       }
     })
