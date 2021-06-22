@@ -198,6 +198,15 @@ msgid ""
 "conditional lines from the nested suite inside the ``if``-statement. "
 "Acceptable options in this situation include, but are not limited to::"
 msgstr ""
+"زمانی که بخش شرطی یک دستور ``if`` ترکیبی طولانی باشد، به گونه‌ای که مجبور "
+"باشیم آن را در چند خط بنویسیم، با توجه به اینکه خود دستور ``if`` از دو حرف "
+"تشکیل شده و پس از آن نیز یک فاصله و پرانتز قرار می‌گیرد، می‌توانیم خطوط "
+"اضافی شرط را با رعایت ۴ فاصله زیر خط اصلی بنویسیم. گرچه این امر سبب بوجود "
+"آمدن یک تداخل بینایی می‌شود که در نتیجه آن شرط‌های دستور ``if`` از دستورات "
+"بلوک زیر آن به سختی قابل تفکیک خواهند بود، زیرا دستورات داخل بلوک شرطی هم "
+"باید ۴ فاصله تورفتگی داشته باشند. این شیوه‌نامه توصیه خاصی برای ایجاد تمایز "
+"بین شرط‌های اصلی و دستورات درون بلوک شرطی ندارد. برخی گزینه‌های قابل قبول به"
+" شرح زیر هستند::"
 
 #: ../../_pep8.rst:142
 msgid ""
@@ -306,6 +315,9 @@ msgid ""
 "The Python standard library is conservative and requires limiting lines to "
 "79 characters (and docstrings/comments to 72)."
 msgstr ""
+"کتابخانه استاندارد پایتون بسیار محافظه‌کار است و لازم است که تمام خطوط آن "
+"کمتر از ۷۹ حرف باشند. همچنین حاشیه‌نویسی‌ها و مستندات باید کمتر از ۷۲ حرف "
+"باشند."
 
 #: ../../_pep8.rst:216
 msgid ""
@@ -334,7 +346,7 @@ msgstr "مورد دیگر با دستور ``assert`` است."
 
 #: ../../_pep8.rst:235
 msgid "Make sure to indent the continued line appropriately."
-msgstr ""
+msgstr "مطمئن شوید که تورفتگی خطوط ادامه‌دار را رعایت کنید."
 
 #: ../../_pep8.rst:238
 msgid "Should a Line Break Before or After a Binary Operator?"
@@ -469,7 +481,7 @@ msgstr ""
 
 #: ../../_pep8.rst:349
 msgid "Imports should be grouped in the following order:"
-msgstr ""
+msgstr "ایمپورت‌ها باید به ترتیب زیر گروه‌بندی شوند:"
 
 #: ../../_pep8.rst:351
 msgid "Standard library imports."
@@ -477,15 +489,15 @@ msgstr "ایمپورت‌های کتابخانه استاندارد."
 
 #: ../../_pep8.rst:352
 msgid "Related third party imports."
-msgstr ""
+msgstr "ایمپورت کتابخانه‌های شخص ثالث."
 
 #: ../../_pep8.rst:353
 msgid "Local application/library specific imports."
-msgstr ""
+msgstr "ایمپورت کتابخانه‌ها و کدهای محلی (local)."
 
 #: ../../_pep8.rst:355
 msgid "You should put a blank line between each group of imports."
-msgstr ""
+msgstr "شما باید بین هر گروه از ایمپورت‌ها یک خط خالی قرار دهید."
 
 #: ../../_pep8.rst:357
 msgid ""
@@ -683,7 +695,7 @@ msgstr ""
 
 #: ../../_pep8.rst:627 ../../_pep8.rst:637
 msgid "Rather not::"
-msgstr ""
+msgstr "بهتر است نباشد::"
 
 #: ../../_pep8.rst:633
 msgid ""
@@ -694,11 +706,11 @@ msgstr ""
 
 #: ../../_pep8.rst:644
 msgid "Definitely not::"
-msgstr ""
+msgstr "قطعاً نه::"
 
 #: ../../_pep8.rst:660
 msgid "When to Use Trailing Commas"
-msgstr ""
+msgstr "زمان استفاده از ویرگول انتهایی"
 
 #: ../../_pep8.rst:662
 msgid ""
@@ -763,7 +775,7 @@ msgstr ""
 
 #: ../../_pep8.rst:725
 msgid "Block Comments"
-msgstr ""
+msgstr "حاشیه‌نویسی بلوکی"
 
 #: ../../_pep8.rst:727
 msgid ""
@@ -978,7 +990,7 @@ msgstr ""
 
 #: ../../_pep8.rst:860
 msgid "Names to Avoid"
-msgstr ""
+msgstr "نام‌های نامناسب"
 
 #: ../../_pep8.rst:862
 msgid ""
@@ -1761,7 +1773,7 @@ msgstr ""
 
 #: ../../_pep8.rst:1496
 msgid "References"
-msgstr ""
+msgstr "منابع"
 
 #: ../../_pep8.rst:1498
 msgid "PEP 7, Style Guide for C Code, van Rossum"
