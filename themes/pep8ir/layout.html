@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شیوه‌نامه نگارش پایتون | PEP8 فارسی</title>
+  <link rel="stylesheet" href="{{ pathto('_static/style.css', 1)|e }}" type="text/css" />
+</head>
+
+<body>
+  <header class="header">
+    <div id="sidebarToggle" class="sidebar-toggle">
+      <svg viewBox="0 0 100 80" width="30" height="30">
+        <rect width="100" height="20"></rect>
+        <rect y="30" width="100" height="20"></rect>
+        <rect y="60" width="100" height="20"></rect>
+      </svg>
+    </div>
+
+    <h1>
+      <a href="https://pep8.ir">شیوه‌نامه نگارش پایتون (PEP8 فارسی)</a>
+    </h1>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar" id="sidebar">
+      <h2>فهرست مطالب</h2>
+      {{ toc }}
+    </aside>
+
+    <main class="content">
+      {% block body %}{% endblock %}
+
+      <footer>
+        پروژه‌ای از <a href="https://github.com/hanifbirgani">حنیف بیرگانی</a> |
+        برای مشارکت در بهبود این پروژه به <a href="https://github.com/hanifbirgani/pep8ir">مخزن گیتهاب</a> بپیوندید.
+      </footer>
+    </main>
+  </div>
+
+
+  <script type="text/javascript">
+    /* Add correct/wrong class to the code blocks */
+    const highlights = document.querySelectorAll('.highlight')
+    highlights.forEach(item => {
+      if (item.textContent.includes('# Correct')) {
+        item.innerHTML = item.innerHTML.replace('# Correct:', '# درست:');
+        item.classList.add('correct-code');
+      } else if (item.textContent.includes('# Wrong')) {
+        item.innerHTML = item.innerHTML.replace('# Wrong:', '# غلط:');
+        item.classList.add('wrong-code');
+      }
+    })
+
+    /* Sidebar toggle */
+    const sidebar = document.getElementById('sidebar');
+    const sidebarToggle = document.getElementById('sidebarToggle');
+    sidebarToggle.addEventListener('click', e => {
+      sidebar.classList.toggle('visible');
+    });
+  </script>
+</body>
+
+</html>
