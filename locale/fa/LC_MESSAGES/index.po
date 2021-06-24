@@ -14,7 +14,7 @@ msgstr ""
 "POT-Creation-Date: 2021-06-21 01:52+0430\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
 "Last-Translator: Hanif Birgani, 2021\n"
-"Language-Team: Persian (https://www.transifex.com/persian-pep8/teams/121944/fa/)\n"
+"Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -213,6 +213,8 @@ msgid ""
 "(Also see the discussion of whether to break before or after binary "
 "operators below.)"
 msgstr ""
+"(همچنین مباحث مربوط به نحوه شکستن خطوط، قبل و بعد از عملگرهای ریاضی را هم "
+"پایین‌تر ببینید.)"
 
 #: ../../_pep8.rst:145
 msgid ""
@@ -220,12 +222,14 @@ msgid ""
 "line up under the first non-whitespace character of the last line of list, "
 "as in::"
 msgstr ""
+"پرانتز/کروشه/براکت انتهایی در متغیرهای چندخطی می‌تواند زیر اولین حرف از "
+"آخرین خط نوشته شود، همانند::"
 
 #: ../../_pep8.rst:158
 msgid ""
 "or it may be lined up under the first character of the line that starts the "
 "multiline construct, as in::"
-msgstr ""
+msgstr "یا هم‌تراز با نام متغیر اصلی نوشته شود، همانند::"
 
 #: ../../_pep8.rst:171
 msgid "Tabs or Spaces?"
@@ -285,6 +289,8 @@ msgid ""
 "(docstrings or comments), the line length should be limited to 72 "
 "characters."
 msgstr ""
+"برای بلوک‌های طولانی متن که محدودیت‌های ساختاری ندارند (مثل حاشیه‌نویسی‌ها "
+"یا مستندات درون کد)، طول هر خط نباید از ۷۲ حرف بیشتر شود."
 
 #: ../../_pep8.rst:197
 msgid ""
@@ -292,6 +298,9 @@ msgid ""
 "files open side by side, and works well when using code review tools that "
 "present the two versions in adjacent columns."
 msgstr ""
+"رعایت طول مناسب خطوط این امکان را پدید می‌آورد که بتوان چند فایل را به صورت "
+"همزمان در کنار یکدیگر باز کرد، همانند زمانی که از ابزارهای بررسی کد برای "
+"مقایسه تغییرات یک فایل استفاده می‌کنیم."
 
 #: ../../_pep8.rst:201
 msgid ""
@@ -350,7 +359,7 @@ msgstr "مطمئن شوید که تورفتگی خطوط ادامه‌دار ر�
 
 #: ../../_pep8.rst:238
 msgid "Should a Line Break Before or After a Binary Operator?"
-msgstr ""
+msgstr "خطوط باید بعد از عملگرهای ریاضی شکسته شوند یا قبل از آن‌ها؟"
 
 #: ../../_pep8.rst:240
 msgid ""
@@ -375,6 +384,8 @@ msgid ""
 "Following the tradition from mathematics usually results in more readable "
 "code::"
 msgstr ""
+"پیروی از سبک نگارش قدیمی ریاضیات معمولا باعث نتیجه بهتری در نمایش کدها "
+"می‌شود::"
 
 #: ../../_pep8.rst:272
 msgid ""
@@ -426,12 +437,15 @@ msgid ""
 "Code in the core Python distribution should always use UTF-8 (or ASCII in "
 "Python 2)."
 msgstr ""
+"کدهای هستهٔ پایتون همیشه باید از UTF-8 استفاده کنند (در پایتون ۲ از ASCII)."
 
 #: ../../_pep8.rst:303
 msgid ""
 "Files using ASCII (in Python 2) or UTF-8 (in Python 3) should not have an "
 "encoding declaration."
 msgstr ""
+"فایل‌هایی که در پایتون ۲ از ASCII و در پایتون ۳ از UTF-8 استفاده می‌کنند "
+"نیازی به شفاف‌سازی کدبندی در اولین خط فایل ندارند."
 
 #: ../../_pep8.rst:306
 msgid ""
@@ -460,6 +474,8 @@ msgid ""
 "Open source projects with a global audience are encouraged to adopt a "
 "similar policy."
 msgstr ""
+"پیشنهاد می‌شود پروژه‌های بازمتنی که مخاطب جهانی دارند هم از سیاست مشابهی "
+"استفاده کنند."
 
 #: ../../_pep8.rst:327
 msgid "Imports"
@@ -471,13 +487,15 @@ msgstr "ایمپورت‌ها بهتر است در خطوط جداگانه با�
 
 #: ../../_pep8.rst:341
 msgid "It's okay to say this though::"
-msgstr ""
+msgstr "مشکلی ندارد اگر بگوییم::"
 
 #: ../../_pep8.rst:346
 msgid ""
 "Imports are always put at the top of the file, just after any module "
 "comments and docstrings, and before module globals and constants."
 msgstr ""
+"ایمپورت‌ها همیشه در ابتدای فایل نوشته می‌شوند، درست پس از حاشیه‌نویسی و "
+"مستندات ماژول و قبل از تعریف متغیرها و ثابت‌ها."
 
 #: ../../_pep8.rst:349
 msgid "Imports should be grouped in the following order:"
@@ -595,19 +613,19 @@ msgstr ""
 
 #: ../../_pep8.rst:446
 msgid "Pet Peeves"
-msgstr ""
+msgstr "موارد روی اعصاب"
 
 #: ../../_pep8.rst:448
 msgid "Avoid extraneous whitespace in the following situations:"
-msgstr ""
+msgstr "از گذاشتن فضای خالی (فاصله) در موقعیت‌های زیر خودداری کنید:"
 
 #: ../../_pep8.rst:450
 msgid "Immediately inside parentheses, brackets or braces::"
-msgstr ""
+msgstr "بعد از باز کردن پرانتز، کروشه و براکت؛ همچنین قبل از بستن آن‌ها::"
 
 #: ../../_pep8.rst:460
 msgid "Between a trailing comma and a following close parenthesis::"
-msgstr ""
+msgstr "بعد از ویرگول انتهایی و قبل از بستن پرانتز::"
 
 #: ../../_pep8.rst:470
 msgid "Immediately before a comma, semicolon, or colon::"
@@ -626,18 +644,19 @@ msgstr ""
 msgid ""
 "Immediately before the open parenthesis that starts the argument list of a "
 "function call::"
-msgstr ""
+msgstr "قبل از باز کردن پرانتز در فراخوانی تابع::"
 
 #: ../../_pep8.rst:512
 msgid ""
 "Immediately before the open parenthesis that starts an indexing or slicing::"
-msgstr ""
+msgstr "قبل از باز کردن براکت مربوط به ایندکس لیست و دیکشنری::"
 
 #: ../../_pep8.rst:523
 msgid ""
 "More than one space around an assignment (or other) operator to align it "
 "with another::"
 msgstr ""
+"بیش از یک فاصله اطراف عملگر تخصیص ``=`` برای تراز کردن کلمات با دیگر خطوط::"
 
 #: ../../_pep8.rst:539
 msgid "Other Recommendations"
@@ -849,7 +868,7 @@ msgstr ""
 
 #: ../../_pep8.rst:780
 msgid "Naming Conventions"
-msgstr ""
+msgstr "اصول نامگذاری"
 
 #: ../../_pep8.rst:782
 msgid ""
