@@ -270,10 +270,10 @@ msgid ""
 "using ``-tt`` these warnings become errors. These options are highly "
 "recommended!"
 msgstr ""
-"هنگامی که از رابط خط فرمان پایتون ۲ با گزینه ``-t`` استفاده شود، درباره "
-"استفاده از ترکیبی از تب و فاصله در کد به ما پیام هشدار داده می‌شود. این "
-"هشدارها در صورت استفاده از پرچم ``-tt`` تبدیل به پیام خطا می‌شوند. استفاده "
-"از این گزینه‌ها در پایتون ۲ به شدت پیشنهاد می‌شود."
+"هنگامی که از رابط خط فرمان پایتون ۲ به همراه ``-t`` استفاده شود، درباره "
+"استفادهٔ ترکیبی از تب و فاصله در کد به ما پیام هشدار داده می‌شود. این "
+"هشدارها در صورت استفاده از ``-tt`` تبدیل به پیام خطا می‌شوند. استفاده از این"
+" گزینه‌ها در پایتون ۲ به شدت پیشنهاد می‌شود."
 
 #: ../../_pep8.rst:189
 msgid "Maximum Line Length"
@@ -418,6 +418,8 @@ msgstr ""
 #: ../../_pep8.rst:289
 msgid "Use blank lines in functions, sparingly, to indicate logical sections."
 msgstr ""
+"در توابع بهتر است صرفاً برای جدا کردن بخش‌های منطقی، از خطوط خالی استفاده "
+"کنید."
 
 #: ../../_pep8.rst:291
 msgid ""
@@ -629,7 +631,7 @@ msgstr "بعد از ویرگول انتهایی و قبل از بستن پران
 
 #: ../../_pep8.rst:470
 msgid "Immediately before a comma, semicolon, or colon::"
-msgstr "بلافاصله پس از یک ویرگول، نقطه‌ویرگول یا دونقطه::"
+msgstr ""
 
 #: ../../_pep8.rst:480
 msgid ""
@@ -714,7 +716,7 @@ msgstr ""
 
 #: ../../_pep8.rst:627 ../../_pep8.rst:637
 msgid "Rather not::"
-msgstr "بهتر است نباشد::"
+msgstr ""
 
 #: ../../_pep8.rst:633
 msgid ""
@@ -752,7 +754,7 @@ msgstr ""
 
 #: ../../_pep8.rst:701
 msgid "Comments"
-msgstr ""
+msgstr "حاشیه‌نویسی‌ها"
 
 #: ../../_pep8.rst:703
 msgid ""
@@ -859,12 +861,15 @@ msgid ""
 "the ``\"\"\"`` that ends a multiline docstring should be on a line by "
 "itself::"
 msgstr ""
+"پپ ۲۵۷ اصول مستندنویسی را به خوبی توضیح می‌دهد. نکته مهم این است که عبارت "
+"``\"\"\"`` که برای پایان دادن به مستندات استفاده می‌شود باید در یک خط "
+"جداگانه قرار گیرد."
 
 #: ../../_pep8.rst:773
 msgid ""
 "For one liner docstrings, please keep the closing ``\"\"\"`` on the same "
 "line::"
-msgstr ""
+msgstr "برای مستندات یک خطی، لطفاً ``\"\"\"`` پایانی را در همان خط قرار دهید::"
 
 #: ../../_pep8.rst:780
 msgid "Naming Conventions"
@@ -906,27 +911,27 @@ msgstr ""
 
 #: ../../_pep8.rst:804
 msgid "``b`` (single lowercase letter)"
-msgstr ""
+msgstr "``b`` (تک حرف کوچک)"
 
 #: ../../_pep8.rst:805
 msgid "``B`` (single uppercase letter)"
-msgstr ""
+msgstr "``B`` (تک حرف بزرگ)"
 
 #: ../../_pep8.rst:806
 msgid "``lowercase``"
-msgstr ""
+msgstr "``lowercase``"
 
 #: ../../_pep8.rst:807
 msgid "``lower_case_with_underscores``"
-msgstr ""
+msgstr "``lower_case_with_underscores``"
 
 #: ../../_pep8.rst:808
 msgid "``UPPERCASE``"
-msgstr ""
+msgstr "``UPPERCASE``"
 
 #: ../../_pep8.rst:809
 msgid "``UPPER_CASE_WITH_UNDERSCORES``"
-msgstr ""
+msgstr "``UPPER_CASE_WITH_UNDERSCORES``"
 
 #: ../../_pep8.rst:810
 msgid ""
@@ -949,7 +954,7 @@ msgstr ""
 
 #: ../../_pep8.rst:819
 msgid "``Capitalized_Words_With_Underscores`` (ugly!)"
-msgstr ""
+msgstr "``Capitalized_Words_With_Underscores`` (زشت!)"
 
 #: ../../_pep8.rst:821
 msgid ""
