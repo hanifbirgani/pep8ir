@@ -1,0 +1,239 @@
+@import 'pygments';
+
+$mobile-breakpoint: 768px;
+$body-text-color: hsl(213, 8%, 26%);
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('fonts/Vazir-Regular.woff2') format('woff2'),
+    url('fonts/Vazir-Regular.woff') format('woff'),
+    url('fonts/Vazir-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('fonts/Vazir-Bold.woff2') format('woff2'),
+    url('fonts/Vazir-Bold.woff') format('woff'),
+    url('fonts/Vazir-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  direction: rtl;
+  font-family: 'Vazir';
+  color: $body-text-color;
+}
+
+a {
+  color: hsl(213, 8%, 10%);
+  border-bottom: 0.1rem dotted hsl(213, 8%, 10%);
+  text-decoration: none;
+  padding: 0;
+  line-height: 1.2rem;
+
+  &:hover {
+    border-bottom-style: solid;
+    background-color: hsl(0, 0%, 90%);
+  }
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  position: relative;
+  max-width: 1280px;
+}
+
+/**********************************************/
+/* Header *************************************/
+/**********************************************/
+
+.header {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    display: inline-block;
+    flex-grow: 1;
+    padding: 0 1rem;
+  }
+}
+
+// :target::before {
+//     content: "";
+//     display: block;
+//     height: 70px;
+//     /* fixed header height*/
+//     margin: -70px 0 0;
+//     /* negative fixed header height */
+// }
+
+
+.sidebar-toggle {
+  @media screen and (min-width: $mobile-breakpoint) {
+    display: none;
+  }
+
+  svg {
+    border: 1px solid $body-text-color;
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+    fill: $body-text-color;
+  }
+}
+
+/**********************************************/
+/* Content ************************************/
+/**********************************************/
+
+.content {
+  // background: pink;
+  width: 100%;
+  padding: 1rem;
+  flex-grow: 1;
+
+  @media screen and (min-width: $mobile-breakpoint) {
+    min-width: 70%;
+  }
+
+  a {
+    color: hsl(198, 100%, 21%);
+  }
+}
+
+.headerlink {
+  display: none;
+  font-family: 'Courier New', Courier, monospace !important;
+}
+
+h1,
+h2,
+h3 {
+  &:hover .headerlink {
+    display: inline;
+  }
+}
+
+a.footnote-reference {
+  font-size: small;
+
+  // &::before {
+  //     content: '[';
+  // }
+
+  // &::after {
+  //     content: ']';
+  // }
+
+  // &:hover {
+  //     background-color:hsl(0, 0%, 90%);
+  // }
+}
+
+span.pre {
+  // background: hsl(0, 0%, 87%);
+  color: hsl(323, 100%, 50%);
+  direction: ltr;
+  font-family: 'Courier New', Courier, monospace !important;
+}
+
+/**********************************************/
+/* Code Blocks ********************************/
+/**********************************************/
+.highlight-default+.highlight-default {
+  margin-top: 1rem;
+}
+
+.highlight {
+  background: hsl(0, 0%, 95%);
+  border-radius: 0.5rem;
+  border: 0.1rem solid hsl(0, 0%, 80%);
+  direction: ltr !important;
+  font-family: 'Courier New', Courier, monospace !important;
+  overflow-x: auto;
+  padding: 0 1rem;
+  text-align: left !important;
+}
+
+.correct-code {
+  border-left: 0.8rem solid hsl(120, 100%, 25%);
+}
+
+.wrong-code {
+  border-left: 0.8rem solid hsl(0, 100%, 40%);
+}
+
+/**********************************************/
+/* Footer *************************************/
+/**********************************************/
+
+dl.footnote {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  direction: ltr;
+
+  dt {
+    width: 5%;
+  }
+
+  dd {
+    margin: 0;
+    width: 95%;
+
+    p {
+      margin: 0.2rem 0;
+    }
+  }
+}
+
+/**********************************************/
+/* Sidebar ************************************/
+/**********************************************/
+
+.sidebar {
+  background: #fff;
+  padding: 1rem;
+
+  @media screen and (max-width: $mobile-breakpoint) {
+    max-width: 90%;
+    position: absolute;
+    transform: translate3d(100%, 0, 0);
+    transition: all .3s linear;
+    border-left: 0.1rem solid $body-text-color;
+  }
+
+  @media screen and (min-width: $mobile-breakpoint) {
+    // width: 25%;
+  }
+
+  &.visible {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.pre,
+dd {
+  overflow-wrap: break-word;
+}
