@@ -7,6 +7,7 @@
 # Moein Babapour <bbp.moein@gmail.com>, 2021
 # Hanif Birgani, 2021
 # Reza Rezaee <r871017h800501@gmail.com>, 2021
+# Ali Sadeghi <booxgitboox@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 01:52+0430\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
-"Last-Translator: Reza Rezaee <r871017h800501@gmail.com>, 2021\n"
+"Last-Translator: Ali Sadeghi <booxgitboox@gmail.com>, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1079,9 +1080,6 @@ msgid ""
 "underscores are recognized (these can generally be combined with any case "
 "convention):"
 msgstr ""
-"علاوه بر این, کد زیر با حالت خاصی از زیرخط ها استفاده کرده است که قبل و بعد "
-"از کلمات به کار برده شده اند و این موارد تشخیص داده میشود و مهم هستند.(ترکیب"
-" شده این موارد را میتوان برای نامگذاری هرچیزی استفاده کرد)"
 
 #: ../../_pep8.rst:838
 msgid ""
@@ -1752,7 +1750,7 @@ msgstr ""
 
 #: ../../_pep8.rst:1316
 msgid "Use string methods instead of the string module."
-msgstr "به جای ماژول استرینگ ,از متد های استرینگ استفاده کنید"
+msgstr ""
 
 #: ../../_pep8.rst:1318
 msgid ""
