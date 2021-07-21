@@ -33,7 +33,7 @@ jobs:
           tx config mapping -r persian-pep8.build-gettext-index-pot--main --source-lang en --type PO --source-file _build/gettext/index.pot --expression 'locale/<lang>/LC_MESSAGES/index.po' --minimum-perc 1 --execute
 
       - name: Pull translations
-        run: tx pull -a -f
+        run: tx pull --all --force --no-interactive --mode reviewed
       
       - name: Commit files to the repo
         uses: stefanzweifel/git-auto-commit-action@v4
