@@ -4,9 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Moein Babapour <bbp.moein@gmail.com>, 2021
-# Reza Rezaee <r871017h800501@gmail.com>, 2021
 # Ali Sadeghi <booxgitboox@gmail.com>, 2021
+# Reza Rezaee <r871017h800501@gmail.com>, 2021
+# Moein Babapour <bbp.moein@gmail.com>, 2021
 # Hanif Birgani, 2021
 # 
 #, fuzzy
@@ -584,6 +584,7 @@ msgid ""
 "Implicit relative imports should *never* be used and have been removed in "
 "Python 3."
 msgstr ""
+"ایمپورت‌های نسبیِ ضمنی  *هرگز* نباید استفاده شوند و در پایتون ۳ حذف شده‌اند."
 
 #: ../../_pep8.rst:379
 msgid ""
