@@ -5,8 +5,8 @@
 # 
 # Translators:
 # Moein Babapour <bbp.moein@gmail.com>, 2021
-# Reza Rezaee <r871017h800501@gmail.com>, 2021
 # Ali Sadeghi <booxgitboox@gmail.com>, 2021
+# Reza Rezaee <r871017h800501@gmail.com>, 2021
 # Hanif Birgani, 2021
 # 
 #, fuzzy
@@ -1313,6 +1313,8 @@ msgid ""
 "To avoid name clashes with subclasses, use two leading underscores to invoke"
 " Python's name mangling rules."
 msgstr ""
+"برای جلوگیری از تداخل نام‌ها با زیرکلاس‌ها، برای پیروی کردن از قوانین "
+"mangling نامگذاری در پایتون از دو زیرخط در اول نام‌ها استفاده کنید."
 
 #: ../../_pep8.rst:971
 msgid ""
@@ -1501,6 +1503,9 @@ msgid ""
 "modules, classes, functions, attributes or other names) should still be "
 "prefixed with a single leading underscore."
 msgstr ""
+"حتی با تنظیم ``__all__`` بصورت صحیح، واسط‌های داخلی (بسته‌ها، ماژول‌ها، "
+"کلاس‌ها، توابع، مشخصه‌ها و بقیه نام‌ها) هنوز باید همراه با یک زیرخط به صورت "
+"پیشوند باشند."
 
 #: ../../_pep8.rst:1081
 msgid ""
@@ -1792,6 +1797,10 @@ msgid ""
 "unicode string too!  In Python 2, str and unicode have a common base class, "
 "basestring, so you can do::"
 msgstr ""
+"هنگامی که بررسی می‌کنید آیا یک شی، رشته هست یا نه، به خاطر داشته باشید که "
+"ممکن است آن شی نیز یک رشتهٔ یونیکد باشد! در پایتون ۲، اشیائی از جنس ``str`` "
+"و ``unicode`` یک کلاس پایه مشترک به نام ``basestring`` دارند، پس می‌توان "
+"گفت::"
 
 #: ../../_pep8.rst:1352
 msgid ""
@@ -1799,6 +1808,9 @@ msgid ""
 " is only ``str``) and a bytes object is no longer a kind of string (it is a "
 "sequence of integers instead)."
 msgstr ""
+"توجه کنید که در پایتون ۳ کلاس‌های ``unicode`` و ``basestring`` دیگر وجود "
+"ندارند (فقط ``str`` وجود دارد) و بایت ابجکت‌ها دیگر زیرمجموعه‌ای از ``str`` "
+"نخواهند بود (بلکه دنباله‌ای از اعداد صحیح هستند)."
 
 #: ../../_pep8.rst:1356
 msgid ""
