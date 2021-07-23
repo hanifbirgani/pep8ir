@@ -1409,6 +1409,11 @@ msgid ""
 "'cls' is the preferred spelling for any variable or argument which is known "
 "to be a class, especially the first argument to a class method.)"
 msgstr ""
+"اگر نام مشخصه‌های عمومی شما با کلیدواژه‌های از پیش رزرو شده تداخل دارد، یک "
+"زیرخط به ابتدای نام مشخصهٔ خود اضافه کنید. این کار نسبت به استفاده از یک "
+"مخفف یا یک املای خراب شده ترجیح داده می‌شود. (با این حال و با وجود این "
+"قوانین، املای 'cls' برای هر متغیر یا آرگومانی که می‌تواند یک کلاس باشد ترجیح"
+" داده می‌شود؛ خصوصاً اگر آرگومان اول یک کلاس‌متد باشد.)"
 
 #: ../../_pep8.rst:1022
 msgid "Note 1: See the argument name recommendation above for class methods."
