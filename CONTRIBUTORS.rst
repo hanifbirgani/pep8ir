@@ -9,5 +9,7 @@
 
 - `علی صادقی <https://github.com/bigsbug>`_
 
+- `آرش حاتمی <https://github.com/hatamiarash7>`_
+
 .. - `Your Name <https://github.com/YourGithubUsername>`_
 
