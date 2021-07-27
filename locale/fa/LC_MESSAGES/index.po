@@ -5,8 +5,6 @@
 # 
 # Translators:
 # Moein Babapour <bbp.moein@gmail.com>, 2021
-# Reza Rezaee <r871017h800501@gmail.com>, 2021
-# Ali Sadeghi <booxgitboox@gmail.com>, 2021
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
 # Hanif Birgani, 2021
 # 
