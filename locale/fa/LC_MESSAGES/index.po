@@ -7,8 +7,8 @@
 # Moein Babapour <bbp.moein@gmail.com>, 2021
 # Reza Rezaee <r871017h800501@gmail.com>, 2021
 # Ali Sadeghi <booxgitboox@gmail.com>, 2021
-# Hanif Birgani, 2021
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
+# Hanif Birgani, 2021
 # 
 #, fuzzy
 msgid ""
@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 01:52+0430\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
-"Last-Translator: Arash Hatami <hatamiarash7@gmail.com>, 2021\n"
+"Last-Translator: Hanif Birgani, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -601,10 +601,12 @@ msgstr ""
 msgid ""
 "If this spelling causes local name clashes, then spell them explicitly::"
 msgstr ""
+"اگر کلاس‌ها یا توابعی که در یک فایل ایمپورت می‌کنید با نام‌های موجود در آن "
+"فایل تداخل دارند، بهتر است آن‌ها را صریحاً به صورت زیر بنویسید::"
 
 #: ../../_pep8.rst:390
 msgid "and use \"myclass.MyClass\" and \"foo.bar.yourclass.YourClass\"."
-msgstr ""
+msgstr "و از \"myclass.MyClass\" و \"foo.bar.yourclass.YourClass\" استفاده کنید."
 
 #: ../../_pep8.rst:392
 msgid ""
@@ -630,6 +632,8 @@ msgid ""
 "When republishing names this way, the guidelines below regarding public and "
 "internal interfaces still apply."
 msgstr ""
+"هنگام بازنشر نام‌ها به این روش ، دستورالعمل‌های زیر در مورد رابط‌های عمومی و"
+" داخلی همچنان اعمال می‌شوند. "
 
 #: ../../_pep8.rst:405
 msgid "Module Level Dunder Names"
@@ -777,12 +781,16 @@ msgid ""
 "argument, or when used to indicate a default value for an *unannotated* "
 "function parameter::"
 msgstr ""
+"به هنگام نشان دادن یک آرگومان، یا نشان دادن مقدار پیش‌فرض پارامتر یک تابع "
+"*unannotated* از فضای خالی اطراف علامت ``=`` استفاده نکنید::"
 
 #: ../../_pep8.rst:604
 msgid ""
 "When combining an argument annotation with a default value, however, do use "
 "spaces around the ``=`` sign::"
 msgstr ""
+"با این حال، هنگام تخصیص مقدار پیش‌فرض به یک انوتیشن، از فضای خالی اطراف "
+"علامت ``=`` استفاده کنید::"
 
 #: ../../_pep8.rst:617
 msgid ""
@@ -1008,7 +1016,7 @@ msgstr ""
 
 #: ../../_pep8.rst:796
 msgid "Descriptive: Naming Styles"
-msgstr ""
+msgstr "توصیفی: سبک‌های نام‌گذاری"
 
 #: ../../_pep8.rst:798
 msgid ""
@@ -1122,7 +1130,7 @@ msgstr ""
 
 #: ../../_pep8.rst:857
 msgid "Prescriptive: Naming Conventions"
-msgstr ""
+msgstr "تجویزی: قواعد نام‌گذاری"
 
 #: ../../_pep8.rst:860
 msgid "Names to Avoid"
@@ -1240,6 +1248,8 @@ msgid ""
 "(Let's hope that these variables are meant for use inside one module only.)"
 "  The conventions are about the same as those for functions."
 msgstr ""
+"قواعد تقریباً همان مواردی است که برای توابع اعمال می‌شود. ( البته این "
+"متغیرها باید برای استفاده در یک ماژول در نظر گرفته شده باشند)"
 
 #: ../../_pep8.rst:928
 msgid ""
@@ -1429,6 +1439,7 @@ msgstr ""
 #: ../../_pep8.rst:1022
 msgid "Note 1: See the argument name recommendation above for class methods."
 msgstr ""
+"نکته ۱: برای کلاس‌متدها به توصیه‌های نام‌گذاری آرگومان‌ها در بالا دقت کنید."
 
 #: ../../_pep8.rst:1024
 msgid ""
@@ -1786,6 +1797,9 @@ msgid ""
 "strings.  Override this rule if backwards compatibility with Pythons older "
 "than 2.0 is required."
 msgstr ""
+"متدهای رشته همیشه سریع‌تر هستند و API یکسانی را با رشته‌های یونیکد به اشتراک"
+" می‌گذارند. اگر سازگاری با نسخه ۲ به قبل پایتون برای شما مهم است، این قانون "
+"را نادیده بگیرید."
 
 #: ../../_pep8.rst:1322
 msgid ""
@@ -1900,6 +1914,8 @@ msgid ""
 "The Python standard library should be conservative in adopting such "
 "annotations, but their use is allowed for new code and for big refactorings."
 msgstr ""
+"کتابخانه استاندارد پایتون باید در پذیرش چنین انوتیشن‌هایی محافظه‌کار باشد، "
+"اما استفاده از آن‌ها برای کدهای جدید و بازسازی‌های بزرگ کدها مجاز است."
 
 #: ../../_pep8.rst:1424
 msgid ""
@@ -1937,6 +1953,9 @@ msgid ""
 "For code that needs to be backwards compatible, type annotations can be "
 "added in the form of comments.  See the relevant section of PEP 484 [6]_."
 msgstr ""
+"برای کدهایی که نیاز به سازگاری با نگارش‌های پیشین پایتون دارند، انوتیشن‌ها "
+"را می‌توان در قالب کامنت‌ها ثبت کرد. جهت اطلاعات بیشتر به بخش مربوطه در پپ "
+"۴۸۴ مراجعه کنید [6]_."
 
 #: ../../_pep8.rst:1450
 msgid "Variable Annotations"
@@ -1976,6 +1995,9 @@ msgid ""
 "syntax is the preferred syntax for stub files on all versions of Python (see"
 " PEP 484 for details)."
 msgstr ""
+"هرچند پپ ۵۲۶ برای پایتون ۳,۶ پذیرفته شده است، ساختار انوتیشن متغیرها، ساختار"
+" ترجمح داده شده برای فایل‌های stub در تمام نگارش‌های پایتون است (برای جزئیات"
+" بیشتر پپ ۴۸۴ را ببینید)."
 
 #: ../../_pep8.rst:1486
 msgid "Footnotes"
