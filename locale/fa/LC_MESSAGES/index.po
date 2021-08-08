@@ -5,8 +5,8 @@
 # 
 # Translators:
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
-# Hanif Birgani, 2021
 # Moein Babapour <bbp.moein@gmail.com>, 2021
+# Hanif Birgani, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 01:52+0430\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
-"Last-Translator: Moein Babapour <bbp.moein@gmail.com>, 2021\n"
+"Last-Translator: Hanif Birgani, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -765,6 +765,10 @@ msgid ""
 "however, never use more than one space, and always have the same amount of "
 "whitespace on both sides of a binary operator::"
 msgstr ""
+"در صورتی که در یک خط از عملگرهایی با اولویت‌های مختلف استفاده می‌کنید، در چپ"
+" و راست عملگر با اولویت کمتر فاصله قرار دهید. به هیچ وجه از بیش از یک فاصله "
+"استفاده نکنید و همیشه به همان اندازه در هر دو طرف یک عملگر باینری فضای خالی "
+"داشته باشید::"
 
 #: ../../_pep8.rst:575
 msgid ""
@@ -806,6 +810,9 @@ msgid ""
 "same line, never do this for multi-clause statements.  Also avoid folding "
 "such long lines!"
 msgstr ""
+"هرچند گاهی اوقات قرار دادن دستورات تکی if یا for یا while در یک خط مجاز است،"
+" اما هیچگاه این کار را برای دستورات چند جمله‌ای انجام ندهید. همچنین از تا "
+"کردن این خطوط طولانی نیز خودداری کنید!"
 
 #: ../../_pep8.rst:644
 msgid "Definitely not::"
