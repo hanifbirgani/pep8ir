@@ -68,6 +68,16 @@
     const codeTags = document.querySelectorAll('code.notranslate');
     codeTags.forEach(item => item.setAttribute('dir', 'ltr'));
 
+    /* Add direction attribute to english paragraphs */
+    const english = /^[A-Za-z_]*$/;
+    ltrElements = document.querySelectorAll('p, li');
+    ltrElements.forEach(e => {
+      first_letter = e.innerText[0];
+      if (english.test(first_letter)) {
+        e.setAttribute('dir', 'ltr');
+        e.style.textAlign = "left";
+    }});
+
     /* Sidebar toggle */
     const sidebar = document.getElementById('sidebar');
     const sidebarToggle = document.getElementById('sidebarToggle');
