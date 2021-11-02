@@ -7,7 +7,6 @@
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
 # Moein Babapour <bbp.moein@gmail.com>, 2021
 # Hanif Birgani, 2021
-# Amir Hemmati, 2021
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 01:52+0430\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
-"Last-Translator: Amir Hemmati, 2021\n"
+"Last-Translator: Hanif Birgani, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -346,6 +345,10 @@ msgid ""
 "broken over multiple lines by wrapping expressions in parentheses. These "
 "should be used in preference to using a backslash for line continuation."
 msgstr ""
+"روش ترجیحی برای شکستن خطوط طولانی، استفاده از خط ادامه‌دار ضمنی پایتون داخل "
+"پرانتزها، کروشه‌ها و آکولادهاست. با شکستن عبارات داخل پرانتزها، می توان خطوط"
+" طولانی را به چندین خط تقسیم کرد. این روش برای شکستن خطوط بلند، به جای "
+"استفاده از بک‌اسلش، اولویت دارد."
 
 #: ../../_pep8.rst:222
 msgid ""
@@ -464,6 +467,12 @@ msgid ""
 "web-based code viewers may not recognize control-L as a form feed and will "
 "show another glyph in its place."
 msgstr ""
+"پایتون از کاراکتر کنترلی control-L (یا L^) برای ایجاد فضای خالی استفاده "
+"می‌کند؛ بسیاری از ابزارها این کاراکترها را تفکیک کننده صفحه تلقی می‌کنند، که"
+" می‌توانید از آنها برای تفکیک کردن صفحات بخش‌های مرتبط با هم در فایل خود "
+"استفاده کنید. توجه کنید که بعضی از ویرایشگرها و نمایشگرهای کد مبتنی بر وب "
+"ممکن است control-L را به عنوان کاراتر کنترلی تفکیک کننده صفحه تشخیص ندهند و "
+"به جای آن یک عملکرد دیگر از خود نشان دهند."
 
 #: ../../_pep8.rst:298
 msgid "Source File Encoding"
@@ -565,6 +574,10 @@ msgid ""
 " system is incorrectly configured (such as when a directory inside a package"
 " ends up on ``sys.path``)::"
 msgstr ""
+"پیشنهاد می شود ایمپورت‌ها به صورت مطلق انجام شوند، زیرا معمولا خواناتر هستند"
+" و در صورت پیکربندی نادرست سیستم ایمپورت (مانند زمانی که یک دایرکتوری داخل "
+"یک بسته به ``sys.path`` ختم می شود)  رفتار مناسب از خود نشان می دهند ( یا "
+"حداقل پیغام های خطای بهتری نمایش می دهند)::"
 
 #: ../../_pep8.rst:366
 msgid ""
@@ -572,6 +585,9 @@ msgid ""
 " imports, especially when dealing with complex package layouts where using "
 "absolute imports would be unnecessarily verbose::"
 msgstr ""
+"با این حال، ایمپورت‌های نسبی صریح، جایگزین قابل قبولی برای ایمپورت‌های مطلق "
+"هستند، بخصوص زمانی که با ترتیب پیچیده بسته‌ها سروکار داریم که استفاده از "
+"ایمپورت‌های مطلق، غیرضروری، شلوغ و ناخوانا خواهد بود::"
 
 #: ../../_pep8.rst:373
 msgid ""
@@ -777,6 +793,9 @@ msgid ""
 "spaces around the ``->`` arrow if present.  (See `Function Annotations`_ "
 "below for more about function annotations.)::"
 msgstr ""
+"انوتیشن‌های توابع باید از قوانین عادی برای دونقطه استفاده کنند و در صورت "
+"وجود نشانه پیکان ``->`` همیشه فضای خالی اطراف آن باشد. (برای اطلاعات بیشتر "
+"به `انوتیشن‌های توابع` مراجعه کنید.)::"
 
 #: ../../_pep8.rst:589
 msgid ""
@@ -830,6 +849,10 @@ msgid ""
 "``print`` statement).  For clarity, it is recommended to surround the latter"
 " in (technically redundant) parentheses::"
 msgstr ""
+"ویرگول‌های انتهایی معمولا اختیاری‌اند؛ تنها مواقعی که برای ساخت تاپل‌هایی با"
+" بیش از یک عنصر اجباری هستند ( و در پایتون ۲ در استفاده از عبارت ``print`` "
+"معنای خاصی دارند). برای خواناتر بودن، پیشنهاد می شود که در مورد دوم از "
+"پرانتز (که از نظر فنی اضافی است) استفاده شود::"
 
 #: ../../_pep8.rst:675
 msgid ""
@@ -841,6 +864,14 @@ msgid ""
 "sense to have a trailing comma on the same line as the closing delimiter "
 "(except in the above case of singleton tuples)::"
 msgstr ""
+"استفاده از ویرگول انتهایی اضافه، برای زمانی که از یک سیستم کنترل نسخه "
+"استفاده می‌شود یا زمانی که انتظار می‌رود لیستی از مقادیر، آرگومان‌ها یا "
+"آیتم‌های ایمپورت شده در طول زمان زیاد شوند، اغلب مفید است. الگوی استفاده از "
+"آن به این صورت است که هر کدام از مقادیر (و غیره) را در هر خط نوشته و به "
+"انتهای آن ویرگول انتهایی را اضافه می‌کنیم و پرانتز، کروشه یا آکولاد بسته را "
+"در خط بعدی می‌نویسیم. با  این حال، استفاده از ویرگول انتهایی به همراه "
+"پرانتز، کروشه یا آکولاد بسته در یک خط بی‌معنی است (به غیر از تاپل تک عضوی "
+"مورد بالا)::"
 
 #: ../../_pep8.rst:701
 msgid "Comments"
@@ -1030,6 +1061,9 @@ msgid ""
 "recognize what naming style is being used, independently from what they are "
 "used for."
 msgstr ""
+"سبک‌های نامگذاری مختلف زیادی وجود دارند و مستقل از آنچه که برای آن استفاده "
+"می‌شوند، کمک می‌کنند که بتوانیم تشخیص دهیم از چه سبک نامگذاری استفاده "
+"می‌شود."
 
 #: ../../_pep8.rst:802
 msgid "The following naming styles are commonly distinguished:"
