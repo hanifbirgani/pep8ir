@@ -11,5 +11,6 @@
 
 - `آرش حاتمی <https://github.com/hatamiarash7>`_
 
-.. - `Your Name <https://github.com/YourGithubUsername>`_
+- `امیر همتی <https://github.com/hemmatt>`_
 
+.. - `Your Name <https://github.com/YourGithubUsername>`_
