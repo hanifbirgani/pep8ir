@@ -6,6 +6,7 @@
 # Translators:
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
 # Moein Babapour <bbp.moein@gmail.com>, 2021
+# Amir Hemmati, 2021
 # Hanif Birgani, 2021
 # 
 #, fuzzy
@@ -727,6 +728,11 @@ msgid ""
 "spacing applied.  Exception: when a slice parameter is omitted, the space is"
 " omitted::"
 msgstr ""
+"با این حال در برش لیست با یک عملگر دونقطه، دونقطه مانند یک عملگر باینری عمل "
+"می‌کند و باید در هر طرف آن به یک اندازه فضا وجود داشته باشد (آن را عملگری با"
+" کمترین اولویت در نظر بگیرید). در برش لیست با دو عملگر دونقطه، هر دو عملگر "
+"باید فاصله یکسانی داشته باشند. استثنا: وقتی یک پارامتر در برش لیست حذف "
+"می‌شود، فاصله بین آن و عملگر دونقطه هم حذف می‌شود::"
 
 #: ../../_pep8.rst:501
 msgid ""
@@ -1099,18 +1105,26 @@ msgid ""
 "bumpy look of its letters [4]_).  This is also sometimes known as "
 "StudlyCaps."
 msgstr ""
+"``CapitalizedWords`` (یا CapWords نگارش کلمات به هم چسبیده با حرف اول بزرگ ،"
+" یا CamelCase (نگارش شتری) -- که این نام گذاری به دلیل ظاهر ناهموار حروف آن "
+"است [4]_). این نوع نگارش گاهی اوقات به عنوان StudlyCaps  نیز شناخته میشود."
 
 #: ../../_pep8.rst:814
 msgid ""
 "Note: When using acronyms in CapWords, capitalize all the letters of the "
 "acronym.  Thus HTTPServerError is better than HttpServerError."
 msgstr ""
+"نکته: هنگام استفاده از کلمات اختصاری در نگارش CapWords، تمام حروفِ کلمه "
+"اختصاری با حروف بزرگ نوشته می‌شود. بنابراین نوشتن HTTPServerError بهتر از "
+"HttpServerError است."
 
 #: ../../_pep8.rst:817
 msgid ""
 "``mixedCase`` (differs from CapitalizedWords by initial lowercase "
 "character!)"
 msgstr ""
+"``mixedCase`` (تفاوت آن با نگارش CapitalizedWords این است که اولین حرف آن به"
+" صورت کوچک نوشته می شود!)"
 
 #: ../../_pep8.rst:819
 msgid "``Capitalized_Words_With_Underscores`` (ugly!)"
