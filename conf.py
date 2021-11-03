@@ -15,7 +15,8 @@ extensions = []
 source_suffix = '.rst'
 master_doc = 'index'
 language = 'fa'
-exclude_patterns = ['_*', 'CONTRIBUTORS.rst', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_*', 'translation.rst',
+                    'CONTRIBUTORS.rst', 'Thumbs.db', '.DS_Store']
 pygments_style = 'sphinx'
 
 
