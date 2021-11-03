@@ -5,4 +5,4 @@ make gettext
 # Update .po files for Persian (Farsi) language
 sphinx-intl update -p _build/gettext/ -l fa
 # Push updated files to the Transifex.com service
-# tx push --source
+tx push --source --no-interactive --skip
