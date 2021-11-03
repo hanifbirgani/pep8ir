@@ -26,7 +26,7 @@ pip install -r requirements.txt
 2. Make html files:
 
 ```
-./make_html.sh
+./build_html.sh
 ```
   
 ## Author
