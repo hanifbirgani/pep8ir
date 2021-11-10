@@ -6,8 +6,8 @@
 # Translators:
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
 # Moein Babapour <bbp.moein@gmail.com>, 2021
-# Hanif Birgani, 2021
 # Amir Hemmati, 2021
+# Hanif Birgani, 2021
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 00:29+0000\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
-"Last-Translator: Amir Hemmati, 2021\n"
+"Last-Translator: Hanif Birgani, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -806,6 +806,9 @@ msgid ""
 "a tuple of one element.  For clarity, it is recommended to surround the "
 "latter in (technically redundant) parentheses::"
 msgstr ""
+"ویرگول‌های انتهایی معمولا اختیاری هستند، با این تفاوت که هنگام ساختن یک تاپل"
+" تک عنصری اجباری هستند. در این صورت برای تمیزی کد، توصیه می‌شود آن را در "
+"پرانتزهای (از نظر فنی زائد) قرار دهید::"
 
 #: ../../_pep8.rst:655
 msgid ""
@@ -1086,6 +1089,13 @@ msgid ""
 "and so on.  (This is done to emphasize the correspondence with the fields of"
 " the POSIX system call struct, which helps programmers familiar with that.)"
 msgstr ""
+"همچنین سبک استفاده از یک پیشوند منحصر به فرد کوتاه برای گروه‌بندی نام‌های "
+"مرتبط باهم وجود دارد. این سبک خیلی در پایتون استفاده نمی‌شود، اما برای کامل "
+"بودن ذکر شده است. برای مثال، تابع ``os.stat()`` یک تاپل را برمی‌گرداند که "
+"آیتم‌های آن معمولاً دارای نام‌هایی مانند ``st_mode``، ``st_size``، "
+"``st_mtime`` و غیره هستند. (این کار برای تأکید بر مطابقت با فیلدهای ساختار "
+"سیستم کال POSIX انجام می شود که به برنامه‌نویسانی که با آن آشنا هستند کمک می"
+" کند.)"
 
 #: ../../_pep8.rst:809
 msgid ""
@@ -1094,6 +1104,9 @@ msgid ""
 "names are prefixed with an object, and function names are prefixed with a "
 "module name."
 msgstr ""
+"کتابخانه X11 از یک پیشوند X برای تمام توابع عمومی خود استفاده می‌کند. در "
+"پایتون، این سبک به طور کلی غیرضروری تلقی می‌شود زیرا پیشوند نام مشخصه‌ها و "
+"متدها، نام یک شی است و پیشوند نام توابع نیز، نام یک ماژول."
 
 #: ../../_pep8.rst:814
 msgid ""
