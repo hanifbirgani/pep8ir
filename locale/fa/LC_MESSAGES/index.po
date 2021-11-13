@@ -6,8 +6,8 @@
 # Translators:
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
 # Moein Babapour <bbp.moein@gmail.com>, 2021
-# Hanif Birgani, 2021
 # Amir Hemmati, 2021
+# Hanif Birgani, 2021
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 00:29+0000\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
-"Last-Translator: Amir Hemmati, 2021\n"
+"Last-Translator: Hanif Birgani, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -471,6 +471,11 @@ msgid ""
 "places and human names. If using non-ASCII characters as data, avoid noisy "
 "Unicode characters like z̯̯͡a̧͎̺l̡͓̫g̹̲o̡̼̘ and byte order marks."
 msgstr ""
+"در کتابخانه استاندارد، رمزگذاری‌های غیر UTF-8 فقط باید برای اهداف آزمایشی "
+"استفاده شوند. از کاراکترهای غیر ASCII کم استفاده کنید، ترجیحاً فقط برای نشان"
+" دادن نام مکان‌ها و انسان‌ها. اگر از کاراکترهای غیر ASCII به عنوان داده "
+"استفاده می‌کنید، از کاراکترهای یونیکد شلوغ مانند z̯̯͡a̧͎̺l̡͓̫g̹̲o̡̼̘ و "
+"علامت‌های ترتیب بایت خودداری کنید."
 
 #: ../../_pep8.rst:302
 msgid ""
@@ -478,6 +483,10 @@ msgid ""
 "identifiers, and SHOULD use English words wherever feasible (in many cases, "
 "abbreviations and technical terms are used which aren't English)."
 msgstr ""
+"تمام شناسه‌ها (نام یک متغیر، تابع، ماژول و ...) در کتابخانه استاندارد پایتون"
+" باید فقط از نوع ASCII باشند و باید تا آنجا که امکان دارد از کلمات انگلیسی "
+"استفاده کنند (در بسیاری از موارد، از برخی اختصارات و اصطلاحات فنی استفاده "
+"می‌شود که انگلیسی نیستند)."
 
 #: ../../_pep8.rst:307
 msgid ""
@@ -1114,18 +1123,26 @@ msgid ""
 "underscores are recognized (these can generally be combined with any case "
 "convention):"
 msgstr ""
+"علاوه بر این، فرم‌های ویژه زیر که زیرخط‌هایی در ابتدا یا انتهای خود دارند، "
+"شناخته شده هستند (این‌ فرم‌ها را معمولا می‌توان با هر کدام از شیوه‌های "
+"نامگذاری ترکیب کرد):"
 
 #: ../../_pep8.rst:818
 msgid ""
 "``_single_leading_underscore``: weak \"internal use\" indicator. E.g. ``from"
 " M import *`` does not import objects whose names start with an underscore."
 msgstr ""
+"``_single_leading_underscore``: نشانهٔ ضعیف برای «استفاده داخلی». برای نمونه"
+" عبارت ``from M import *`` اشیائی که اسم آن‌ها با یک زیرخط شروع می‌شود را "
+"ایمپورت نمی‌کند."
 
 #: ../../_pep8.rst:822
 msgid ""
 "``single_trailing_underscore_``: used by convention to avoid conflicts with "
 "Python keyword, e.g. ::"
 msgstr ""
+"``single_trailing_underscore_``: طبق قرارداد برای جلوگیری از مغایرت با "
+"کلمه‌های کلیدی پایتون استفاده می‌شود، برای نمونه::"
 
 #: ../../_pep8.rst:827
 msgid ""
@@ -1133,6 +1150,9 @@ msgid ""
 " mangling (inside class FooBar, ``__boo`` becomes ``_FooBar__boo``; see "
 "below)."
 msgstr ""
+"``__double_leading_underscore``: هنگام نامگذاری یک مشخصه کلاس، دستکاری نام "
+"(name mangling) را فراخوانی می‌کند (در داخل کلاس FooBar،  ``__boo`` تبدیل به"
+" ``_FooBar__boo`` می‌شود؛ زیر را ببینید)."
 
 #: ../../_pep8.rst:831
 msgid ""
@@ -1141,6 +1161,10 @@ msgid ""
 "``__import__`` or ``__file__``.  Never invent such names; only use them as "
 "documented."
 msgstr ""
+"``__double_leading_and_trailing_underscore__``: اشیاء و مشخصه‌های «جادویی» "
+"که در فضانام‌های تحت کنترل کاربر قرار دارند. برای مثال ``__init__``, "
+"``__import__`` or ``__file__``. هرگز چنین اسم‌هایی را نسازید؛ فقط از آن‌ها "
+"طبق مستندات پایتون استفاده کنید."
 
 #: ../../_pep8.rst:837
 msgid "Prescriptive: Naming Conventions"
@@ -1980,48 +2004,52 @@ msgstr "این شیوه‌نامه به صورت آزاد در دسترس همگ
 
 #: ../../translation.rst:2
 msgid "ترجمه فارسی"
-msgstr ""
+msgstr "ترجمه فارسی"
 
 #: ../../CONTRIBUTORS.rst:2
 msgid "مشارکت‌کنندگان"
-msgstr ""
+msgstr "مشارکت‌کنندگان"
 
 #: ../../CONTRIBUTORS.rst:4
 msgid "`حنیف بیرگانی <https://github.com/hanifbirgani>`_"
-msgstr ""
+msgstr "`حنیف بیرگانی <https://github.com/hanifbirgani>`_"
 
 #: ../../CONTRIBUTORS.rst:6
 msgid "`معین باباپور <https://github.com/smoeinbbp>`_"
-msgstr ""
+msgstr "`معین باباپور <https://github.com/smoeinbbp>`_"
 
 #: ../../CONTRIBUTORS.rst:8
 msgid "`رضا رضائی <https://github.com/rezarezaeedev>`_"
-msgstr ""
+msgstr "`رضا رضائی <https://github.com/rezarezaeedev>`_"
 
 #: ../../CONTRIBUTORS.rst:10
 msgid "`علی صادقی <https://github.com/bigsbug>`_"
-msgstr ""
+msgstr "`علی صادقی <https://github.com/bigsbug>`_"
 
 #: ../../CONTRIBUTORS.rst:12
 msgid "`آرش حاتمی <https://github.com/hatamiarash7>`_"
-msgstr ""
+msgstr "`آرش حاتمی <https://github.com/hatamiarash7>`_"
 
 #: ../../CONTRIBUTORS.rst:14
 msgid "`امیر همتی <https://github.com/hemmatt>`_"
-msgstr ""
+msgstr "`امیر همتی <https://github.com/hemmatt>`_"
 
 #: ../../translation.rst:8
 msgid "مشارکت در ترجمه"
-msgstr ""
+msgstr "مشارکت در ترجمه"
 
 #: ../../translation.rst:10
 msgid ""
 "برای مشارکت در ترجمه این متن به `مخزن گیتهاب پروژه "
 "<https://github.com/hanifbirgani/pep8ir>`_ مراجعه کنید."
 msgstr ""
+"برای مشارکت در ترجمه این متن به `مخزن گیتهاب پروژه "
+"<https://github.com/hanifbirgani/pep8ir>`_ مراجعه کنید."
 
 #: ../../translation.rst:12
 msgid ""
 "سایت `پپ ۸ <https://pep8.ir>`_ فارسی، پروژه‌ای از `حنیف بیرگانی "
 "<https://github.com/hanifbirgani/>`_."
 msgstr ""
+"سایت `پپ ۸ <https://pep8.ir>`_ فارسی، پروژه‌ای از `حنیف بیرگانی "
+"<https://github.com/hanifbirgani/>`_."
