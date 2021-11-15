@@ -6,8 +6,8 @@
 # Translators:
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
 # Moein Babapour <bbp.moein@gmail.com>, 2021
-# Hanif Birgani, 2021
 # Amir Hemmati, 2021
+# Hanif Birgani, 2021
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 00:29+0000\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
-"Last-Translator: Amir Hemmati, 2021\n"
+"Last-Translator: Hanif Birgani, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1200,6 +1200,9 @@ msgid ""
 "described in the `policy section <https://www.python.org/dev/peps/pep-3131"
 "/#policy-specification>`_ of PEP 3131."
 msgstr ""
+"شناسه‌های استفاده شده در کتابخانه استاندارد باید طبق تعریف `بخش سیاستگذاری "
+"<https://www.python.org/dev/peps/pep-3131/#policy-specification>`_ پپ ۳۱۳۱ "
+"با اسکی سازگار باشند."
 
 #: ../../_pep8.rst:858
 msgid "Package and Module Names"
@@ -1243,6 +1246,8 @@ msgid ""
 "The naming convention for functions may be used instead in cases where the "
 "interface is documented and used primarily as a callable."
 msgstr ""
+"قواعد نامگذاری توابع ممکن است در مواردی نیز استفاده شود که یک اینترفیس، به "
+"عنوان یک شی قابل فراخوانی مستندسازی و استفاده شده باشد."
 
 #: ../../_pep8.rst:878
 msgid ""
@@ -1250,6 +1255,9 @@ msgid ""
 "names are single words (or two words run together), with the CapWords "
 "convention used only for exception names and builtin constants."
 msgstr ""
+"توجه داشته باشید که برای نام‌های داخلی یک قاعده جداگانه وجود دارد: اکثر "
+"نام‌های داخلی تک کلمه‌ای (یا دو کلمه به هم چسبیده) با قاعده نگارشی CapWords "
+"هستند که فقط برای نام‌های استثنا و ثابت‌های داخلی استفاده می‌شود."
 
 #: ../../_pep8.rst:883
 msgid "Type Variable Names"
@@ -1262,6 +1270,10 @@ msgid ""
 " suffixes ``_co`` or ``_contra`` to the variables used to declare covariant "
 "or contravariant behavior correspondingly::"
 msgstr ""
+"نام گونه‌های متغیرهای معرفی شده در پپ ۴۸۴ معمولاً باید از قاعدهٔ نگارشی "
+"CapWords استفاده کند که نام‌های کوتاه را ترجیح می‌دهد: ``T``, ``AnyStr``, "
+"``Num``. توصیه می شود که پسوندهای ``_co`` یا ``_contra`` را به ترتیب به "
+"متغیرهای مورد استفاده برای تعریف رفتار هم‌وردایی یا پادوردایی اضافه کنید::"
 
 #: ../../_pep8.rst:896
 msgid "Exception Names"
