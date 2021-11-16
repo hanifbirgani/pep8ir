@@ -1308,6 +1308,11 @@ msgid ""
 "convention of prefixing such globals with an underscore (which you might "
 "want to do to indicate these globals are \"module non-public\")."
 msgstr ""
+"ماژول‌هایی که برای استفاده از طریق ``from M import *`` طراحی شده‌اند، باید "
+"از مکانیسم ``__all__`` برای جلوگیری از نشان دادن متغیرهای عمومی، یا از "
+"قرارداد قدیمی‌تر قرار دادن زیرخط در اول این متغیرهای عمومی استفاده کنند. (که"
+" ممکن است بخواهید این کار را بکنید تا نشان دهید این متغیرهای عمومی \"ماژول "
+"غیرعمومی\" هستند)."
 
 #: ../../_pep8.rst:915
 msgid "Function and Variable Names"
@@ -1330,6 +1335,9 @@ msgid ""
 "mixedCase is allowed only in contexts where that's already the prevailing "
 "style (e.g. threading.py), to retain backwards compatibility."
 msgstr ""
+"استفاده از قاعدهٔ نگارشی mixedCase فقط در زمینه‌هایی مجاز است که قبلاً سبک "
+"غالب بوده است (مانند نام‌هایی که در ماژول threading.py استفاده شده است)، تا "
+"سازگاری با نسخه‌های پیشن را حفظ کند."
 
 #: ../../_pep8.rst:927
 msgid "Function and Method Arguments"
