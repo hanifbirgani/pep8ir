@@ -67,6 +67,7 @@ a {
 /**********************************************/
 
 .header {
+  background: linear-gradient(180deg, rgba(70, 70, 70, 0.1) 0%, #fff 90%);
   padding: 0 1rem;
   display: flex;
   align-items: center;
@@ -76,6 +77,15 @@ a {
     display: inline-block;
     flex-grow: 1;
     padding: 0 1rem;
+
+    a {
+      text-decoration: none;
+      border: none;
+
+      &:hover {
+        background: none;
+      }
+    }
   }
 }
 
@@ -165,7 +175,8 @@ span.pre {
 }
 
 .highlight {
-  background: hsl(0, 0%, 95%);
+  background: hsl(0, 0%, 98%);
+  box-shadow: inset 0 0 0.25rem hsl(0, 0%, 70%);
   border-radius: 0.5rem;
   border: 0.1rem solid hsl(0, 0%, 80%);
   direction: ltr !important;
@@ -216,6 +227,13 @@ dl.footnote {
   background: #fff;
   padding: 1rem;
 
+  ul {
+    list-style: circle; 
+    position: sticky;
+    top: 2rem;
+    overflow-y: clip;
+  }
+
   @media screen and (max-width: $mobile-breakpoint) {
     max-width: 90%;
     position: absolute;
@@ -226,6 +244,8 @@ dl.footnote {
 
   @media screen and (min-width: $mobile-breakpoint) {
     // width: 25%;
+    border-left: #dbdbdb solid 2.5px;
+    margin-left: .75rem;
   }
 
   &.visible {
