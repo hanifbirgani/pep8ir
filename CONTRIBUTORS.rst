@@ -13,4 +13,6 @@
 
 - `امیر همتی <https://github.com/hemmatt>`_
 
+- `جنگالک <https://github.com/Gnkalk>`_
+
 .. - `Your Name <https://github.com/YourGithubUsername>`_
