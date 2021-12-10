@@ -6,8 +6,8 @@
 # Translators:
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
 # Moein Babapour <bbp.moein@gmail.com>, 2021
-# Hanif Birgani, 2021
 # Amir Hemmati, 2021
+# Hanif Birgani, 2021
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 00:29+0000\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
-"Last-Translator: Amir Hemmati, 2021\n"
+"Last-Translator: Hanif Birgani, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1393,8 +1393,8 @@ msgid ""
 "To avoid name clashes with subclasses, use two leading underscores to invoke"
 " Python's name mangling rules."
 msgstr ""
-"برای جلوگیری از تداخل نام‌ها با زیرکلاس‌ها، برای پیروی کردن از قوانین "
-"mangling نامگذاری در پایتون از دو زیرخط در اول نام‌ها استفاده کنید."
+"برای جلوگیری از تداخل نام‌ها با زیرکلاس‌ها، با استفاده از قوانین دستکاری "
+"نام‌ها در پایتون، از دو زیرخط در اول نام‌ها استفاده کنید."
 
 #: ../../_pep8.rst:951
 msgid ""
@@ -1521,12 +1521,19 @@ msgid ""
 "properties to hide functional implementation behind simple data attribute "
 "access syntax."
 msgstr ""
+"برای مشخصه‌های دادهٔ عمومی ساده، بهتر است فقط نام مشخصه، بدون روش‌های "
+"پیچیدهٔ کمک‌کننده نمایش داده شود. به خاطر داشته باشید، پایتون مسیر بهبود "
+"رفتار عملکردی مشخصه‌های داده را در آینده همیشه هموار نگاه می‌دارد. برای این "
+"کار، از ویژگی‌های کلاس استفاده کنید تا پیاده سازی عملکردی را در پشت مشخصهٔ "
+"داده، پنهان کنید."
 
 #: ../../_pep8.rst:1012
 msgid ""
 "Note 1: Try to keep the functional behavior side-effect free, although side-"
 "effects such as caching are generally fine."
 msgstr ""
+"نکته ۱: سعی کنید رفتار توابع بدون عوارض جانبی باشد. اگرچه برخی عوارض جانبی "
+"همچون کشینگ معمولاً خوب هستند."
 
 #: ../../_pep8.rst:1015
 msgid ""
@@ -1534,6 +1541,8 @@ msgid ""
 " attribute notation makes the caller believe that access is (relatively) "
 "cheap."
 msgstr ""
+"نکته ۲: از ویژگی‌های کلاس برای اجرای عملیات سنگین محاسباتی استفاده نکنید. "
+"مشخصه باعث می شود که تابع صدا زننده گمان کند که دسترسی (نسبتا) کم‌هزینه است."
 
 #: ../../_pep8.rst:1019
 msgid ""
@@ -1544,6 +1553,12 @@ msgid ""
 "attribute name.  This helps avoid attribute name collisions should "
 "subclasses inadvertently contain attributes with the same name."
 msgstr ""
+"اگر قرار است از کلاس شما ارث‌بری شود، و مشخصه‌هایی دارد که نمی‌خواهید "
+"زیرکلاس‌ها از آن‌ها استفاده کنند، آن‌ها را با دو زیرخط‌ آغازین و بدون زیرخط "
+"پایانی نام‌گذاری کنید. این کار الگوریتم دستکاری نام‌ها در پایتون را فراخوانی"
+" می‌کند، که نام کلاس را با نام مشخصه کلاس پیوند می‌زند. این کمک می کند تا "
+"اگر زیرکلاس‌ها به طور ناخواسته دارای مشخصه‌هایی با همان نام باشند، از تداخل "
+"نام مشخصه‌ها جلوگیری شود."
 
 #: ../../_pep8.rst:1027
 msgid ""
@@ -1551,6 +1566,9 @@ msgid ""
 " if a subclass chooses both the same class name and attribute name, you can "
 "still get name collisions."
 msgstr ""
+"نکته ۱: توجه داشته باشید که فقط نام کلاس با نام مشخصه کلاس پیوند می‌خورد، "
+"بنابراین اگر نام یک زیرکلاس و مشخصه آن با نام کلاس و مشخصه بالادستی یکی "
+"باشد، همچنان دچار تداخل نام میشوید."
 
 #: ../../_pep8.rst:1031
 msgid ""
@@ -1558,12 +1576,18 @@ msgid ""
 "``__getattr__()``, less convenient.  However the name mangling algorithm is "
 "well documented and easy to perform manually."
 msgstr ""
+"نکته ۲: دستکاری نام می‌تواند کاربردهای خاصی مانند اشکال‌زدایی و "
+"``__getattr__()`` را سخت‌تر کند. با این حال، الگوریتم دستکاری نام به خوبی "
+"مستند شده است و به راحتی به صورت دستی انجام می‌شود."
 
 #: ../../_pep8.rst:1035
 msgid ""
 "Note 3: Not everyone likes name mangling.  Try to balance the need to avoid "
 "accidental name clashes with potential use by advanced callers."
 msgstr ""
+"نکته ۳: همه از دستکاری نام خوششان نمی‌آید. سعی کنید تعادل بین «نیاز به "
+"جلوگیری از تصادم نام» و «استفاده احتمالی توسط صدازننده‌های پیشرفته» را "
+"برقرار کنید."
 
 #: ../../_pep8.rst:1040
 msgid "Public and Internal Interfaces"
