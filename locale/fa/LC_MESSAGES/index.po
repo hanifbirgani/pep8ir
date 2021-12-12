@@ -6,8 +6,8 @@
 # Translators:
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
 # Moein Babapour <bbp.moein@gmail.com>, 2021
-# Amir Hemmati, 2021
 # Hanif Birgani, 2021
+# Amir Hemmati, 2021
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 00:29+0000\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
-"Last-Translator: Hanif Birgani, 2021\n"
+"Last-Translator: Amir Hemmati, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1599,6 +1599,9 @@ msgid ""
 "Accordingly, it is important that users be able to clearly distinguish "
 "between public and internal interfaces."
 msgstr ""
+"هرگونه ضمانت سازگاری با نسخه‌های پیشین فقط برای اینترفیس‌های عمومی اعمال "
+"می‌شود. بر این اساس، مهم است که کاربران بتوانند به وضوح بین اینترفیس‌های "
+"عمومی و داخلی تمایز قائل شوند."
 
 #: ../../_pep8.rst:1046
 msgid ""
@@ -1607,6 +1610,10 @@ msgid ""
 "from the usual backwards compatibility guarantees. All undocumented "
 "interfaces should be assumed to be internal."
 msgstr ""
+"اینترفیس‌های مستند شده، عمومی درنظر گرفته می‌شوند، مگر اینکه اسناد به صراحت "
+"آنها را موقت یا اینترفیس‌های داخلی اعلام کند که از ضمانت‌های سازگاری با "
+"نسخه‌های پیشین معمول، مستثنی هستند. همه اینترفیس‌های غیرمستند باید داخلی فرض"
+" شوند."
 
 #: ../../_pep8.rst:1051
 msgid ""
@@ -1614,6 +1621,9 @@ msgid ""
 " in their public API using the ``__all__`` attribute. Setting ``__all__`` to"
 " an empty list indicates that the module has no public API."
 msgstr ""
+"برای پشتیبانی بهتر از رابط‌های داخلی، ماژول‌ها باید به صراحت نام‌ها را در "
+"API عمومی خود با استفاده از مشخصه ``__all__`` تعریف کنند. تنظیم ``__all__`` "
+"به یک لیست خالی نشان می‌دهد که ماژول فاقد API عمومی است."
 
 #: ../../_pep8.rst:1055
 msgid ""
