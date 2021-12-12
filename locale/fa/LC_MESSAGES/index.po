@@ -6,8 +6,8 @@
 # Translators:
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
 # Moein Babapour <bbp.moein@gmail.com>, 2021
-# Hanif Birgani, 2021
 # Amir Hemmati, 2021
+# Hanif Birgani, 2021
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 00:29+0000\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
-"Last-Translator: Amir Hemmati, 2021\n"
+"Last-Translator: Hanif Birgani, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1651,6 +1651,11 @@ msgid ""
 "``os.path`` or a package's ``__init__`` module that exposes functionality "
 "from submodules."
 msgstr ""
+"نام‌های ایمپورت‌شده همیشه باید به عنوان جزییات پیاده‌سازی در نظر گرفته شوند."
+" ماژول‌های دیگر نباید به دسترسی غیرمستقیم به این نام‌های ایمپورت‌شده متکی "
+"باشند، مگر اینکه بخش به صراحت مستند‌شده از API ماژول باشند، مانند "
+"``os.path`` یا ماژول ``__init__`` در بسته‌ها، که عملکرد زیرماژول‌ها را نشان "
+"می‌دهد."
 
 #: ../../_pep8.rst:1070
 msgid "Programming Recommendations"
@@ -1662,6 +1667,8 @@ msgid ""
 "implementations of Python (PyPy, Jython, IronPython, Cython, Psyco, and "
 "such)."
 msgstr ""
+"کد باید به گونه‌ای نوشته شود که با دیگر پیاده‌سازی‌های پایتون (PyPy, Jython,"
+" IronPython, Cython, Psyco, و غیره) ناسازگار نباشد."
 
 #: ../../_pep8.rst:1076
 msgid ""
@@ -1689,6 +1696,11 @@ msgid ""
 "was set to some other value.  The other value might have a type (such as a "
 "container) that could be false in a boolean context!"
 msgstr ""
+"همچنین هنگام نوشتن ``if x`` در حالی که واقعاً منظورتان ``if x is not None`` "
+"است، مراقب باشید -- برای نمونه، هنگام آزمایش اینکه آیا متغیر یا آرگومانی که "
+"به صورت پیش‌فرض مقدارش None است، مقدار دیگری دارد یا خیر. مقدار دیگر ممکن "
+"است یک نوع داده (مانند یک نوع داده کانتینری) داشته باشد که در یک شرایط بولی "
+"ممکن است مقدارش False باشد!"
 
 #: ../../_pep8.rst:1094
 msgid ""
@@ -1706,12 +1718,18 @@ msgid ""
 "``__le__``, ``__gt__``, ``__ge__``) rather than relying on other code to "
 "only exercise a particular comparison."
 msgstr ""
+"هنگام پیاده‌سازی عملکردهای اولویت‌دار با مقایسه‌های زیاد، بهتر است هر شش "
+"عملکرد (``__eq__``, ``__ne__``,``__lt__``, ``__le__``,``__gt__``, ``__ge__ "
+"``) را پیاده‌سازی کنید به جای اینکه به کدی دیگر فقط برای انجام یک مقایسه خاص"
+" تکیه کنید."
 
 #: ../../_pep8.rst:1111
 msgid ""
 "To minimize the effort involved, the ``functools.total_ordering()`` "
 "decorator provides a tool to generate missing comparison methods."
 msgstr ""
+"برای به حداقل رساندن پیچیدگی، دکوراتور ``functools.total_ordering()`` ابزاری"
+" است برای ساختن متدهای مقایسهٔ گم شده."
 
 #: ../../_pep8.rst:1114
 msgid ""
@@ -1723,6 +1741,12 @@ msgid ""
 "implement all six operations so that confusion doesn't arise in other "
 "contexts."
 msgstr ""
+"پپ ۲۰۷ نشان می‌دهد که قوانین بازتاب توسط پایتون در نظر گرفته شده است. "
+"بنابراین، مفسر ممکن است ``y > x`` را با ``y >= x``، ``x < y`` را با ``x <= "
+"y``، و ممکن است آرگومان های ``x == y`` و ``x != y`` را تعویض کند. عملکرد "
+"توابع `` sort()`` و ``min()`` برای استفاده از عملگر ``<`` تضمین شده و تابع "
+"``max()`` از عملگر ``>`` استفاده می کند. با این حال، بهتر است هر شش عملکرد "
+"را پیاده‌سازی کنید تا سردرگمی در زمینه‌های دیگر ایجاد نشود."
 
 #: ../../_pep8.rst:1122
 msgid ""
