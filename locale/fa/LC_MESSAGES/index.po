@@ -6,8 +6,8 @@
 # Translators:
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
 # Moein Babapour <bbp.moein@gmail.com>, 2021
-# Hanif Birgani, 2021
 # Amir Hemmati, 2021
+# Hanif Birgani, 2021
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 00:29+0000\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
-"Last-Translator: Amir Hemmati, 2021\n"
+"Last-Translator: Hanif Birgani, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1753,6 +1753,8 @@ msgid ""
 "Always use a def statement instead of an assignment statement that binds a "
 "lambda expression directly to an identifier::"
 msgstr ""
+"همیشه به جای تخصیص مستقیم عبارت لامبدا به یک شناسه، از یک دستور def استفاده "
+"کنید::"
 
 #: ../../_pep8.rst:1133
 msgid ""
@@ -1763,6 +1765,11 @@ msgid ""
 "explicit def statement (i.e. that it can be embedded inside a larger "
 "expression)"
 msgstr ""
+"شکل اول به این معنی است که نام شی تابع به‌دست‌آمده به‌جای کلمه '<lambda>' به"
+" طور خاص ``f`` است. به طور کلی این کار در ردیابی‌ها و نمایش رشته‌ها  مفیدتر "
+"است. استفاده از دستور انتساب، تنها مزیتی را که یک عبارت لامبدا می‌تواند نسبت"
+" به یک عبارت def صریح ارائه دهد، حذف می‌کند (یعنی اینکه می‌توان آن را در یک "
+"عبارت بزرگ‌تر جا کرد)"
 
 #: ../../_pep8.rst:1140
 msgid ""
@@ -1770,6 +1777,9 @@ msgid ""
 "inheritance from ``BaseException`` is reserved for exceptions where catching"
 " them is almost always the wrong thing to do."
 msgstr ""
+"استثناها را به جای ``BaseException`` از ``Exception`` ارث‌بری کنید. ارث‌بری "
+"مستقیم از ``BaseException`` برای استثناهایی است که رخ دادن و گرفتن آن‌ها، "
+"تقریباً همیشه کار اشتباهی است."
 
 #: ../../_pep8.rst:1144
 msgid ""
