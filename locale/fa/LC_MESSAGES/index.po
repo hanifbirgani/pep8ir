@@ -6,8 +6,8 @@
 # Translators:
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
 # Moein Babapour <bbp.moein@gmail.com>, 2021
-# Hanif Birgani, 2021
 # Amir Hemmati, 2021
+# Hanif Birgani, 2021
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 00:29+0000\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
-"Last-Translator: Amir Hemmati, 2021\n"
+"Last-Translator: Hanif Birgani, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1798,12 +1798,19 @@ msgid ""
 " exceptions that are used for non-local flow control or other forms of "
 "signaling need no special suffix."
 msgstr ""
+"قراردادهای نامگذاری کلاس در اینجا اعمال می‌شود، اگرچه اگر استثنا یک خطا "
+"باشد، باید پسوند \"Error\" را به کلاس‌های استثنای خود اضافه کنید. استثناهایی"
+" که نوع آن‌ها خطا نیست و برای کنترل جریان غیرمحلی یا سایر اشکال سیگنال‌دهی "
+"استفاده می‌شوند، نیازی به پسوند خاصی ندارند."
 
 #: ../../_pep8.rst:1156
 msgid ""
 "Use exception chaining appropriately. ``raise X from Y`` should be used to "
 "indicate explicit replacement without losing the original traceback."
 msgstr ""
+"از زنجیره‌ای کردن استثناها به درستی استفاده کنید. «رخ دادن استثناء X به دلیل"
+" استثناء Y» باید برای نشان دادن جایگزینی صریح، بدون از دست دادن ردیابی رخداد"
+" اصلی استفاده شود."
 
 #: ../../_pep8.rst:1160
 msgid ""
