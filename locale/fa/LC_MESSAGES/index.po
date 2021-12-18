@@ -6,8 +6,8 @@
 # Translators:
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
 # Moein Babapour <bbp.moein@gmail.com>, 2021
-# Hanif Birgani, 2021
 # Amir Hemmati, 2021
+# Hanif Birgani, 2021
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 00:29+0000\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
-"Last-Translator: Amir Hemmati, 2021\n"
+"Last-Translator: Hanif Birgani, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1832,12 +1832,18 @@ msgid ""
 "AttributeError, or embedding the text of the original exception in the new "
 "exception message)."
 msgstr ""
+"هنگام جایگزینی عمدی یک استثناء داخلی (با استفاده از فرم \"رخ دادن استثناء X "
+"از None\")، اطمینان حاصل کنید که جزئیات مربوطه، به استثناء جدید منتقل شده "
+"است (مانند حفظ نام مشخصه هنگام تبدیل استثناء KeyError به استثناء "
+"AttributeError، یا قرار دادن متن استثناء اصلی در پیام استثناء جدید)."
 
 #: ../../_pep8.rst:1166
 msgid ""
 "When catching exceptions, mention specific exceptions whenever possible "
 "instead of using a bare ``except:`` clause::"
 msgstr ""
+"هنگام گرفتن استثناها، به جای استفاده از عبارت ساده ``except:``، هر زمان که "
+"ممکن است، استثناهای مشخصی را ذکر کنید::"
 
 #: ../../_pep8.rst:1174
 msgid ""
@@ -1847,17 +1853,26 @@ msgid ""
 "program errors, use ``except Exception:`` (bare except is equivalent to "
 "``except BaseException:``)."
 msgstr ""
+"یک عبارت ساده ``except:`` استثناهای SystemExit و KeyboardInterrupt را "
+"می‌گیرد و بستن برنامه با کلیدهای ترکیبی Control-C را دشوارتر می‌کند و "
+"می‌تواند مشکلات دیگر را پنهان کند. اگر می‌خواهید همه استثناهایی را که به "
+"خطاهای برنامه سیگنال می‌دهند، بیابید، از ``except Exception:`` استفاده کنید "
+"(except ساده معادل ``except BaseException:`` است)."
 
 #: ../../_pep8.rst:1181
 msgid ""
 "A good rule of thumb is to limit use of bare 'except' clauses to two cases:"
 msgstr ""
+"یک قانون سرانگشتی خوب این است که استفاده از عبارت‌های ساده 'except' را به دو"
+" مورد محدود کنید:"
 
 #: ../../_pep8.rst:1184
 msgid ""
 "If the exception handler will be printing out or logging the traceback; at "
 "least the user will be aware that an error has occurred."
 msgstr ""
+"اگر کنترل‌کننده استثنا در حال چاپ کردن یا لاگ کردن ردیابی رخدادها باشد. "
+"حداقل کاربر متوجه خواهد شد که یک خطا رخ داده است."
 
 #: ../../_pep8.rst:1188
 msgid ""
@@ -1865,12 +1880,17 @@ msgid ""
 "propagate upwards with ``raise``.  ``try...finally`` can be a better way to "
 "handle this case."
 msgstr ""
+"اگر کد نیاز به بازنویسی و تمیزکاری دارد، اما اجازه می‌دهد تا استثنا با عبارت"
+" ``raise`` بهتر شود. ساختار ``try...finally`` می‌تواند راه بهتری برای بکار "
+"بردن این مورد باشد."
 
 #: ../../_pep8.rst:1192
 msgid ""
 "When catching operating system errors, prefer the explicit exception "
 "hierarchy introduced in Python 3.3 over introspection of ``errno`` values."
 msgstr ""
+"هنگام گرفتن خطاهای سیستم عامل، سلسله مراتب استثناء واضح معرفی شده در پایتون "
+"۳.۳ را به تشخیص نوع مقادیر ``errno`` ترجیح دهید."
 
 #: ../../_pep8.rst:1196
 msgid ""
@@ -1888,12 +1908,17 @@ msgid ""
 "statement to ensure it is cleaned up promptly and reliably after use. A "
 "try/finally statement is also acceptable."
 msgstr ""
+"وقتی منبعی متعلق به بخش خاصی از کد است، از عبارت ``with`` استفاده کنید تا "
+"مطمئن شوید که پس از استفاده، به سرعت و با اطمینان پاکسازی می‌شود. عبارت "
+"try/finally نیز قابل قبول است."
 
 #: ../../_pep8.rst:1222
 msgid ""
 "Context managers should be invoked through separate functions or methods "
 "whenever they do something other than acquire and release resources::"
 msgstr ""
+"مدیران زمینه (Context managers) باید از طریق توابع یا متدهای جداگانه، هر "
+"زمان که کاری غیر از گرفتن و آزادسازی منابع انجام می‌دهند، فراخوانی شوند::"
 
 #: ../../_pep8.rst:1235
 msgid ""
