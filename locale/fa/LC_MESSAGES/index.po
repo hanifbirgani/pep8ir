@@ -1927,6 +1927,9 @@ msgid ""
 "closing the connection after a transaction.  Being explicit is important in "
 "this case."
 msgstr ""
+"مثال دوم هیچ اطلاعاتی ارائه نمی‌دهد که نشان دهد متدهای ``__enter__`` و "
+"``__exit__`` کاری غیر از بستن اتصال پس از تراکنش انجام می‌دهند. صریح بودن در"
+" این مورد مهم است."
 
 #: ../../_pep8.rst:1240
 msgid ""
@@ -1937,6 +1940,11 @@ msgid ""
 "return statement should be present at the end of the function (if "
 "reachable)::"
 msgstr ""
+"درمورد دستورات return ثابت قدم باشید. یا تمام دستورات return در یک تابع باید"
+" یک عبارت را برگردانند یا هیچ کدام نباید. اگر هر دستور return یک عبارت را "
+"برمی‌گرداند، هر دستور return که در آن هیچ مقداری برگردانده نشده است باید به "
+"صراحت آن را به عنوان ``return None`` بیان کند، و یک دستور return صریح باید "
+"در انتهای تابع وجود داشته باشد (اگر قابل دسترسی باشد)::"
 
 #: ../../_pep8.rst:1273
 msgid ""
@@ -1972,6 +1980,9 @@ msgid ""
 "Such trailing whitespace is visually indistinguishable and some editors (or "
 "more recently, reindent.py) will trim them."
 msgstr ""
+"حروف رشته‌ای که متکی به فضای خالی انتهایی قابل توجهی هستند را ننویسید. چنین "
+"فضای خالی انتهایی از نظر بصری قابل تشخیص نیست و برخی از ویرایشگرها (یا "
+"اخیراً، reindent.py) آنها را حذف می‌کنند."
 
 #: ../../_pep8.rst:1314
 msgid "Don't compare boolean values to True or False using ``==``::"
@@ -2005,12 +2016,16 @@ msgid ""
 "Function annotations should use PEP 484 syntax (There are some formatting "
 "recommendations for annotations in the previous section)."
 msgstr ""
+"انوتیشن‌های توابع باید مطابق با شیوه‌نامه پپ ۴۸۴ باشند. (در بخش قبل، برخی "
+"اصول پیشنهادی برای انوتیشن‌ها آورده شده.)"
 
 #: ../../_pep8.rst:1351
 msgid ""
 "The experimentation with annotation styles that was recommended previously "
 "in this PEP is no longer encouraged."
 msgstr ""
+"استفاده‌های آزمایشی از انوتیشن‌ها که در نسخه‌های پیشین پپ ۸ گفته شده بود از "
+"این به بعد پیشنهاد نمی‌شود."
 
 #: ../../_pep8.rst:1354
 msgid ""
@@ -2034,6 +2049,8 @@ msgid ""
 "For code that wants to make a different use of function annotations it is "
 "recommended to put a comment of the form::"
 msgstr ""
+"برای کدهایی که می‌خواهند استفادهٔ دیگری از انوتیشن‌های تابع داشته باشند، "
+"پیشنهاد می‌شود از کامنت‌هایی با فرم زیر استفاده شود::"
 
 #: ../../_pep8.rst:1369
 msgid ""
@@ -2041,6 +2058,9 @@ msgid ""
 "annotations.  (More fine-grained ways of disabling complaints from type "
 "checkers can be found in PEP 484.)"
 msgstr ""
+"در خطوط اولیهٔ فایل؛ این خط به چک‌کننده‌های تایپ‌ها پیغام می‌دهد که "
+"انوتیشن‌ها را در این فایل نادیده بگیرند. (برای دیدن روش‌های دیگر غیرفعال "
+"کردن انوتیشن‌ها به پپ ۴۸۴ مراجعه کنید.)"
 
 #: ../../_pep8.rst:1373
 msgid ""
@@ -2099,7 +2119,7 @@ msgid ""
 " PEP 484 for details)."
 msgstr ""
 "هرچند پپ ۵۲۶ برای پایتون ۳,۶ پذیرفته شده است، ساختار انوتیشن متغیرها، ساختار"
-" ترجمح داده شده برای فایل‌های stub در تمام نگارش‌های پایتون است (برای جزئیات"
+" ترجیح داده شده برای فایل‌های stub در تمام نگارش‌های پایتون است (برای جزئیات"
 " بیشتر پپ ۴۸۴ را ببینید)."
 
 #: ../../_pep8.rst:1423
