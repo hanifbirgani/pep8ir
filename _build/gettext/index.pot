@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python PEP8 Persian Translation 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-04 00:29+0000\n"
+"POT-Creation-Date: 2021-12-19 12:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1102,19 +1102,19 @@ msgid "`معین باباپور <https://github.com/smoeinbbp>`_"
 msgstr ""
 
 #: ../../CONTRIBUTORS.rst:8
-msgid "`رضا رضائی <https://github.com/rezarezaeedev>`_"
+msgid "`امیر همتی <https://github.com/hemmatt>`_"
 msgstr ""
 
 #: ../../CONTRIBUTORS.rst:10
-msgid "`علی صادقی <https://github.com/bigsbug>`_"
-msgstr ""
-
-#: ../../CONTRIBUTORS.rst:12
 msgid "`آرش حاتمی <https://github.com/hatamiarash7>`_"
 msgstr ""
 
+#: ../../CONTRIBUTORS.rst:12
+msgid "`رضا رضائی <https://github.com/rezarezaeedev>`_"
+msgstr ""
+
 #: ../../CONTRIBUTORS.rst:14
-msgid "`امیر همتی <https://github.com/hemmatt>`_"
+msgid "`علی صادقی <https://github.com/bigsbug>`_"
 msgstr ""
 
 #: ../../translation.rst:8
