@@ -6,8 +6,8 @@
 # Translators:
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
 # Moein Babapour <bbp.moein@gmail.com>, 2021
-# Hanif Birgani, 2021
 # Amir Hemmati, 2021
+# Hanif Birgani, 2021
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-04 00:29+0000\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
-"Last-Translator: Amir Hemmati, 2021\n"
+"Last-Translator: Hanif Birgani, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2000,6 +2000,10 @@ msgid ""
 "statements will implicitly cancel any active exception that is propagating "
 "through the finally suite::"
 msgstr ""
+"استفاده از عبارات کنترل جریان ``return``/``break``/``continue`` در سلسله "
+"نهایی ساختار ``try...finally``، جایی که دستور کنترل جریان به خارج از سلسله "
+"نهایی می‌پرد، کارایی ندارد. دلیل این امر این است که چنین عباراتی به طور ضمنی"
+" هر استثنا فعالی را که در سلسله نهایی رخ می‌دهد، لغو می‌کنند::"
 
 #: ../../_pep8.rst:1343
 msgid "Function Annotations"
@@ -2035,6 +2039,10 @@ msgid ""
 "to add those annotations, and observing whether their presence increases "
 "code understandability."
 msgstr ""
+"با این حال اکنون، آزمایش قوانین پپ ۴۸۴ خارج از کتابخانه استاندارد نیز "
+"پیشنهاد می‌شوند. برای نمونه، علامت‌گذاری یک کتابخانه یا برنامه شخص ثالث بزرگ"
+" با سبک انوتیشن‌های پپ ۴۸۴، بررسی آسان بودن افزودن آن انوتیشن‌ها، و مشاهده "
+"اینکه آیا وجود آنها درک کد را افزایش می دهد یا خیر."
 
 #: ../../_pep8.rst:1360
 msgid ""
@@ -2068,6 +2076,9 @@ msgid ""
 "interpreters by default should not issue any messages due to type checking "
 "and should not alter their behavior based on annotations."
 msgstr ""
+"مانند لینترها، چک‌کننده‌های نوع داده اختیاری هستند و ابزارهایی جدا به حساب "
+"می‌آیند. مفسرهای پایتون به طور پیش‌فرض نباید هیچ پیامی را به دلیل بررسی نوع "
+"داده نشان دهند و نباید رفتار خود را بر اساس انوتیشن‌ها تغییر دهند."
 
 #: ../../_pep8.rst:1377
 msgid ""
@@ -2079,6 +2090,13 @@ msgid ""
 "with a library, or separately (with the library author's permission) through"
 " the typeshed repo [5]_."
 msgstr ""
+"کاربرانی که نمی‌خواهند از چک‌کننده‌های نوع داده استفاده کنند، می‌توانند "
+"آن‌ها را نادیده بگیرند. با این حال، انتظار می‌رود که کاربران بسته‌های "
+"کتابخانه شخص ثالث ممکن است بخواهند بررسی‌های نوع داده را روی آن بسته‌ها "
+"انجام دهند. برای این منظور پپ ۴۸۴ استفاده از فایل‌های خرد (stub files) را "
+"توصیه می‌کند: فایل‌های .pyi که توسط چک‌کننده نوع داده در اولویت فایل‌های .py"
+" مربوطه خوانده می‌شوند. فایل‌های خرد را می‌توان با کتابخانه، یا به صورت "
+"جداگانه (با اجازه نویسنده کتابخانه) از طریق مخزن typeshed [5]_ توزیع کرد."
 
 #: ../../_pep8.rst:1387
 msgid "Variable Annotations"
@@ -2134,6 +2152,10 @@ msgid ""
 "parenthesized statement is the last non-whitespace character of the line, "
 "with subsequent lines being indented until the closing parenthesis."
 msgstr ""
+"*تورفتگی آویزان* یک سبک چیدن حروف است که در آن تمام خطوط یک پاراگراف به جز "
+"خط اول تورفتگی دارند. در پایتون، این اصطلاح برای توصیف سبکی استفاده می‌شود "
+"که در آن پرانتز آغازین یک عبارتِ پرانتزشده، آخرین کاراکترِ یک خط است، و خطوط"
+" بعدی تا پرانتز پایانی تورفتگی دارند."
 
 #: ../../_pep8.rst:1433
 msgid "References"
