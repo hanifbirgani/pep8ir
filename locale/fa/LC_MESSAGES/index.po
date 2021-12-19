@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python PEP8 Persian Translation 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-04 00:29+0000\n"
+"POT-Creation-Date: 2021-12-19 12:13+0000\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
 "Last-Translator: Hanif Birgani, 2021\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
@@ -2208,20 +2208,20 @@ msgid "`معین باباپور <https://github.com/smoeinbbp>`_"
 msgstr "`معین باباپور <https://github.com/smoeinbbp>`_"
 
 #: ../../CONTRIBUTORS.rst:8
-msgid "`رضا رضائی <https://github.com/rezarezaeedev>`_"
-msgstr "`رضا رضائی <https://github.com/rezarezaeedev>`_"
+msgid "`امیر همتی <https://github.com/hemmatt>`_"
+msgstr "`امیر همتی <https://github.com/hemmatt>`_"
 
 #: ../../CONTRIBUTORS.rst:10
-msgid "`علی صادقی <https://github.com/bigsbug>`_"
-msgstr "`علی صادقی <https://github.com/bigsbug>`_"
-
-#: ../../CONTRIBUTORS.rst:12
 msgid "`آرش حاتمی <https://github.com/hatamiarash7>`_"
 msgstr "`آرش حاتمی <https://github.com/hatamiarash7>`_"
 
+#: ../../CONTRIBUTORS.rst:12
+msgid "`رضا رضائی <https://github.com/rezarezaeedev>`_"
+msgstr "`رضا رضائی <https://github.com/rezarezaeedev>`_"
+
 #: ../../CONTRIBUTORS.rst:14
-msgid "`امیر همتی <https://github.com/hemmatt>`_"
-msgstr "`امیر همتی <https://github.com/hemmatt>`_"
+msgid "`علی صادقی <https://github.com/bigsbug>`_"
+msgstr "`علی صادقی <https://github.com/bigsbug>`_"
 
 #: ../../translation.rst:8
 msgid "مشارکت در ترجمه"
