@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python PEP8 Persian Translation 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-19 12:13+0000\n"
+"POT-Creation-Date: 2022-01-17 12:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,7 +165,7 @@ msgid "The preferred way of wrapping long lines is by using Python's implied lin
 msgstr ""
 
 #: ../../_pep8.rst:215
-msgid "Backslashes may still be appropriate at times.  For example, long, multiple ``with``-statements cannot use implicit continuation, so backslashes are acceptable::"
+msgid "Backslashes may still be appropriate at times.  For example, long, multiple ``with``-statements could not use implicit continuation before Python 3.10, so backslashes were acceptable for that case::"
 msgstr ""
 
 #: ../../_pep8.rst:223
