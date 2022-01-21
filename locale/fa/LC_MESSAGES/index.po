@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python PEP8 Persian Translation 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-17 12:15+0000\n"
+"POT-Creation-Date: 2022-01-21 12:13+0000\n"
 "PO-Revision-Date: 2021-06-20 21:47+0000\n"
 "Last-Translator: Hanif Birgani, 2022\n"
 "Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
@@ -32,25 +32,16 @@ msgstr "مقدمه"
 msgid ""
 "This document gives coding conventions for the Python code comprising the "
 "standard library in the main Python distribution.  Please see the companion "
-"informational PEP describing style guidelines for the C code in the C "
-"implementation of Python [1]_."
+"informational PEP describing :pep:`style guidelines for the C code in the C "
+"implementation of Python <7>`."
 msgstr ""
-"این شیوه‌نامه، نحوه نگارش کدهای پایتون و قراردادهای کدنویسی پایتون را بر "
-"اساس کتابخانه اصلی پایتون ارائه می‌دهد. لطفاً برای آگاهی از نحوه نگارش کدهای"
-" زبان C در هسته پایتون به شیوه‌نامه مرتبط با آن مراجعه کنید [1]_. در این متن"
-" از واژه «پپ» (PEP) برای اشاره به استانداردهای مختلف زبان پایتون استفاده "
-"می‌شود، PEP مخفف عبارت Python Enhancement Proposal (طرح پیشنهادی بهبود "
-"پایتون) است."
 
 #: ../../_pep8.rst:9
 msgid ""
-"This document and PEP 257 (Docstring Conventions) were adapted from Guido's "
-"original Python Style Guide essay, with some additions from Barry's style "
-"guide [2]_."
+"This document and :pep:`257` (Docstring Conventions) were adapted from "
+"Guido's original Python Style Guide essay, with some additions from Barry's "
+"style guide [2]_."
 msgstr ""
-"این راهنما و پپ ۲۵۷ (قراردادهای مستندسازی) از مقاله اصلی جناب خیدو فان روسوم"
-" [خالق پایتون] درباره نحوه نگارش کدهای پایتون و همچنین راهنمای کدنویسی آقای "
-"بری ورشو [توسعه‌دهنده گنو Mailman] الهام گرفته شده است [2]_."
 
 #: ../../_pep8.rst:13
 msgid ""
@@ -79,12 +70,8 @@ msgid ""
 "One of Guido's key insights is that code is read much more often than it is "
 "written.  The guidelines provided here are intended to improve the "
 "readability of code and make it consistent across the wide spectrum of "
-"Python code.  As PEP 20 says, \"Readability counts\"."
+"Python code.  As :pep:`20` says, \"Readability counts\"."
 msgstr ""
-"یکی از بینش‌های کلیدی خیدو این است که کدها بیش از آن که نوشته شوند، خوانده "
-"می‌شوند. نکات مطرح شده در این شیوه‌نامه برای بهبود خوانایی (قابلیت خوانده "
-"شدن) کدهای پایتون و یکدست کردن آن‌ها در طیف وسیع است. همان‌طور که در پپ ۲۰ "
-"گفته شده: «خوانایی مهم است»."
 
 #: ../../_pep8.rst:29
 msgid ""
@@ -652,10 +639,8 @@ msgstr ""
 #: ../../_pep8.rst:419
 msgid ""
 "For triple-quoted strings, always use double quote characters to be "
-"consistent with the docstring convention in PEP 257."
+"consistent with the docstring convention in :pep:`257`."
 msgstr ""
-"هنگام تعریف رشته‌های سه گانه، از نقل قول‌هایی دوتایی به صورت (\"\"\") "
-"استفاده کنید تا مطابق با قرارداد نوشتن مستندات کد در پپ ۲۵۷ باشد."
 
 #: ../../_pep8.rst:424
 msgid "Whitespace in Expressions and Statements"
@@ -953,8 +938,8 @@ msgstr "رشته‌های مستندات"
 #: ../../_pep8.rst:736
 msgid ""
 "Conventions for writing good documentation strings (a.k.a. \"docstrings\") "
-"are immortalized in PEP 257."
-msgstr "اصول کامل برای نوشتن مستندات خوب در پپ ۲۵۷ شرح داده شده‌اند."
+"are immortalized in :pep:`257`."
+msgstr ""
 
 #: ../../_pep8.rst:739
 msgid ""
@@ -971,13 +956,10 @@ msgstr ""
 
 #: ../../_pep8.rst:744
 msgid ""
-"PEP 257 describes good docstring conventions.  Note that most importantly, "
-"the ``\"\"\"`` that ends a multiline docstring should be on a line by "
-"itself::"
+":pep:`257` describes good docstring conventions.  Note that most "
+"importantly, the ``\"\"\"`` that ends a multiline docstring should be on a "
+"line by itself::"
 msgstr ""
-"پپ ۲۵۷ اصول مستندنویسی را به خوبی توضیح می‌دهد. نکته مهم این است که عبارت "
-"``\"\"\"`` که برای پایان دادن به مستندات استفاده می‌شود باید در یک خط "
-"جداگانه قرار گیرد."
 
 #: ../../_pep8.rst:753
 msgid ""
@@ -1197,13 +1179,9 @@ msgstr "سازگاری اَسکی"
 #: ../../_pep8.rst:852
 msgid ""
 "Identifiers used in the standard library must be ASCII compatible as "
-"described in the `policy section "
-"<https://www.python.org/dev/peps/pep-3131/#policy-specification>`_ of PEP "
-"3131."
+"described in the :pep:`policy section <3131#policy-specification>` of "
+":pep:`3131`."
 msgstr ""
-"شناسه‌های استفاده شده در کتابخانه استاندارد باید طبق تعریف `بخش سیاستگذاری "
-"<https://www.python.org/dev/peps/pep-3131/#policy-specification>`_ پپ ۳۱۳۱ "
-"با اسکی سازگار باشند."
 
 #: ../../_pep8.rst:858
 msgid "Package and Module Names"
@@ -1266,15 +1244,11 @@ msgstr "نام متغیر‌های گونه (تایپ)"
 
 #: ../../_pep8.rst:885
 msgid ""
-"Names of type variables introduced in PEP 484 should normally use CapWords "
-"preferring short names: ``T``, ``AnyStr``, ``Num``. It is recommended to add"
-" suffixes ``_co`` or ``_contra`` to the variables used to declare covariant "
-"or contravariant behavior correspondingly::"
+"Names of type variables introduced in :pep:`484` should normally use "
+"CapWords preferring short names: ``T``, ``AnyStr``, ``Num``. It is "
+"recommended to add suffixes ``_co`` or ``_contra`` to the variables used to "
+"declare covariant or contravariant behavior correspondingly::"
 msgstr ""
-"نام گونه‌های متغیرهای معرفی شده در پپ ۴۸۴ معمولاً باید از قاعدهٔ نگارشی "
-"CapWords استفاده کند که نام‌های کوتاه را ترجیح می‌دهد: ``T``, ``AnyStr``, "
-"``Num``. توصیه می شود که پسوندهای ``_co`` یا ``_contra`` را به ترتیب به "
-"متغیرهای مورد استفاده برای تعریف رفتار هم‌وردایی یا پادوردایی اضافه کنید::"
 
 #: ../../_pep8.rst:896
 msgid "Exception Names"
@@ -1740,20 +1714,14 @@ msgstr ""
 
 #: ../../_pep8.rst:1114
 msgid ""
-"PEP 207 indicates that reflexivity rules *are* assumed by Python. Thus, the "
-"interpreter may swap ``y > x`` with ``x < y``, ``y >= x`` with ``x <= y``, "
-"and may swap the arguments of ``x == y`` and ``x != y``.  The ``sort()`` and"
-" ``min()`` operations are guaranteed to use the ``<`` operator and the "
-"``max()`` function uses the ``>`` operator.  However, it is best to "
-"implement all six operations so that confusion doesn't arise in other "
+":pep:`207` indicates that reflexivity rules *are* assumed by Python. Thus, "
+"the interpreter may swap ``y > x`` with ``x < y``, ``y >= x`` with ``x <= "
+"y``, and may swap the arguments of ``x == y`` and ``x != y``.  The "
+"``sort()`` and ``min()`` operations are guaranteed to use the ``<`` operator"
+" and the ``max()`` function uses the ``>`` operator.  However, it is best to"
+" implement all six operations so that confusion doesn't arise in other "
 "contexts."
 msgstr ""
-"پپ ۲۰۷ نشان می‌دهد که قوانین بازتاب توسط پایتون در نظر گرفته شده است. "
-"بنابراین، مفسر ممکن است ``y > x`` را با ``y >= x``، ``x < y`` را با ``x <= "
-"y``، و ممکن است آرگومان های ``x == y`` و ``x != y`` را تعویض کند. عملکرد "
-"توابع `` sort()`` و ``min()`` برای استفاده از عملگر ``<`` تضمین شده و تابع "
-"``max()`` از عملگر ``>`` استفاده می کند. با این حال، بهتر است هر شش عملکرد "
-"را پیاده‌سازی کنید تا سردرگمی در زمینه‌های دیگر ایجاد نشود."
 
 #: ../../_pep8.rst:1122
 msgid ""
@@ -1794,14 +1762,9 @@ msgid ""
 "the exceptions is likely to need, rather than the locations where the "
 "exceptions are raised. Aim to answer the question \"What went wrong?\" "
 "programmatically, rather than only stating that \"A problem occurred\" (see "
-"PEP 3151 for an example of this lesson being learned for the builtin "
+":pep:`3151` for an example of this lesson being learned for the builtin "
 "exception hierarchy)"
 msgstr ""
-"سلسله مراتب استثناها را بر اساس تمایزاتی طراحی کنید که *رخ دادن* آن‌ها در کد"
-" احتمالاً لازم باشد، نه مکان‌هایی که استثناها در آنجا رخ می‌دهند. هدف پاسخ "
-"برنامه‌ریزی شده به سوال \"چه اشتباهی رخ داد؟\" است، به جای اینکه فقط بیان "
-"کند که \"یک مشکل رخ داده است\". (برای مثالی از این نکته که برای سلسله مراتب "
-"استثناء داخلی گفته شد، پپ ۳۱۵۱ را ببینید)"
 
 #: ../../_pep8.rst:1151
 msgid ""
@@ -2011,17 +1974,15 @@ msgstr "انوتیشن‌های توابع"
 
 #: ../../_pep8.rst:1345
 msgid ""
-"With the acceptance of PEP 484, the style rules for function annotations "
+"With the acceptance of :pep:`484`, the style rules for function annotations "
 "have changed."
-msgstr "با پذیرش پپ ۴۸۴ شیوه نگارش انوتیشن توابع تغییر کرد."
+msgstr ""
 
 #: ../../_pep8.rst:1348
 msgid ""
-"Function annotations should use PEP 484 syntax (There are some formatting "
-"recommendations for annotations in the previous section)."
+"Function annotations should use :pep:`484` syntax (There are some formatting"
+" recommendations for annotations in the previous section)."
 msgstr ""
-"انوتیشن‌های توابع باید مطابق با شیوه‌نامه پپ ۴۸۴ باشند. (در بخش قبل، برخی "
-"اصول پیشنهادی برای انوتیشن‌ها آورده شده.)"
 
 #: ../../_pep8.rst:1351
 msgid ""
@@ -2033,16 +1994,12 @@ msgstr ""
 
 #: ../../_pep8.rst:1354
 msgid ""
-"However, outside the stdlib, experiments within the rules of PEP 484 are now"
-" encouraged.  For example, marking up a large third party library or "
-"application with PEP 484 style type annotations, reviewing how easy it was "
-"to add those annotations, and observing whether their presence increases "
-"code understandability."
+"However, outside the stdlib, experiments within the rules of :pep:`484` are "
+"now encouraged.  For example, marking up a large third party library or "
+"application with :pep:`484` style type annotations, reviewing how easy it "
+"was to add those annotations, and observing whether their presence increases"
+" code understandability."
 msgstr ""
-"با این حال اکنون، آزمایش قوانین پپ ۴۸۴ خارج از کتابخانه استاندارد نیز "
-"پیشنهاد می‌شوند. برای نمونه، علامت‌گذاری یک کتابخانه یا برنامه شخص ثالث بزرگ"
-" با سبک انوتیشن‌های پپ ۴۸۴، بررسی آسان بودن افزودن آن انوتیشن‌ها، و مشاهده "
-"اینکه آیا وجود آنها درک کد را افزایش می دهد یا خیر."
 
 #: ../../_pep8.rst:1360
 msgid ""
@@ -2064,11 +2021,8 @@ msgstr ""
 msgid ""
 "near the top of the file; this tells type checkers to ignore all "
 "annotations.  (More fine-grained ways of disabling complaints from type "
-"checkers can be found in PEP 484.)"
+"checkers can be found in :pep:`484`.)"
 msgstr ""
-"در خطوط اولیهٔ فایل؛ این خط به چک‌کننده‌های تایپ‌ها پیغام می‌دهد که "
-"انوتیشن‌ها را در این فایل نادیده بگیرند. (برای دیدن روش‌های دیگر غیرفعال "
-"کردن انوتیشن‌ها به پپ ۴۸۴ مراجعه کنید.)"
 
 #: ../../_pep8.rst:1373
 msgid ""
@@ -2084,19 +2038,12 @@ msgstr ""
 msgid ""
 "Users who don't want to use type checkers are free to ignore them. However, "
 "it is expected that users of third party library packages may want to run "
-"type checkers over those packages.  For this purpose PEP 484 recommends the "
-"use of stub files: .pyi files that are read by the type checker in "
+"type checkers over those packages.  For this purpose :pep:`484` recommends "
+"the use of stub files: .pyi files that are read by the type checker in "
 "preference of the corresponding .py files. Stub files can be distributed "
 "with a library, or separately (with the library author's permission) through"
 " the typeshed repo [5]_."
 msgstr ""
-"کاربرانی که نمی‌خواهند از چک‌کننده‌های نوع داده استفاده کنند، می‌توانند "
-"آن‌ها را نادیده بگیرند. با این حال، انتظار می‌رود که کاربران بسته‌های "
-"کتابخانه شخص ثالث ممکن است بخواهند بررسی‌های نوع داده را روی آن بسته‌ها "
-"انجام دهند. برای این منظور پپ ۴۸۴ استفاده از فایل‌های خرد (stub files) را "
-"توصیه می‌کند: فایل‌های .pyi که توسط چک‌کننده نوع داده در اولویت فایل‌های .py"
-" مربوطه خوانده می‌شوند. فایل‌های خرد را می‌توان با کتابخانه، یا به صورت "
-"جداگانه (با اجازه نویسنده کتابخانه) از طریق مخزن typeshed [5]_ توزیع کرد."
 
 #: ../../_pep8.rst:1387
 msgid "Variable Annotations"
@@ -2104,11 +2051,9 @@ msgstr "انوتیشن‌های متغیرها"
 
 #: ../../_pep8.rst:1389
 msgid ""
-"PEP 526 introduced variable annotations. The style recommendations for them "
-"are similar to those on function annotations described above:"
+":pep:`526` introduced variable annotations. The style recommendations for "
+"them are similar to those on function annotations described above:"
 msgstr ""
-"پپ ۲۵۶ انوتیشن‌های متغیر را معرفی کرد. شیوه‌نامه پیشنهادی شامل قانون‌های "
-"مشابه با انوتیشن توابع است که بالاتر توضیح داده شد:"
 
 #: ../../_pep8.rst:1392
 msgid ""
@@ -2132,13 +2077,10 @@ msgstr ""
 
 #: ../../_pep8.rst:1418
 msgid ""
-"Although the PEP 526 is accepted for Python 3.6, the variable annotation "
+"Although the :pep:`526` is accepted for Python 3.6, the variable annotation "
 "syntax is the preferred syntax for stub files on all versions of Python (see"
-" PEP 484 for details)."
+" :pep:`484` for details)."
 msgstr ""
-"هرچند پپ ۵۲۶ برای پایتون ۳,۶ پذیرفته شده است، ساختار انوتیشن متغیرها، ساختار"
-" ترجیح داده شده برای فایل‌های stub در تمام نگارش‌های پایتون است (برای جزئیات"
-" بیشتر پپ ۴۸۴ را ببینید)."
 
 #: ../../_pep8.rst:1423
 msgid "Footnotes"
@@ -2162,32 +2104,28 @@ msgid "References"
 msgstr "منابع"
 
 #: ../../_pep8.rst:1435
-msgid "PEP 7, Style Guide for C Code, van Rossum"
-msgstr "پپ ۷، شیوه‌نامه نگارش کدهای C، فان روسوم"
-
-#: ../../_pep8.rst:1437
 msgid ""
 "Barry's GNU Mailman style guide "
 "http://barry.warsaw.us/software/STYLEGUIDE.txt"
 msgstr "شیوه‌نامه نگارش گنو میل‌من https://bit.ly/3wZ7J5I"
 
-#: ../../_pep8.rst:1440
+#: ../../_pep8.rst:1438
 msgid "Donald Knuth's *The TeXBook*, pages 195 and 196."
 msgstr "دانلد ناتس *The TeXBook*، صفحات ۱۹۵ و ۱۹۶."
 
-#: ../../_pep8.rst:1442
+#: ../../_pep8.rst:1440
 msgid "http://www.wikipedia.com/wiki/CamelCase"
 msgstr "https://bit.ly/2TinGp5"
 
-#: ../../_pep8.rst:1444
+#: ../../_pep8.rst:1442
 msgid "Typeshed repo https://github.com/python/typeshed"
 msgstr "مخزن تایپشد https://github.com/python/typeshed"
 
-#: ../../_pep8.rst:1450
+#: ../../_pep8.rst:1448
 msgid "Copyright"
 msgstr "کپی‌رایت"
 
-#: ../../_pep8.rst:1452
+#: ../../_pep8.rst:1450
 msgid "This document has been placed in the public domain."
 msgstr "این شیوه‌نامه به صورت آزاد در دسترس همگان قرار گرفته است."
 
