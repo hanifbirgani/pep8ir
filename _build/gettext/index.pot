@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python PEP8 Persian Translation 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-17 12:15+0000\n"
+"POT-Creation-Date: 2022-01-21 12:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,11 @@ msgid "Introduction"
 msgstr ""
 
 #: ../../_pep8.rst:4
-msgid "This document gives coding conventions for the Python code comprising the standard library in the main Python distribution.  Please see the companion informational PEP describing style guidelines for the C code in the C implementation of Python [1]_."
+msgid "This document gives coding conventions for the Python code comprising the standard library in the main Python distribution.  Please see the companion informational PEP describing :pep:`style guidelines for the C code in the C implementation of Python <7>`."
 msgstr ""
 
 #: ../../_pep8.rst:9
-msgid "This document and PEP 257 (Docstring Conventions) were adapted from Guido's original Python Style Guide essay, with some additions from Barry's style guide [2]_."
+msgid "This document and :pep:`257` (Docstring Conventions) were adapted from Guido's original Python Style Guide essay, with some additions from Barry's style guide [2]_."
 msgstr ""
 
 #: ../../_pep8.rst:13
@@ -41,7 +41,7 @@ msgid "A Foolish Consistency is the Hobgoblin of Little Minds"
 msgstr ""
 
 #: ../../_pep8.rst:24
-msgid "One of Guido's key insights is that code is read much more often than it is written.  The guidelines provided here are intended to improve the readability of code and make it consistent across the wide spectrum of Python code.  As PEP 20 says, \"Readability counts\"."
+msgid "One of Guido's key insights is that code is read much more often than it is written.  The guidelines provided here are intended to improve the readability of code and make it consistent across the wide spectrum of Python code.  As :pep:`20` says, \"Readability counts\"."
 msgstr ""
 
 #: ../../_pep8.rst:29
@@ -329,7 +329,7 @@ msgid "In Python, single-quoted strings and double-quoted strings are the same. 
 msgstr ""
 
 #: ../../_pep8.rst:419
-msgid "For triple-quoted strings, always use double quote characters to be consistent with the docstring convention in PEP 257."
+msgid "For triple-quoted strings, always use double quote characters to be consistent with the docstring convention in :pep:`257`."
 msgstr ""
 
 #: ../../_pep8.rst:424
@@ -494,7 +494,7 @@ msgid "Documentation Strings"
 msgstr ""
 
 #: ../../_pep8.rst:736
-msgid "Conventions for writing good documentation strings (a.k.a. \"docstrings\") are immortalized in PEP 257."
+msgid "Conventions for writing good documentation strings (a.k.a. \"docstrings\") are immortalized in :pep:`257`."
 msgstr ""
 
 #: ../../_pep8.rst:739
@@ -502,7 +502,7 @@ msgid "Write docstrings for all public modules, functions, classes, and methods.
 msgstr ""
 
 #: ../../_pep8.rst:744
-msgid "PEP 257 describes good docstring conventions.  Note that most importantly, the ``\"\"\"`` that ends a multiline docstring should be on a line by itself::"
+msgid ":pep:`257` describes good docstring conventions.  Note that most importantly, the ``\"\"\"`` that ends a multiline docstring should be on a line by itself::"
 msgstr ""
 
 #: ../../_pep8.rst:753
@@ -626,7 +626,7 @@ msgid "ASCII Compatibility"
 msgstr ""
 
 #: ../../_pep8.rst:852
-msgid "Identifiers used in the standard library must be ASCII compatible as described in the `policy section <https://www.python.org/dev/peps/pep-3131/#policy-specification>`_ of PEP 3131."
+msgid "Identifiers used in the standard library must be ASCII compatible as described in the :pep:`policy section <3131#policy-specification>` of :pep:`3131`."
 msgstr ""
 
 #: ../../_pep8.rst:858
@@ -662,7 +662,7 @@ msgid "Type Variable Names"
 msgstr ""
 
 #: ../../_pep8.rst:885
-msgid "Names of type variables introduced in PEP 484 should normally use CapWords preferring short names: ``T``, ``AnyStr``, ``Num``. It is recommended to add suffixes ``_co`` or ``_contra`` to the variables used to declare covariant or contravariant behavior correspondingly::"
+msgid "Names of type variables introduced in :pep:`484` should normally use CapWords preferring short names: ``T``, ``AnyStr``, ``Num``. It is recommended to add suffixes ``_co`` or ``_contra`` to the variables used to declare covariant or contravariant behavior correspondingly::"
 msgstr ""
 
 #: ../../_pep8.rst:896
@@ -874,7 +874,7 @@ msgid "To minimize the effort involved, the ``functools.total_ordering()`` decor
 msgstr ""
 
 #: ../../_pep8.rst:1114
-msgid "PEP 207 indicates that reflexivity rules *are* assumed by Python. Thus, the interpreter may swap ``y > x`` with ``x < y``, ``y >= x`` with ``x <= y``, and may swap the arguments of ``x == y`` and ``x != y``.  The ``sort()`` and ``min()`` operations are guaranteed to use the ``<`` operator and the ``max()`` function uses the ``>`` operator.  However, it is best to implement all six operations so that confusion doesn't arise in other contexts."
+msgid ":pep:`207` indicates that reflexivity rules *are* assumed by Python. Thus, the interpreter may swap ``y > x`` with ``x < y``, ``y >= x`` with ``x <= y``, and may swap the arguments of ``x == y`` and ``x != y``.  The ``sort()`` and ``min()`` operations are guaranteed to use the ``<`` operator and the ``max()`` function uses the ``>`` operator.  However, it is best to implement all six operations so that confusion doesn't arise in other contexts."
 msgstr ""
 
 #: ../../_pep8.rst:1122
@@ -890,7 +890,7 @@ msgid "Derive exceptions from ``Exception`` rather than ``BaseException``. Direc
 msgstr ""
 
 #: ../../_pep8.rst:1144
-msgid "Design exception hierarchies based on the distinctions that code *catching* the exceptions is likely to need, rather than the locations where the exceptions are raised. Aim to answer the question \"What went wrong?\" programmatically, rather than only stating that \"A problem occurred\" (see PEP 3151 for an example of this lesson being learned for the builtin exception hierarchy)"
+msgid "Design exception hierarchies based on the distinctions that code *catching* the exceptions is likely to need, rather than the locations where the exceptions are raised. Aim to answer the question \"What went wrong?\" programmatically, rather than only stating that \"A problem occurred\" (see :pep:`3151` for an example of this lesson being learned for the builtin exception hierarchy)"
 msgstr ""
 
 #: ../../_pep8.rst:1151
@@ -986,11 +986,11 @@ msgid "Function Annotations"
 msgstr ""
 
 #: ../../_pep8.rst:1345
-msgid "With the acceptance of PEP 484, the style rules for function annotations have changed."
+msgid "With the acceptance of :pep:`484`, the style rules for function annotations have changed."
 msgstr ""
 
 #: ../../_pep8.rst:1348
-msgid "Function annotations should use PEP 484 syntax (There are some formatting recommendations for annotations in the previous section)."
+msgid "Function annotations should use :pep:`484` syntax (There are some formatting recommendations for annotations in the previous section)."
 msgstr ""
 
 #: ../../_pep8.rst:1351
@@ -998,7 +998,7 @@ msgid "The experimentation with annotation styles that was recommended previousl
 msgstr ""
 
 #: ../../_pep8.rst:1354
-msgid "However, outside the stdlib, experiments within the rules of PEP 484 are now encouraged.  For example, marking up a large third party library or application with PEP 484 style type annotations, reviewing how easy it was to add those annotations, and observing whether their presence increases code understandability."
+msgid "However, outside the stdlib, experiments within the rules of :pep:`484` are now encouraged.  For example, marking up a large third party library or application with :pep:`484` style type annotations, reviewing how easy it was to add those annotations, and observing whether their presence increases code understandability."
 msgstr ""
 
 #: ../../_pep8.rst:1360
@@ -1010,7 +1010,7 @@ msgid "For code that wants to make a different use of function annotations it is
 msgstr ""
 
 #: ../../_pep8.rst:1369
-msgid "near the top of the file; this tells type checkers to ignore all annotations.  (More fine-grained ways of disabling complaints from type checkers can be found in PEP 484.)"
+msgid "near the top of the file; this tells type checkers to ignore all annotations.  (More fine-grained ways of disabling complaints from type checkers can be found in :pep:`484`.)"
 msgstr ""
 
 #: ../../_pep8.rst:1373
@@ -1018,7 +1018,7 @@ msgid "Like linters, type checkers are optional, separate tools.  Python interpr
 msgstr ""
 
 #: ../../_pep8.rst:1377
-msgid "Users who don't want to use type checkers are free to ignore them. However, it is expected that users of third party library packages may want to run type checkers over those packages.  For this purpose PEP 484 recommends the use of stub files: .pyi files that are read by the type checker in preference of the corresponding .py files. Stub files can be distributed with a library, or separately (with the library author's permission) through the typeshed repo [5]_."
+msgid "Users who don't want to use type checkers are free to ignore them. However, it is expected that users of third party library packages may want to run type checkers over those packages.  For this purpose :pep:`484` recommends the use of stub files: .pyi files that are read by the type checker in preference of the corresponding .py files. Stub files can be distributed with a library, or separately (with the library author's permission) through the typeshed repo [5]_."
 msgstr ""
 
 #: ../../_pep8.rst:1387
@@ -1026,7 +1026,7 @@ msgid "Variable Annotations"
 msgstr ""
 
 #: ../../_pep8.rst:1389
-msgid "PEP 526 introduced variable annotations. The style recommendations for them are similar to those on function annotations described above:"
+msgid ":pep:`526` introduced variable annotations. The style recommendations for them are similar to those on function annotations described above:"
 msgstr ""
 
 #: ../../_pep8.rst:1392
@@ -1042,7 +1042,7 @@ msgid "If an assignment has a right hand side, then the equality sign should hav
 msgstr ""
 
 #: ../../_pep8.rst:1418
-msgid "Although the PEP 526 is accepted for Python 3.6, the variable annotation syntax is the preferred syntax for stub files on all versions of Python (see PEP 484 for details)."
+msgid "Although the :pep:`526` is accepted for Python 3.6, the variable annotation syntax is the preferred syntax for stub files on all versions of Python (see :pep:`484` for details)."
 msgstr ""
 
 #: ../../_pep8.rst:1423
@@ -1058,30 +1058,26 @@ msgid "References"
 msgstr ""
 
 #: ../../_pep8.rst:1435
-msgid "PEP 7, Style Guide for C Code, van Rossum"
-msgstr ""
-
-#: ../../_pep8.rst:1437
 msgid "Barry's GNU Mailman style guide http://barry.warsaw.us/software/STYLEGUIDE.txt"
 msgstr ""
 
-#: ../../_pep8.rst:1440
+#: ../../_pep8.rst:1438
 msgid "Donald Knuth's *The TeXBook*, pages 195 and 196."
 msgstr ""
 
-#: ../../_pep8.rst:1442
+#: ../../_pep8.rst:1440
 msgid "http://www.wikipedia.com/wiki/CamelCase"
 msgstr ""
 
-#: ../../_pep8.rst:1444
+#: ../../_pep8.rst:1442
 msgid "Typeshed repo https://github.com/python/typeshed"
 msgstr ""
 
-#: ../../_pep8.rst:1450
+#: ../../_pep8.rst:1448
 msgid "Copyright"
 msgstr ""
 
-#: ../../_pep8.rst:1452
+#: ../../_pep8.rst:1450
 msgid "This document has been placed in the public domain."
 msgstr ""
 
