@@ -15,7 +15,7 @@ extensions = []
 source_suffix = '.rst'
 master_doc = 'index'
 language = 'fa'
-exclude_patterns = ['_*', 'CONTRIBUTORS.rst', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_*', 'CONTRIBUTORS.rst', 'Thumbs.db', '.DS_Store', '.venv']
 if tags.has('gettext/gettext'):
     exclude_patterns += ['translation.rst']
 pygments_style = 'sphinx'

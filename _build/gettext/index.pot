@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python PEP8 Persian Translation 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-21 12:13+0000\n"
+"POT-Creation-Date: 2022-11-01 19:39+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -221,7 +221,7 @@ msgid "Use blank lines in functions, sparingly, to indicate logical sections."
 msgstr ""
 
 #: ../../_pep8.rst:284
-msgid "Python accepts the control-L (i.e. ^L) form feed character as whitespace; Many tools treat these characters as page separators, so you may use them to separate pages of related sections of your file. Note, some editors and web-based code viewers may not recognize control-L as a form feed and will show another glyph in its place."
+msgid "Python accepts the control-L (i.e. ^L) form feed character as whitespace; many tools treat these characters as page separators, so you may use them to separate pages of related sections of your file. Note, some editors and web-based code viewers may not recognize control-L as a form feed and will show another glyph in its place."
 msgstr ""
 
 #: ../../_pep8.rst:291
@@ -990,7 +990,7 @@ msgid "With the acceptance of :pep:`484`, the style rules for function annotatio
 msgstr ""
 
 #: ../../_pep8.rst:1348
-msgid "Function annotations should use :pep:`484` syntax (There are some formatting recommendations for annotations in the previous section)."
+msgid "Function annotations should use :pep:`484` syntax (there are some formatting recommendations for annotations in the previous section)."
 msgstr ""
 
 #: ../../_pep8.rst:1351

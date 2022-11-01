@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Hanif Birgani
+# This file is distributed under the same license as the Python PEP8 Persian
+# Translation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python PEP8 Persian Translation 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-01 14:50+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../translation.rst:2
+msgid "ترجمه فارسی"
+msgstr ""
+
+#: ../../CONTRIBUTORS.rst:2
+msgid "مشارکت‌کنندگان"
+msgstr ""
+
+#: ../../CONTRIBUTORS.rst:4
+msgid "`حنیف بیرگانی <https://github.com/hanifbirgani>`_"
+msgstr ""
+
+#: ../../CONTRIBUTORS.rst:6
+msgid "`معین باباپور <https://github.com/smoeinbbp>`_"
+msgstr ""
+
+#: ../../CONTRIBUTORS.rst:8
+msgid "`امیر همتی <https://github.com/hemmatt>`_"
+msgstr ""
+
+#: ../../CONTRIBUTORS.rst:10
+msgid "`آرش حاتمی <https://github.com/hatamiarash7>`_"
+msgstr ""
+
+#: ../../CONTRIBUTORS.rst:12
+msgid "`رضا رضائی <https://github.com/rezarezaeedev>`_"
+msgstr ""
+
+#: ../../CONTRIBUTORS.rst:14
+msgid "`علی صادقی <https://github.com/bigsbug>`_"
+msgstr ""
+
+#: ../../translation.rst:8
+msgid "مشارکت در ترجمه"
+msgstr ""
+
+#: ../../translation.rst:10
+msgid ""
+"برای مشارکت در ترجمه این متن به `مخزن گیتهاب پروژه "
+"<https://github.com/hanifbirgani/pep8ir>`_ مراجعه کنید."
+msgstr ""
+
+#: ../../translation.rst:12
+msgid ""
+"سایت `پپ ۸ <https://pep8.ir>`_ فارسی، پروژه‌ای از `حنیف بیرگانی "
+"<https://github.com/hanifbirgani/>`_."
+msgstr ""
+
