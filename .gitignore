@@ -4,6 +4,7 @@ _build/gettext/*
 !_build/gettext/index.pot
 _resources
 .vscode
+.venv
 .idea
 .pyc
 *.mo
