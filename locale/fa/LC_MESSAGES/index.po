@@ -2,27 +2,28 @@
 # Copyright (C) Hanif Birgani
 # This file is distributed under the same license as the Python PEP8 Persian Translation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Arash Hatami <hatamiarash7@gmail.com>, 2021
 # Moein Babapour <bbp.moein@gmail.com>, 2021
 # Amir Hemmati, 2021
 # Hanif Birgani, 2022
-# 
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Python PEP8 Persian Translation 1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-01 19:39+0330\n"
-"PO-Revision-Date: 2021-06-20 21:47+0000\n"
+"PO-Revision-Date: 2023-07-09 11:05+0330\n"
 "Last-Translator: Hanif Birgani, 2022\n"
-"Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/fa/)\n"
+"Language-Team: Persian (https://www.transifex.com/persian-peps/teams/121944/"
+"fa/)\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fa\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.3.1\n"
 
 #: ../../_pep8.rst:2
 msgid "Introduction"
@@ -35,28 +36,26 @@ msgid ""
 "informational PEP describing :pep:`style guidelines for the C code in the C "
 "implementation of Python <7>`."
 msgstr ""
-"این شیوه‌نامه، نحوه نگارش کدهای پایتون و قراردادهای کدنویسی پایتون را بر "
-"اساس کتابخانه اصلی پایتون ارائه می‌دهد. لطفاً برای آگاهی از نحوه نگارش کدهای"
-" زبان C در هسته پایتون به شیوه‌نامه مرتبط با آن مراجعه کنید <7>. در این متن "
-"از واژه «پپ» (PEP) برای اشاره به استانداردهای مختلف زبان پایتون استفاده "
-"می‌شود، PEP مخفف عبارت Python Enhancement Proposal (طرح پیشنهادی بهبود "
-"پایتون) است."
+"این شیوه‌نامه، نحوه نگارش کدهای پایتون و قراردادهای کدنویسی پایتون را بر اساس "
+"کتابخانه اصلی پایتون ارائه می‌دهد. لطفاً برای آگاهی از نحوه نگارش کدهای زبان C "
+"در هسته پایتون به شیوه‌نامه مرتبط با آن مراجعه کنید <7>. در این متن از واژه "
+"«پپ» (PEP) برای اشاره به استانداردهای مختلف زبان پایتون استفاده می‌شود، PEP "
+"مخفف عبارت Python Enhancement Proposal (طرح پیشنهادی بهبود پایتون) است."
 
 #: ../../_pep8.rst:9
 msgid ""
-"This document and :pep:`257` (Docstring Conventions) were adapted from "
-"Guido's original Python Style Guide essay, with some additions from Barry's "
-"style guide [2]_."
+"This document and :pep:`257` (Docstring Conventions) were adapted from Guido's "
+"original Python Style Guide essay, with some additions from Barry's style "
+"guide [2]_."
 msgstr ""
-"این راهنما و پپ ۲۵۷ (قراردادهای مستندسازی) از مقاله اصلی جناب خیدو فان روسوم"
-" [خالق پایتون] درباره نحوه نگارش کدهای پایتون و همچنین راهنمای کدنویسی آقای "
-"بری ورشو [توسعه‌دهنده گنو Mailman] الهام گرفته شده است [2]_."
+"این راهنما و پپ ۲۵۷ (قراردادهای مستندسازی) از مقاله اصلی جناب خیدو فان روسوم "
+"[خالق پایتون] درباره نحوه نگارش کدهای پایتون و همچنین راهنمای کدنویسی آقای بری "
+"ورشو [توسعه‌دهنده گنو Mailman] الهام گرفته شده است [2]_."
 
 #: ../../_pep8.rst:13
 msgid ""
 "This style guide evolves over time as additional conventions are identified "
-"and past conventions are rendered obsolete by changes in the language "
-"itself."
+"and past conventions are rendered obsolete by changes in the language itself."
 msgstr ""
 "این شیوه‌نامه با گذشت زمان، پدید آمدن قراردادهای تازه و همچنین منسوخ شدن "
 "قراردادهای پیشین تکامل می‌یابد."
@@ -66,9 +65,9 @@ msgid ""
 "Many projects have their own coding style guidelines. In the event of any "
 "conflicts, such project-specific guides take precedence for that project."
 msgstr ""
-"بسیاری از پروژه‌ها راهنمای نگارش کد مخصوص به خود را دارند. در صورت بروز هر "
-"گونه تداخل بین این شیوه‌نامه و نحوه نگارش اختصاصی یک پروژه، راهنمای نگارش آن"
-" پروژه در اولویت است."
+"بسیاری از پروژه‌ها راهنمای نگارش کد مخصوص به خود را دارند. در صورت بروز هر گونه "
+"تداخل بین این شیوه‌نامه و نحوه نگارش اختصاصی یک پروژه، راهنمای نگارش آن پروژه "
+"در اولویت است."
 
 #: ../../_pep8.rst:22
 msgid "A Foolish Consistency is the Hobgoblin of Little Minds"
@@ -77,31 +76,30 @@ msgstr "ثبات ناشیانه، عامل عقب‌ماندگی مغزهای ک
 #: ../../_pep8.rst:24
 msgid ""
 "One of Guido's key insights is that code is read much more often than it is "
-"written.  The guidelines provided here are intended to improve the "
-"readability of code and make it consistent across the wide spectrum of "
-"Python code.  As :pep:`20` says, \"Readability counts\"."
+"written.  The guidelines provided here are intended to improve the readability "
+"of code and make it consistent across the wide spectrum of Python code.  As :"
+"pep:`20` says, \"Readability counts\"."
 msgstr ""
 "یکی از بینش‌های کلیدی خیدو این است که کدها بیش از آن که نوشته شوند، خوانده "
-"می‌شوند. نکات مطرح شده در این شیوه‌نامه برای بهبود خوانایی (قابلیت خوانده "
-"شدن) کدهای پایتون و یکدست کردن آن‌ها در طیف وسیع است. همان‌طور که در پپ ۲۰ "
-"گفته شده: «خوانایی مهم است»."
+"می‌شوند. نکات مطرح شده در این شیوه‌نامه برای بهبود خوانایی (قابلیت خوانده شدن) "
+"کدهای پایتون و یکدست کردن آن‌ها در طیف وسیع است. همان‌طور که در پپ ۲۰ گفته شده: "
+"«خوانایی مهم است»."
 
 #: ../../_pep8.rst:29
 msgid ""
 "A style guide is about consistency.  Consistency with this style guide is "
-"important.  Consistency within a project is more important. Consistency "
-"within one module or function is the most important."
+"important.  Consistency within a project is more important. Consistency within "
+"one module or function is the most important."
 msgstr ""
 "این شیوه‌نامه مستقیماً با «ثبات» در نحوه نگارش کدها مرتبط است. ثبات در این "
-"شیوه‌نامه بسیار با اهمیت است. ثباتِ درون‌پروژه‌ای از آن هم مهم‌تر است. ثبات "
-"درون یک ماژول یا یک تابع مهم‌ترین اصل است."
+"شیوه‌نامه بسیار با اهمیت است. ثباتِ درون‌پروژه‌ای از آن هم مهم‌تر است. ثبات درون یک "
+"ماژول یا یک تابع مهم‌ترین اصل است."
 
 #: ../../_pep8.rst:33
 msgid ""
-"However, know when to be inconsistent -- sometimes style guide "
-"recommendations just aren't applicable.  When in doubt, use your best "
-"judgment.  Look at other examples and decide what looks best.  And don't "
-"hesitate to ask!"
+"However, know when to be inconsistent -- sometimes style guide recommendations "
+"just aren't applicable.  When in doubt, use your best judgment.  Look at other "
+"examples and decide what looks best.  And don't hesitate to ask!"
 msgstr ""
 "اما بدانید که کجا بهتر است بی‌ثبات باشید — گاهی اوقات اجرای این شیوه‌نامه "
 "امکان‌پذیر نیست. وقتی شک داشتید، وجدان خود را قاضی کنید. به دیگر نمونه کدها "
@@ -109,8 +107,8 @@ msgstr ""
 
 #: ../../_pep8.rst:38
 msgid ""
-"In particular: do not break backwards compatibility just to comply with this"
-" PEP!"
+"In particular: do not break backwards compatibility just to comply with this "
+"PEP!"
 msgstr ""
 "به طور خاص: برای رعایت و اجرای این شیوه‌نامه، سازگاری کد با نگارش‌های پیشین "
 "[نرم‌افزار] را بر هم نزنید!"
@@ -124,25 +122,25 @@ msgid ""
 "When applying the guideline would make the code less readable, even for "
 "someone who is used to reading code that follows this PEP."
 msgstr ""
-"هنگامی که بکارگیری این شیوه‌نامه باعث شود خوانایی کد پایین بیاید، حتی زمانی "
-"که خوانندهٔ کد هم از این شیوه‌نامه پیروی کند."
+"هنگامی که بکارگیری این شیوه‌نامه باعث شود خوانایی کد پایین بیاید، حتی زمانی که "
+"خوانندهٔ کد هم از این شیوه‌نامه پیروی کند."
 
 #: ../../_pep8.rst:46
 msgid ""
-"To be consistent with surrounding code that also breaks it (maybe for "
-"historic reasons) -- although this is also an opportunity to clean up "
-"someone else's mess (in true XP style)."
+"To be consistent with surrounding code that also breaks it (maybe for historic "
+"reasons) -- although this is also an opportunity to clean up someone else's "
+"mess (in true XP style)."
 msgstr ""
-"برای یکدست بودن با دیگر کدهایی که از قبل در پروژه موجود است -- هرچند این "
-"شاید فرصتی برای پاکسازی خرابکاری دیگران هم باشد."
+"برای یکدست بودن با دیگر کدهایی که از قبل در پروژه موجود است -- هرچند این شاید "
+"فرصتی برای پاکسازی خرابکاری دیگران هم باشد."
 
 #: ../../_pep8.rst:50
 msgid ""
 "Because the code in question predates the introduction of the guideline and "
 "there is no other reason to be modifying that code."
 msgstr ""
-"کدهای موجود، قبل از بوجود آمدن این شیوه‌نامه نوشته شده‌اند و دلیل دیگری (بجز"
-" اعمال این شیوه‌نامه) برای بازنویسی آن‌ها وجود ندارد."
+"کدهای موجود، قبل از بوجود آمدن این شیوه‌نامه نوشته شده‌اند و دلیل دیگری (بجز "
+"اعمال این شیوه‌نامه) برای بازنویسی آن‌ها وجود ندارد."
 
 #: ../../_pep8.rst:53
 msgid ""
@@ -168,17 +166,17 @@ msgstr "برای هر پله تورفتگی از ۴ فاصله استفاده ک
 msgid ""
 "Continuation lines should align wrapped elements either vertically using "
 "Python's implicit line joining inside parentheses, brackets and braces, or "
-"using a *hanging indent* [#fn-hi]_.  When using a hanging indent the "
-"following should be considered; there should be no arguments on the first "
-"line and further indentation should be used to clearly distinguish itself as"
-" a continuation line::"
+"using a *hanging indent* [#fn-hi]_.  When using a hanging indent the following "
+"should be considered; there should be no arguments on the first line and "
+"further indentation should be used to clearly distinguish itself as a "
+"continuation line::"
 msgstr ""
-"خطوط ادامه‌دار بهتر است عناصر خود را به صورت عمودی هم‌تراز کنند، این کار "
-"می‌تواند با چیدن عناصر زیر یکدیگر درون پرانتزها، کروشه‌ها و براکت‌ها، و یا "
-"استفاده از تورفتگی‌های هم‌اندازه در خطوط اضافی انجام شود [#fn-hi]_. هنگام "
-"استفاده از تورفتگی در خطوط ادامه‌دار به این نکته توجه داشته باشید که شکل "
-"ظاهری کدها باید به گونه‌ای باشد که خوانندهٔ کد به سادگی متوجه شود این "
-"تورفتگی‌ها مربوط به شکسته شدن یک خط بلند و ادامه‌دار است."
+"خطوط ادامه‌دار بهتر است عناصر خود را به صورت عمودی هم‌تراز کنند، این کار می‌تواند "
+"با چیدن عناصر زیر یکدیگر درون پرانتزها، کروشه‌ها و براکت‌ها، و یا استفاده از "
+"تورفتگی‌های هم‌اندازه در خطوط اضافی انجام شود [#fn-hi]_. هنگام استفاده از "
+"تورفتگی در خطوط ادامه‌دار به این نکته توجه داشته باشید که شکل ظاهری کدها باید "
+"به گونه‌ای باشد که خوانندهٔ کد به سادگی متوجه شود این تورفتگی‌ها مربوط به شکسته "
+"شدن یک خط بلند و ادامه‌دار است."
 
 #: ../../_pep8.rst:103
 msgid "The 4-space rule is optional for continuation lines."
@@ -195,38 +193,36 @@ msgid ""
 "combination of a two character keyword (i.e. ``if``), plus a single space, "
 "plus an opening parenthesis creates a natural 4-space indent for the "
 "subsequent lines of the multiline conditional.  This can produce a visual "
-"conflict with the indented suite of code nested inside the ``if``-statement,"
-" which would also naturally be indented to 4 spaces.  This PEP takes no "
+"conflict with the indented suite of code nested inside the ``if``-statement, "
+"which would also naturally be indented to 4 spaces.  This PEP takes no "
 "explicit position on how (or whether) to further visually distinguish such "
 "conditional lines from the nested suite inside the ``if``-statement. "
 "Acceptable options in this situation include, but are not limited to::"
 msgstr ""
-"زمانی که بخش شرطی یک دستور ``if`` ترکیبی طولانی باشد، به گونه‌ای که مجبور "
-"باشیم آن را در چند خط بنویسیم، با توجه به اینکه خود دستور ``if`` از دو حرف "
-"تشکیل شده و پس از آن نیز یک فاصله و پرانتز قرار می‌گیرد، می‌توانیم خطوط "
-"اضافی شرط را با رعایت ۴ فاصله زیر خط اصلی بنویسیم. گرچه این امر سبب بوجود "
-"آمدن یک تداخل بینایی می‌شود که در نتیجه آن شرط‌های دستور ``if`` از دستورات "
-"بلوک زیر آن به سختی قابل تفکیک خواهند بود، زیرا دستورات داخل بلوک شرطی هم "
-"باید ۴ فاصله تورفتگی داشته باشند. این شیوه‌نامه توصیه خاصی برای ایجاد تمایز "
-"بین شرط‌های اصلی و دستورات درون بلوک شرطی ندارد. برخی گزینه‌های قابل قبول به"
-" شرح زیر هستند::"
+"زمانی که بخش شرطی یک دستور ``if`` ترکیبی طولانی باشد، به گونه‌ای که مجبور باشیم "
+"آن را در چند خط بنویسیم، با توجه به اینکه خود دستور ``if`` از دو حرف تشکیل شده "
+"و پس از آن نیز یک فاصله و پرانتز قرار می‌گیرد، می‌توانیم خطوط اضافی شرط را با "
+"رعایت ۴ فاصله زیر خط اصلی بنویسیم. گرچه این امر سبب بوجود آمدن یک تداخل بینایی "
+"می‌شود که در نتیجه آن شرط‌های دستور ``if`` از دستورات بلوک زیر آن به سختی قابل "
+"تفکیک خواهند بود، زیرا دستورات داخل بلوک شرطی هم باید ۴ فاصله تورفتگی داشته "
+"باشند. این شیوه‌نامه توصیه خاصی برای ایجاد تمایز بین شرط‌های اصلی و دستورات درون "
+"بلوک شرطی ندارد. برخی گزینه‌های قابل قبول به شرح زیر هستند::"
 
 #: ../../_pep8.rst:142
 msgid ""
-"(Also see the discussion of whether to break before or after binary "
-"operators below.)"
+"(Also see the discussion of whether to break before or after binary operators "
+"below.)"
 msgstr ""
 "(همچنین مباحث مربوط به نحوه شکستن خطوط، قبل و بعد از عملگرهای ریاضی را هم "
 "پایین‌تر ببینید.)"
 
 #: ../../_pep8.rst:145
 msgid ""
-"The closing brace/bracket/parenthesis on multiline constructs may either "
-"line up under the first non-whitespace character of the last line of list, "
-"as in::"
+"The closing brace/bracket/parenthesis on multiline constructs may either line "
+"up under the first non-whitespace character of the last line of list, as in::"
 msgstr ""
-"پرانتز/کروشه/براکت انتهایی در متغیرهای چندخطی می‌تواند زیر اولین حرف از "
-"آخرین خط نوشته شود، همانند::"
+"پرانتز/کروشه/براکت انتهایی در متغیرهای چندخطی می‌تواند زیر اولین حرف از آخرین "
+"خط نوشته شود، همانند::"
 
 #: ../../_pep8.rst:158
 msgid ""
@@ -247,9 +243,8 @@ msgid ""
 "Tabs should be used solely to remain consistent with code that is already "
 "indented with tabs."
 msgstr ""
-"استفاده از تب تنها زمانی ارجحیت دارد که بخواهیم با کدهای از پیش موجود هماهنگ"
-" شویم، یعنی کدهای قدیمی که در آن‌ها از تب برای ایجاد تورفتگی استفاده شده "
-"است."
+"استفاده از تب تنها زمانی ارجحیت دارد که بخواهیم با کدهای از پیش موجود هماهنگ "
+"شویم، یعنی کدهای قدیمی که در آن‌ها از تب برای ایجاد تورفتگی استفاده شده است."
 
 #: ../../_pep8.rst:178
 msgid "Python disallows mixing tabs and spaces for indentation."
@@ -265,12 +260,11 @@ msgstr "بیشترین اندازه یک خط باید نهایتاً ۷۹ حر�
 
 #: ../../_pep8.rst:186
 msgid ""
-"For flowing long blocks of text with fewer structural restrictions "
-"(docstrings or comments), the line length should be limited to 72 "
-"characters."
+"For flowing long blocks of text with fewer structural restrictions (docstrings "
+"or comments), the line length should be limited to 72 characters."
 msgstr ""
-"برای بلوک‌های طولانی متن که محدودیت‌های ساختاری ندارند (مثل کامنت‌ها یا "
-"مستندات درون کد)، طول هر خط نباید از ۷۲ حرف بیشتر شود."
+"برای بلوک‌های طولانی متن که محدودیت‌های ساختاری ندارند (مثل کامنت‌ها یا مستندات "
+"درون کد)، طول هر خط نباید از ۷۲ حرف بیشتر شود."
 
 #: ../../_pep8.rst:190
 msgid ""
@@ -284,37 +278,37 @@ msgstr ""
 
 #: ../../_pep8.rst:194
 msgid ""
-"The default wrapping in most tools disrupts the visual structure of the "
-"code, making it more difficult to understand. The limits are chosen to avoid"
-" wrapping in editors with the window width set to 80, even if the tool "
-"places a marker glyph in the final column when wrapping lines. Some web "
-"based tools may not offer dynamic line wrapping at all."
+"The default wrapping in most tools disrupts the visual structure of the code, "
+"making it more difficult to understand. The limits are chosen to avoid "
+"wrapping in editors with the window width set to 80, even if the tool places a "
+"marker glyph in the final column when wrapping lines. Some web based tools may "
+"not offer dynamic line wrapping at all."
 msgstr ""
 "شکستن خطوط به صورت خودکار در بسیاری از نرم‌افزارهای کدنویسی باعث برهم خوردن "
-"ساختار کدها و فهم سخت‌تر کد می‌شود. این محدودیت‌ها برای این انتخاب شده‌اند "
-"که در نرم‌افزارهایی که عرض پنجره آن‌ها حداقل ۸۰ کاراکتر است، از شکستن خودکار"
-" خطوط جلوگیری شود. هرچند برخی نرم‌افزارهای کدنویسی به صورت کلی شکستن خطوط را"
-" اعمال نمی‌کنند."
+"ساختار کدها و فهم سخت‌تر کد می‌شود. این محدودیت‌ها برای این انتخاب شده‌اند که در "
+"نرم‌افزارهایی که عرض پنجره آن‌ها حداقل ۸۰ کاراکتر است، از شکستن خودکار خطوط "
+"جلوگیری شود. هرچند برخی نرم‌افزارهای کدنویسی به صورت کلی شکستن خطوط را اعمال "
+"نمی‌کنند."
 
 #: ../../_pep8.rst:200
 msgid ""
 "Some teams strongly prefer a longer line length.  For code maintained "
-"exclusively or primarily by a team that can reach agreement on this issue, "
-"it is okay to increase the line length limit up to 99 characters, provided "
-"that comments and docstrings are still wrapped at 72 characters."
+"exclusively or primarily by a team that can reach agreement on this issue, it "
+"is okay to increase the line length limit up to 99 characters, provided that "
+"comments and docstrings are still wrapped at 72 characters."
 msgstr ""
-"برخی تیم‌ها ممکن است اندازه خطوط طولانی‌تر را ترجیح دهند. در صورت توافق "
-"اعضای تیم، برای کدهایی که فقط توسط خود تیم خوانده و نگهداری می‌شوند، طول هر "
-"خط می‌تواند تا ۹۹ حرف هم در نظر گرفته شود. اما در این حالت هم تعداد حروف "
-"کامنت‌ها و مستندات نباید از ۷۲ حرف بیشتر شود."
+"برخی تیم‌ها ممکن است اندازه خطوط طولانی‌تر را ترجیح دهند. در صورت توافق اعضای "
+"تیم، برای کدهایی که فقط توسط خود تیم خوانده و نگهداری می‌شوند، طول هر خط "
+"می‌تواند تا ۹۹ حرف هم در نظر گرفته شود. اما در این حالت هم تعداد حروف کامنت‌ها و "
+"مستندات نباید از ۷۲ حرف بیشتر شود."
 
 #: ../../_pep8.rst:206
 msgid ""
-"The Python standard library is conservative and requires limiting lines to "
-"79 characters (and docstrings/comments to 72)."
+"The Python standard library is conservative and requires limiting lines to 79 "
+"characters (and docstrings/comments to 72)."
 msgstr ""
-"کتابخانه استاندارد پایتون بسیار محافظه‌کار است و لازم است که تمام خطوط آن "
-"کمتر از ۷۹ حرف باشند. همچنین کامنت‌ها و مستندات باید کمتر از ۷۲ حرف باشند."
+"کتابخانه استاندارد پایتون بسیار محافظه‌کار است و لازم است که تمام خطوط آن کمتر "
+"از ۷۹ حرف باشند. همچنین کامنت‌ها و مستندات باید کمتر از ۷۲ حرف باشند."
 
 #: ../../_pep8.rst:209
 msgid ""
@@ -324,27 +318,27 @@ msgid ""
 "should be used in preference to using a backslash for line continuation."
 msgstr ""
 "روش ترجیحی برای شکستن خطوط طولانی، استفاده از خط ادامه‌دار ضمنی پایتون داخل "
-"پرانتزها، کروشه‌ها و آکولادهاست. با شکستن عبارات داخل پرانتزها، می توان خطوط"
-" طولانی را به چندین خط تقسیم کرد. این روش برای شکستن خطوط بلند، به جای "
-"استفاده از بک‌اسلش، اولویت دارد."
+"پرانتزها، کروشه‌ها و آکولادهاست. با شکستن عبارات داخل پرانتزها، می توان خطوط "
+"طولانی را به چندین خط تقسیم کرد. این روش برای شکستن خطوط بلند، به جای استفاده "
+"از بک‌اسلش، اولویت دارد."
 
 #: ../../_pep8.rst:215
 msgid ""
 "Backslashes may still be appropriate at times.  For example, long, multiple "
-"``with``-statements could not use implicit continuation before Python 3.10, "
-"so backslashes were acceptable for that case::"
+"``with``-statements could not use implicit continuation before Python 3.10, so "
+"backslashes were acceptable for that case::"
 msgstr ""
-"گاهی اوقات بک‌اسلش‌ها می‌توانند کارآمد باشند. برای مثال پیش از پایتون ۳٫۱۰، "
-"برخی از دستورات ``with`` که ممکن است طولانی و چندگانه باشند را می‌توان با "
-"کمک بک‌اسلش ساده‌تر و خواناتر نوشت."
+"گاهی اوقات بک‌اسلش‌ها می‌توانند کارآمد باشند. برای مثال پیش از پایتون ۳٫۱۰، برخی "
+"از دستورات ``with`` که ممکن است طولانی و چندگانه باشند را می‌توان با کمک بک‌اسلش "
+"ساده‌تر و خواناتر نوشت."
 
 #: ../../_pep8.rst:223
 msgid ""
 "(See the previous discussion on `multiline if-statements`_ for further "
 "thoughts on the indentation of such multiline ``with``-statements.)"
 msgstr ""
-"(درباره عبارت ``with`` چندخطی، می‌توانید مباحث پیشین در ارتباط با دستورات "
-"شرطی چندخطی `multiline if-statements`_ مطالعه کنید.)"
+"(درباره عبارت ``with`` چندخطی، می‌توانید مباحث پیشین در ارتباط با دستورات شرطی "
+"چندخطی `multiline if-statements`_ مطالعه کنید.)"
 
 #: ../../_pep8.rst:226
 msgid "Another such case is with ``assert`` statements."
@@ -362,95 +356,88 @@ msgstr "خطوط باید بعد از عملگرهای ریاضی شکسته ش�
 msgid ""
 "For decades the recommended style was to break after binary operators. But "
 "this can hurt readability in two ways: the operators tend to get scattered "
-"across different columns on the screen, and each operator is moved away from"
-" its operand and onto the previous line.  Here, the eye has to do extra work"
-" to tell which items are added and which are subtracted::"
+"across different columns on the screen, and each operator is moved away from "
+"its operand and onto the previous line.  Here, the eye has to do extra work to "
+"tell which items are added and which are subtracted::"
 msgstr ""
-"برای سال‌ها، روش پیشنهادی این بود که خطوط بعد از عملگرهای ریاضی شکسته شوند؛ "
-"اما این کار به دو دلیل باعث پایین آمدن خوانایی کدها می‌شود: عملگرها در "
-"ستون‌های مختلفِ کد پراکنده می‌شوند، و هر عملگر از دستورات مربوط به خود دور "
-"شده و در خط قبل قرار می‌گیرد. برای نمونه در کد زیر، چشم انسان مجبور است کار "
-"بیشتری انجام دهد تا متوجه شویم کدام عبارت قرار است اضافه شود و کدام یک کم "
-"شود::"
+"برای سال‌ها، روش پیشنهادی این بود که خطوط بعد از عملگرهای ریاضی شکسته شوند؛ اما "
+"این کار به دو دلیل باعث پایین آمدن خوانایی کدها می‌شود: عملگرها در ستون‌های "
+"مختلفِ کد پراکنده می‌شوند، و هر عملگر از دستورات مربوط به خود دور شده و در خط "
+"قبل قرار می‌گیرد. برای نمونه در کد زیر، چشم انسان مجبور است کار بیشتری انجام "
+"دهد تا متوجه شویم کدام عبارت قرار است اضافه شود و کدام یک کم شود::"
 
 #: ../../_pep8.rst:248
 msgid ""
-"To solve this readability problem, mathematicians and their publishers "
-"follow the opposite convention.  Donald Knuth explains the traditional rule "
-"in his *Computers and Typesetting* series: \"Although formulas within a "
-"paragraph always break after binary operations and relations, displayed "
-"formulas always break before binary operations\" [3]_."
+"To solve this readability problem, mathematicians and their publishers follow "
+"the opposite convention.  Donald Knuth explains the traditional rule in his "
+"*Computers and Typesetting* series: \"Although formulas within a paragraph "
+"always break after binary operations and relations, displayed formulas always "
+"break before binary operations\" [3]_."
 msgstr ""
-"برای حل مشکل خوانایی کدها، جامعه ریاضیدان‌ها روش متفاوتی برگزیدند. دانلد نات"
-" در مجموعه کتاب‌های *کامپیوترها و حروف‌چینی* روش سنتی را این‌گونه شرح "
-"می‌دهد: ‌‌\"گرچه فرمول‌های درون هر پاراگراف بعد از عملگر ریاضی شکسته "
-"می‌شوند، اما هنگام نمایش مناسب، این فرمول‌ها باید قبل از عملگرها شکسته "
-"شوند\" [3]_."
+"برای حل مشکل خوانایی کدها، جامعه ریاضیدان‌ها روش متفاوتی برگزیدند. دانلد نات در "
+"مجموعه کتاب‌های *کامپیوترها و حروف‌چینی* روش سنتی را این‌گونه شرح می‌دهد: ‌‌\"گرچه "
+"فرمول‌های درون هر پاراگراف بعد از عملگر ریاضی شکسته می‌شوند، اما هنگام نمایش "
+"مناسب، این فرمول‌ها باید قبل از عملگرها شکسته شوند\" [3]_."
 
 #: ../../_pep8.rst:254
 msgid ""
 "Following the tradition from mathematics usually results in more readable "
 "code::"
 msgstr ""
-"پیروی از سبک نگارش قدیمی ریاضیات معمولا باعث نتیجه بهتری در نمایش کدها "
-"می‌شود::"
+"پیروی از سبک نگارش قدیمی ریاضیات معمولا باعث نتیجه بهتری در نمایش کدها می‌شود::"
 
 #: ../../_pep8.rst:265
 msgid ""
-"In Python code, it is permissible to break before or after a binary "
-"operator, as long as the convention is consistent locally.  For new code "
-"Knuth's style is suggested."
+"In Python code, it is permissible to break before or after a binary operator, "
+"as long as the convention is consistent locally.  For new code Knuth's style "
+"is suggested."
 msgstr ""
 "در کدنویسی پایتون مادامی که یکدست بودن کدها رعایت شود و همیشه از یک قاعده "
 "پیروی شود، هر دو روش فوق، مجاز و قابل استفاده هستند. هر چند برای کدهایی که "
-"تازه نوشته می‌شوند، پیشنهاد می‌شوند از روش دانلد نات (شکستن خطوط قبل از "
-"عملگر) استفاده شود."
+"تازه نوشته می‌شوند، پیشنهاد می‌شوند از روش دانلد نات (شکستن خطوط قبل از عملگر) "
+"استفاده شود."
 
 #: ../../_pep8.rst:270
 msgid "Blank Lines"
 msgstr "خطوط خالی"
 
 #: ../../_pep8.rst:272
-msgid ""
-"Surround top-level function and class definitions with two blank lines."
+msgid "Surround top-level function and class definitions with two blank lines."
 msgstr "قبل از تعریف توابع سطح بالا و کلاس‌ها از دو خط خالی استفاده کنید."
 
 #: ../../_pep8.rst:275
-msgid ""
-"Method definitions inside a class are surrounded by a single blank line."
+msgid "Method definitions inside a class are surrounded by a single blank line."
 msgstr "قبل از تعریف متدها درون کلاس، از یک خط خالی استفاده کنید."
 
 #: ../../_pep8.rst:278
 msgid ""
 "Extra blank lines may be used (sparingly) to separate groups of related "
-"functions.  Blank lines may be omitted between a bunch of related one-liners"
-" (e.g. a set of dummy implementations)."
+"functions.  Blank lines may be omitted between a bunch of related one-liners "
+"(e.g. a set of dummy implementations)."
 msgstr ""
-"در مواردی معدود می‌توان برای گروه‌بندی توابع مرتبط با هم، و جداسازی این "
-"گروه‌ها از یکدیگر، از خطوط خالی اضافه استفاده کرد. خطوط خالی را می‌توان از "
-"بین دستورات یک‌خطی مرتبط با هم حذف کرد (برای مثال در پیاده‌سازی تست‌های "
-"ساختگی)."
+"در مواردی معدود می‌توان برای گروه‌بندی توابع مرتبط با هم، و جداسازی این گروه‌ها "
+"از یکدیگر، از خطوط خالی اضافه استفاده کرد. خطوط خالی را می‌توان از بین دستورات "
+"یک‌خطی مرتبط با هم حذف کرد (برای مثال در پیاده‌سازی تست‌های ساختگی)."
 
 #: ../../_pep8.rst:282
 msgid "Use blank lines in functions, sparingly, to indicate logical sections."
 msgstr ""
-"در توابع بهتر است صرفاً برای جدا کردن بخش‌های منطقی، از خطوط خالی استفاده "
-"کنید."
+"در توابع بهتر است صرفاً برای جدا کردن بخش‌های منطقی، از خطوط خالی استفاده کنید."
 
 #: ../../_pep8.rst:284
 msgid ""
-"Python accepts the control-L (i.e. ^L) form feed character as whitespace; "
-"many tools treat these characters as page separators, so you may use them to"
-" separate pages of related sections of your file. Note, some editors and "
-"web-based code viewers may not recognize control-L as a form feed and will "
-"show another glyph in its place."
+"Python accepts the control-L (i.e. ^L) form feed character as whitespace; many "
+"tools treat these characters as page separators, so you may use them to "
+"separate pages of related sections of your file. Note, some editors and web-"
+"based code viewers may not recognize control-L as a form feed and will show "
+"another glyph in its place."
 msgstr ""
-"پایتون از کاراکتر کنترلی control-L (یا L^) برای ایجاد فضای خالی استفاده "
-"می‌کند؛ بسیاری از ابزارها این کاراکترها را تفکیک کننده صفحه تلقی می‌کنند، که"
-" می‌توانید از آنها برای تفکیک کردن صفحات بخش‌های مرتبط با هم در فایل خود "
-"استفاده کنید. توجه کنید که بعضی از ویرایشگرها و نمایشگرهای کد مبتنی بر وب "
-"ممکن است control-L را به عنوان کاراتر کنترلی تفکیک کننده صفحه تشخیص ندهند و "
-"به جای آن یک عملکرد دیگر از خود نشان دهند."
+"پایتون از کاراکتر کنترلی control-L (یا L^) برای ایجاد فضای خالی استفاده می‌کند؛ "
+"بسیاری از ابزارها این کاراکترها را تفکیک کننده صفحه تلقی می‌کنند، که می‌توانید "
+"از آنها برای تفکیک کردن صفحات بخش‌های مرتبط با هم در فایل خود استفاده کنید. "
+"توجه کنید که بعضی از ویرایشگرها و نمایشگرهای کد مبتنی بر وب ممکن است control-L "
+"را به عنوان کاراتر کنترلی تفکیک کننده صفحه تشخیص ندهند و به جای آن یک عملکرد "
+"دیگر از خود نشان دهند."
 
 #: ../../_pep8.rst:291
 msgid "Source File Encoding"
@@ -458,24 +445,24 @@ msgstr "کدبندی فایل"
 
 #: ../../_pep8.rst:293
 msgid ""
-"Code in the core Python distribution should always use UTF-8, and should not"
-" have an encoding declaration."
+"Code in the core Python distribution should always use UTF-8, and should not "
+"have an encoding declaration."
 msgstr ""
-"کدهای هستهٔ پایتون همیشه باید از UTF-8 استفاده کنند، و نباید خط اعلام "
-"رمزگذاری داشته باشند."
+"کدهای هستهٔ پایتون همیشه باید از UTF-8 استفاده کنند، و نباید خط اعلام رمزگذاری "
+"داشته باشند."
 
 #: ../../_pep8.rst:296
 msgid ""
 "In the standard library, non-UTF-8 encodings should be used only for test "
-"purposes. Use non-ASCII characters sparingly, preferably only to denote "
-"places and human names. If using non-ASCII characters as data, avoid noisy "
-"Unicode characters like z̯̯͡a̧͎̺l̡͓̫g̹̲o̡̼̘ and byte order marks."
+"purposes. Use non-ASCII characters sparingly, preferably only to denote places "
+"and human names. If using non-ASCII characters as data, avoid noisy Unicode "
+"characters like z̯̯͡a̧͎̺l̡͓̫g̹̲o̡̼̘ and byte order marks."
 msgstr ""
 "در کتابخانه استاندارد، رمزگذاری‌های غیر UTF-8 فقط باید برای اهداف آزمایشی "
-"استفاده شوند. از کاراکترهای غیر ASCII کمتر استفاده کنید، ترجیحاً فقط برای "
-"نشان دادن نام مکان‌ها و انسان‌ها. اگر از کاراکترهای غیر ASCII به عنوان داده "
-"استفاده می‌کنید، از کاراکترهای یونیکد شلوغ مانند z̯̯͡a̧͎̺l̡͓̫g̹̲o̡̼̘ و "
-"علامت‌های ترتیب بایت خودداری کنید."
+"استفاده شوند. از کاراکترهای غیر ASCII کمتر استفاده کنید، ترجیحاً فقط برای نشان "
+"دادن نام مکان‌ها و انسان‌ها. اگر از کاراکترهای غیر ASCII به عنوان داده استفاده "
+"می‌کنید، از کاراکترهای یونیکد شلوغ مانند z̯̯͡a̧͎̺l̡͓̫g̹̲o̡̼̘ و علامت‌های ترتیب بایت خودداری "
+"کنید."
 
 #: ../../_pep8.rst:302
 msgid ""
@@ -483,18 +470,18 @@ msgid ""
 "identifiers, and SHOULD use English words wherever feasible (in many cases, "
 "abbreviations and technical terms are used which aren't English)."
 msgstr ""
-"تمام شناسه‌ها (نام یک متغیر، تابع، ماژول و ...) در کتابخانه استاندارد پایتون"
-" باید فقط از نوع ASCII باشند و باید تا آنجا که امکان دارد از کلمات انگلیسی "
+"تمام شناسه‌ها (نام یک متغیر، تابع، ماژول و ...) در کتابخانه استاندارد پایتون "
+"باید فقط از نوع ASCII باشند و باید تا آنجا که امکان دارد از کلمات انگلیسی "
 "استفاده کنند (در بسیاری از موارد، از برخی اختصارات و اصطلاحات فنی استفاده "
 "می‌شود که انگلیسی نیستند)."
 
 #: ../../_pep8.rst:307
 msgid ""
-"Open source projects with a global audience are encouraged to adopt a "
-"similar policy."
+"Open source projects with a global audience are encouraged to adopt a similar "
+"policy."
 msgstr ""
-"پیشنهاد می‌شود پروژه‌های بازمتنی که مخاطب جهانی دارند هم از سیاست مشابهی "
-"استفاده کنند."
+"پیشنهاد می‌شود پروژه‌های بازمتنی که مخاطب جهانی دارند هم از سیاست مشابهی استفاده "
+"کنند."
 
 #: ../../_pep8.rst:311
 msgid "Imports"
@@ -510,11 +497,11 @@ msgstr "مشکلی ندارد اگر بگوییم::"
 
 #: ../../_pep8.rst:330
 msgid ""
-"Imports are always put at the top of the file, just after any module "
-"comments and docstrings, and before module globals and constants."
+"Imports are always put at the top of the file, just after any module comments "
+"and docstrings, and before module globals and constants."
 msgstr ""
-"ایمپورت‌ها همیشه در ابتدای فایل نوشته می‌شوند، درست پس از کامنت‌ها، مستندات "
-"ماژول و قبل از تعریف متغیرها و ثابت‌ها."
+"ایمپورت‌ها همیشه در ابتدای فایل نوشته می‌شوند، درست پس از کامنت‌ها، مستندات ماژول "
+"و قبل از تعریف متغیرها و ثابت‌ها."
 
 #: ../../_pep8.rst:333
 msgid "Imports should be grouped in the following order:"
@@ -538,20 +525,20 @@ msgstr "شما باید بین هر گروه از ایمپورت‌ها یک خ�
 
 #: ../../_pep8.rst:341
 msgid ""
-"Absolute imports are recommended, as they are usually more readable and tend"
-" to be better behaved (or at least give better error messages) if the import"
-" system is incorrectly configured (such as when a directory inside a package"
-" ends up on ``sys.path``)::"
+"Absolute imports are recommended, as they are usually more readable and tend "
+"to be better behaved (or at least give better error messages) if the import "
+"system is incorrectly configured (such as when a directory inside a package "
+"ends up on ``sys.path``)::"
 msgstr ""
-"پیشنهاد می شود ایمپورت‌ها به صورت مطلق انجام شوند، زیرا معمولا خواناتر هستند"
-" و در صورت پیکربندی نادرست سیستم ایمپورت (مانند زمانی که یک دایرکتوری داخل "
-"یک بسته به ``sys.path`` ختم می شود)  رفتار مناسب از خود نشان می دهند ( یا "
-"حداقل پیغام های خطای بهتری نمایش می دهند)::"
+"پیشنهاد می شود ایمپورت‌ها به صورت مطلق انجام شوند، زیرا معمولا خواناتر هستند و "
+"در صورت پیکربندی نادرست سیستم ایمپورت (مانند زمانی که یک دایرکتوری داخل یک "
+"بسته به ``sys.path`` ختم می شود)  رفتار مناسب از خود نشان می دهند ( یا حداقل "
+"پیغام های خطای بهتری نمایش می دهند)::"
 
 #: ../../_pep8.rst:350
 msgid ""
-"However, explicit relative imports are an acceptable alternative to absolute"
-" imports, especially when dealing with complex package layouts where using "
+"However, explicit relative imports are an acceptable alternative to absolute "
+"imports, especially when dealing with complex package layouts where using "
 "absolute imports would be unnecessarily verbose::"
 msgstr ""
 "با این حال، ایمپورت‌های نسبی صریح، جایگزین قابل قبولی برای ایمپورت‌های مطلق "
@@ -563,23 +550,22 @@ msgid ""
 "Standard library code should avoid complex package layouts and always use "
 "absolute imports."
 msgstr ""
-"کدهای کتابخانه استاندارد باید از ایمپورت کردن به صورت لایه‌های پیچیده اجتناب"
-" کنند و همیشه از ایمپورت‌های مطلق استفاده کنند."
+"کدهای کتابخانه استاندارد باید از ایمپورت کردن به صورت لایه‌های پیچیده اجتناب "
+"کنند و همیشه از ایمپورت‌های مطلق استفاده کنند."
 
 #: ../../_pep8.rst:360
 msgid ""
 "When importing a class from a class-containing module, it's usually okay to "
 "spell this::"
 msgstr ""
-"هنگام ایمپورت یک کلاس از ماژولی که شامل کلاس‌های مختلف است، می‌توانیم از "
-"الگوی زیر استفاده کنیم::"
+"هنگام ایمپورت یک کلاس از ماژولی که شامل کلاس‌های مختلف است، می‌توانیم از الگوی "
+"زیر استفاده کنیم::"
 
 #: ../../_pep8.rst:366
-msgid ""
-"If this spelling causes local name clashes, then spell them explicitly::"
+msgid "If this spelling causes local name clashes, then spell them explicitly::"
 msgstr ""
-"اگر کلاس‌ها یا توابعی که در یک فایل ایمپورت می‌کنید با نام‌های موجود در آن "
-"فایل تداخل دارند، بهتر است آن‌ها را صریحاً به صورت زیر بنویسید::"
+"اگر کلاس‌ها یا توابعی که در یک فایل ایمپورت می‌کنید با نام‌های موجود در آن فایل "
+"تداخل دارند، بهتر است آن‌ها را صریحاً به صورت زیر بنویسید::"
 
 #: ../../_pep8.rst:371
 msgid "and use \"myclass.MyClass\" and \"foo.bar.yourclass.YourClass\"."
@@ -587,30 +573,29 @@ msgstr "و از \"myclass.MyClass\" و \"foo.bar.yourclass.YourClass\" استف�
 
 #: ../../_pep8.rst:373
 msgid ""
-"Wildcard imports (``from <module> import *``) should be avoided, as they "
-"make it unclear which names are present in the namespace, confusing both "
-"readers and many automated tools. There is one defensible use case for a "
-"wildcard import, which is to republish an internal interface as part of a "
-"public API (for example, overwriting a pure Python implementation of an "
-"interface with the definitions from an optional accelerator module and "
-"exactly which definitions will be overwritten isn't known in advance)."
+"Wildcard imports (``from <module> import *``) should be avoided, as they make "
+"it unclear which names are present in the namespace, confusing both readers "
+"and many automated tools. There is one defensible use case for a wildcard "
+"import, which is to republish an internal interface as part of a public API "
+"(for example, overwriting a pure Python implementation of an interface with "
+"the definitions from an optional accelerator module and exactly which "
+"definitions will be overwritten isn't known in advance)."
 msgstr ""
 "از ایمپورت‌های عمومی (استفاده از سمبل‌های جمع مانند ”*” در ``from <module> "
-"import *``) باید اجتناب شود، زیرا آن‌ها باعث می‌شوند واضح نباشد که چه "
-"نام‌هایی در فضانام موجود هستند، این مسئله باعث گیج شدن خواننده و بسیاری از "
-"ابزارهای خودکار می‌شود. فقط یک دلیل قابل دفاع در استفاده از ایمپورت‌های "
-"عمومی وجود دارد: بازنشر یک رابط داخلی به عنوان بخشی از یک API عمومی ( برای "
-"نمونه، بازنویسی یک پیاده‌سازی پایتون خالص از یک رابط با تعاریفی اختیاری از "
-"یک ماژول شتابدهنده و اینکه دقیقا از قبل مشخص نشده است کدام تعاریف بازنویسی "
-"می‌شوند)."
+"import *``) باید اجتناب شود، زیرا آن‌ها باعث می‌شوند واضح نباشد که چه نام‌هایی در "
+"فضانام موجود هستند، این مسئله باعث گیج شدن خواننده و بسیاری از ابزارهای خودکار "
+"می‌شود. فقط یک دلیل قابل دفاع در استفاده از ایمپورت‌های عمومی وجود دارد: بازنشر "
+"یک رابط داخلی به عنوان بخشی از یک API عمومی ( برای نمونه، بازنویسی یک "
+"پیاده‌سازی پایتون خالص از یک رابط با تعاریفی اختیاری از یک ماژول شتابدهنده و "
+"اینکه دقیقا از قبل مشخص نشده است کدام تعاریف بازنویسی می‌شوند)."
 
 #: ../../_pep8.rst:382
 msgid ""
 "When republishing names this way, the guidelines below regarding public and "
 "internal interfaces still apply."
 msgstr ""
-"هنگام بازنشر نام‌ها به این روش ، دستورالعمل‌های زیر در مورد رابط‌های عمومی و"
-" داخلی همچنان اعمال می‌شوند. "
+"هنگام بازنشر نام‌ها به این روش ، دستورالعمل‌های زیر در مورد رابط‌های عمومی و "
+"داخلی همچنان اعمال می‌شوند. "
 
 #: ../../_pep8.rst:386
 msgid "Module Level Dunder Names"
@@ -619,17 +604,16 @@ msgstr "داندرهای سطح ماژول"
 #: ../../_pep8.rst:388
 msgid ""
 "Module level \"dunders\" (i.e. names with two leading and two trailing "
-"underscores) such as ``__all__``, ``__author__``, ``__version__``, etc. "
-"should be placed after the module docstring but before any import statements"
-" *except* ``from __future__`` imports.  Python mandates that future-imports "
-"must appear in the module before any other code except docstrings::"
+"underscores) such as ``__all__``, ``__author__``, ``__version__``, etc. should "
+"be placed after the module docstring but before any import statements *except* "
+"``from __future__`` imports.  Python mandates that future-imports must appear "
+"in the module before any other code except docstrings::"
 msgstr ""
-"داندرها، متغیر/متدهایی هستند که نام آن‌ها با دو زیرخط آغاز شده و با دو زیرخط"
-" خاتمه می‌یابد، مانند ``__all__``، ``__author__``، ``__version__``. داندرهای"
-" در سطح ماژول باید پس از مستندات ماژول، و قبل از ایمپورت‌ها نوشته شوند، *به "
-"استثنای* ایمپورت‌های ``from __future__``. پایتون ما را ملزم می‌کند که "
-"ایمپورت‌های ``from __future__`` را در ابتدای ماژول، قبل از هر کد دیگری قرار "
-"دهیم."
+"داندرها، متغیر/متدهایی هستند که نام آن‌ها با دو زیرخط آغاز شده و با دو زیرخط "
+"خاتمه می‌یابد، مانند ``__all__``، ``__author__``، ``__version__``. داندرهای در "
+"سطح ماژول باید پس از مستندات ماژول، و قبل از ایمپورت‌ها نوشته شوند، *به "
+"استثنای* ایمپورت‌های ``from __future__``. پایتون ما را ملزم می‌کند که ایمپورت‌های "
+"``from __future__`` را در ابتدای ماژول، قبل از هر کد دیگری قرار دهیم."
 
 #: ../../_pep8.rst:411
 msgid "String Quotes"
@@ -637,22 +621,22 @@ msgstr "علامت‌های نقل قول در رشته‌ها"
 
 #: ../../_pep8.rst:413
 msgid ""
-"In Python, single-quoted strings and double-quoted strings are the same.  "
-"This PEP does not make a recommendation for this.  Pick a rule and stick to "
-"it.  When a string contains single or double quote characters, however, use "
-"the other one to avoid backslashes in the string. It improves readability."
+"In Python, single-quoted strings and double-quoted strings are the same.  This "
+"PEP does not make a recommendation for this.  Pick a rule and stick to it.  "
+"When a string contains single or double quote characters, however, use the "
+"other one to avoid backslashes in the string. It improves readability."
 msgstr ""
-"در پایتون نقل قول‌های تکی (') و دوتایی (\") هنگام کار با رشته‌ها تفاوتی "
-"ندارند. در این شیوه‌نامه برای این مورد پیشنهادی ارائه نمی‌شود. شما یک کدام "
-"از این دو را به عنوان قانون کد زنی برای خود انتخاب کنید و با آن ادامه دهید. "
-"برای مثال اگر در یک جمله از نقل قول تکی استفاده شده است، شما آن رشته را در "
-"یک نقل قول دوتایی قرار دهید تا از بک اسلش در رشته‌ی خود برای تفکیک علامت نقل"
-" قول استفاده نکنید. این عمل باعث افزایش خوانایی کد شما می‌شود."
+"در پایتون نقل قول‌های تکی (') و دوتایی (\") هنگام کار با رشته‌ها تفاوتی ندارند. "
+"در این شیوه‌نامه برای این مورد پیشنهادی ارائه نمی‌شود. شما یک کدام از این دو را "
+"به عنوان قانون کد زنی برای خود انتخاب کنید و با آن ادامه دهید. برای مثال اگر "
+"در یک جمله از نقل قول تکی استفاده شده است، شما آن رشته را در یک نقل قول دوتایی "
+"قرار دهید تا از بک اسلش در رشته‌ی خود برای تفکیک علامت نقل قول استفاده نکنید. "
+"این عمل باعث افزایش خوانایی کد شما می‌شود."
 
 #: ../../_pep8.rst:419
 msgid ""
-"For triple-quoted strings, always use double quote characters to be "
-"consistent with the docstring convention in :pep:`257`."
+"For triple-quoted strings, always use double quote characters to be consistent "
+"with the docstring convention in :pep:`257`."
 msgstr ""
 "هنگام تعریف رشته‌های سه گانه، از نقل قول‌هایی دوتایی به صورت (\\\"\\\"\\\") "
 "استفاده کنید تا مطابق با قرارداد نوشتن مستندات کد در پپ ۲۵۷ باشد."
@@ -686,14 +670,14 @@ msgid ""
 "However, in a slice the colon acts like a binary operator, and should have "
 "equal amounts on either side (treating it as the operator with the lowest "
 "priority).  In an extended slice, both colons must have the same amount of "
-"spacing applied.  Exception: when a slice parameter is omitted, the space is"
-" omitted::"
+"spacing applied.  Exception: when a slice parameter is omitted, the space is "
+"omitted::"
 msgstr ""
 "با این حال در برش لیست با یک عملگر دونقطه، دونقطه مانند یک عملگر باینری عمل "
-"می‌کند و باید در هر طرف آن به یک اندازه فضا وجود داشته باشد (آن را عملگری با"
-" کمترین اولویت در نظر بگیرید). در برش لیست با دو عملگر دونقطه، هر دو عملگر "
-"باید فاصله یکسانی داشته باشند. استثنا: وقتی یک پارامتر در برش لیست حذف "
-"می‌شود، فاصله بین آن و عملگر دونقطه هم حذف می‌شود::"
+"می‌کند و باید در هر طرف آن به یک اندازه فضا وجود داشته باشد (آن را عملگری با "
+"کمترین اولویت در نظر بگیرید). در برش لیست با دو عملگر دونقطه، هر دو عملگر باید "
+"فاصله یکسانی داشته باشند. استثنا: وقتی یک پارامتر در برش لیست حذف می‌شود، فاصله "
+"بین آن و عملگر دونقطه هم حذف می‌شود::"
 
 #: ../../_pep8.rst:482
 msgid ""
@@ -708,8 +692,8 @@ msgstr "قبل از باز کردن براکت مربوط به ایندکس لی
 
 #: ../../_pep8.rst:504
 msgid ""
-"More than one space around an assignment (or other) operator to align it "
-"with another::"
+"More than one space around an assignment (or other) operator to align it with "
+"another::"
 msgstr ""
 "بیش از یک فاصله اطراف عملگر تخصیص ``=`` برای تراز کردن کلمات با دیگر خطوط::"
 
@@ -719,16 +703,16 @@ msgstr "دیگر پیشنهادها"
 
 #: ../../_pep8.rst:522
 msgid ""
-"Avoid trailing whitespace anywhere.  Because it's usually invisible, it can "
-"be confusing: e.g. a backslash followed by a space and a newline does not "
-"count as a line continuation marker.  Some editors don't preserve it and "
-"many projects (like CPython itself) have pre-commit hooks that reject it."
+"Avoid trailing whitespace anywhere.  Because it's usually invisible, it can be "
+"confusing: e.g. a backslash followed by a space and a newline does not count "
+"as a line continuation marker.  Some editors don't preserve it and many "
+"projects (like CPython itself) have pre-commit hooks that reject it."
 msgstr ""
-"از گذاشتن فاصله در انتهای خطوط خودداری کنید. زیرا در بیشتر زمان‌ها این فاصله"
-" نامرئی است و می‌تواند باعث پیچیدگی شود: برای نمونه یک فاصله بعد از بک‌اسلش "
-"در انتهای خط، به عنوان علامت یک خط ادامه‌دار شناسایی نمی‌شود. برخی "
-"ویرایشگرهای کد از این کار پیشگیری می‌کنند و بسیاری از پروژه‌ها (مانند خود "
-"CPython) به صورت خودکار کاراکتر فاصله در انتهای خطوط را شناسایی و رد می‌کند."
+"از گذاشتن فاصله در انتهای خطوط خودداری کنید. زیرا در بیشتر زمان‌ها این فاصله "
+"نامرئی است و می‌تواند باعث پیچیدگی شود: برای نمونه یک فاصله بعد از بک‌اسلش در "
+"انتهای خط، به عنوان علامت یک خط ادامه‌دار شناسایی نمی‌شود. برخی ویرایشگرهای کد "
+"از این کار پیشگیری می‌کنند و بسیاری از پروژه‌ها (مانند خود CPython) به صورت "
+"خودکار کاراکتر فاصله در انتهای خطوط را شناسایی و رد می‌کند."
 
 #: ../../_pep8.rst:528
 msgid ""
@@ -737,10 +721,10 @@ msgid ""
 "(``==``, ``<``, ``>``, ``!=``, ``<>``, ``<=``, ``>=``, ``in``, ``not in``, "
 "``is``, ``is not``), Booleans (``and``, ``or``, ``not``)."
 msgstr ""
-"همیشه قبل و بعد از این عملگرها یک فاصله قرار دهید: مساوی/تخصیص (``=``)، "
-"تخصیص غنی‌شده (مانند ``+=``، ``-=`` و غیره)، مقایسه‌ها (``==``, ``<``, "
-"``>``, ``!=``, ``<>``, ``<=``, ``>=``, ``in``, ``not in``, ``is``, ``is "
-"not``)، عملگرهای بولی منطقی (``and``, ``or``, ``not``)."
+"همیشه قبل و بعد از این عملگرها یک فاصله قرار دهید: مساوی/تخصیص (``=``)، تخصیص "
+"غنی‌شده (مانند ``+=``، ``-=`` و غیره)، مقایسه‌ها (``==``, ``<``, ``>``, ``!=``, "
+"``<>``, ``<=``, ``>=``, ``in``, ``not in``, ``is``, ``is not``)، عملگرهای بولی "
+"منطقی (``and``, ``or``, ``not``)."
 
 #: ../../_pep8.rst:534
 msgid ""
@@ -749,20 +733,20 @@ msgid ""
 "however, never use more than one space, and always have the same amount of "
 "whitespace on both sides of a binary operator::"
 msgstr ""
-"در صورتی که در یک خط از عملگرهایی با اولویت‌های مختلف استفاده می‌کنید، در چپ"
-" و راست عملگر با اولویت کمتر فاصله قرار دهید. به هیچ وجه از بیش از یک فاصله "
+"در صورتی که در یک خط از عملگرهایی با اولویت‌های مختلف استفاده می‌کنید، در چپ و "
+"راست عملگر با اولویت کمتر فاصله قرار دهید. به هیچ وجه از بیش از یک فاصله "
 "استفاده نکنید و همیشه به همان اندازه در هر دو طرف یک عملگر باینری فضای خالی "
 "داشته باشید::"
 
 #: ../../_pep8.rst:556
 msgid ""
 "Function annotations should use the normal rules for colons and always have "
-"spaces around the ``->`` arrow if present.  (See `Function Annotations`_ "
-"below for more about function annotations.)::"
+"spaces around the ``->`` arrow if present.  (See `Function Annotations`_ below "
+"for more about function annotations.)::"
 msgstr ""
-"انوتیشن‌های توابع باید از قوانین عادی برای دونقطه استفاده کنند و در صورت "
-"وجود نشانه پیکان ``->`` همیشه فضای خالی اطراف آن باشد. (برای اطلاعات بیشتر "
-"به `انوتیشن‌های توابع`_ مراجعه کنید.)::"
+"انوتیشن‌های توابع باید از قوانین عادی برای دونقطه استفاده کنند و در صورت وجود "
+"نشانه پیکان ``->`` همیشه فضای خالی اطراف آن باشد. (برای اطلاعات بیشتر به "
+"`انوتیشن‌های توابع`_ مراجعه کنید.)::"
 
 #: ../../_pep8.rst:570
 msgid ""
@@ -778,8 +762,8 @@ msgid ""
 "When combining an argument annotation with a default value, however, do use "
 "spaces around the ``=`` sign::"
 msgstr ""
-"با این حال، هنگام تخصیص مقدار پیش‌فرض به یک انوتیشن، از فضای خالی اطراف "
-"علامت ``=`` استفاده کنید::"
+"با این حال، هنگام تخصیص مقدار پیش‌فرض به یک انوتیشن، از فضای خالی اطراف علامت "
+"``=`` استفاده کنید::"
 
 #: ../../_pep8.rst:598
 msgid ""
@@ -793,13 +777,13 @@ msgstr "نامناسب::"
 
 #: ../../_pep8.rst:614
 msgid ""
-"While sometimes it's okay to put an if/for/while with a small body on the "
-"same line, never do this for multi-clause statements.  Also avoid folding "
-"such long lines!"
+"While sometimes it's okay to put an if/for/while with a small body on the same "
+"line, never do this for multi-clause statements.  Also avoid folding such long "
+"lines!"
 msgstr ""
-"هرچند گاهی اوقات قرار دادن دستورات تکی if یا for یا while در یک خط مجاز است،"
-" اما هیچگاه این کار را برای دستورات چند جمله‌ای انجام ندهید. همچنین از تا "
-"کردن این خطوط طولانی نیز خودداری کنید!"
+"هرچند گاهی اوقات قرار دادن دستورات تکی if یا for یا while در یک خط مجاز است، "
+"اما هیچگاه این کار را برای دستورات چند جمله‌ای انجام ندهید. همچنین از تا کردن "
+"این خطوط طولانی نیز خودداری کنید!"
 
 #: ../../_pep8.rst:625
 msgid "Definitely not::"
@@ -811,32 +795,31 @@ msgstr "زمان استفاده از ویرگول انتهایی"
 
 #: ../../_pep8.rst:643
 msgid ""
-"Trailing commas are usually optional, except they are mandatory when making "
-"a tuple of one element.  For clarity, it is recommended to surround the "
-"latter in (technically redundant) parentheses::"
+"Trailing commas are usually optional, except they are mandatory when making a "
+"tuple of one element.  For clarity, it is recommended to surround the latter "
+"in (technically redundant) parentheses::"
 msgstr ""
-"ویرگول‌های انتهایی معمولا اختیاری هستند، با این تفاوت که هنگام ساختن یک تاپل"
-" تک عنصری اجباری هستند. در این صورت برای تمیزی کد، توصیه می‌شود آن را در "
-"پرانتزهای (از نظر فنی زائد) قرار دهید::"
+"ویرگول‌های انتهایی معمولا اختیاری هستند، با این تفاوت که هنگام ساختن یک تاپل تک "
+"عنصری اجباری هستند. در این صورت برای تمیزی کد، توصیه می‌شود آن را در پرانتزهای "
+"(از نظر فنی زائد) قرار دهید::"
 
 #: ../../_pep8.rst:655
 msgid ""
 "When trailing commas are redundant, they are often helpful when a version "
-"control system is used, when a list of values, arguments or imported items "
-"is expected to be extended over time.  The pattern is to put each value "
-"(etc.) on a line by itself, always adding a trailing comma, and add the "
-"close parenthesis/bracket/brace on the next line. However it does not make "
-"sense to have a trailing comma on the same line as the closing delimiter "
-"(except in the above case of singleton tuples)::"
+"control system is used, when a list of values, arguments or imported items is "
+"expected to be extended over time.  The pattern is to put each value (etc.) on "
+"a line by itself, always adding a trailing comma, and add the close "
+"parenthesis/bracket/brace on the next line. However it does not make sense to "
+"have a trailing comma on the same line as the closing delimiter (except in the "
+"above case of singleton tuples)::"
 msgstr ""
-"استفاده از ویرگول انتهایی اضافه، برای زمانی که از یک سیستم کنترل نسخه "
-"استفاده می‌شود یا زمانی که انتظار می‌رود لیستی از مقادیر، آرگومان‌ها یا "
-"آیتم‌های ایمپورت شده در طول زمان زیاد شوند، اغلب مفید است. الگوی استفاده از "
-"آن به این صورت است که هر کدام از مقادیر (و غیره) را در هر خط نوشته و به "
-"انتهای آن ویرگول انتهایی را اضافه می‌کنیم و پرانتز، کروشه یا آکولاد بسته را "
-"در خط بعدی می‌نویسیم. با  این حال، استفاده از ویرگول انتهایی به همراه "
-"پرانتز، کروشه یا آکولاد بسته در یک خط بی‌معنی است (به غیر از تاپل تک عضوی "
-"مورد بالا)::"
+"استفاده از ویرگول انتهایی اضافه، برای زمانی که از یک سیستم کنترل نسخه استفاده "
+"می‌شود یا زمانی که انتظار می‌رود لیستی از مقادیر، آرگومان‌ها یا آیتم‌های ایمپورت "
+"شده در طول زمان زیاد شوند، اغلب مفید است. الگوی استفاده از آن به این صورت است "
+"که هر کدام از مقادیر (و غیره) را در هر خط نوشته و به انتهای آن ویرگول انتهایی "
+"را اضافه می‌کنیم و پرانتز، کروشه یا آکولاد بسته را در خط بعدی می‌نویسیم. با  این "
+"حال، استفاده از ویرگول انتهایی به همراه پرانتز، کروشه یا آکولاد بسته در یک خط "
+"بی‌معنی است (به غیر از تاپل تک عضوی مورد بالا)::"
 
 #: ../../_pep8.rst:681
 msgid "Comments"
@@ -844,21 +827,21 @@ msgstr "کامنت‌ها"
 
 #: ../../_pep8.rst:683
 msgid ""
-"Comments that contradict the code are worse than no comments.  Always make a"
-" priority of keeping the comments up-to-date when the code changes!"
+"Comments that contradict the code are worse than no comments.  Always make a "
+"priority of keeping the comments up-to-date when the code changes!"
 msgstr ""
 "کامنت‌هایی که  با کد در تناقض هستند بدتر از کامنت‌هایی هستند که هرگز نوشته "
 "نشدند. همیشه کامنت‌ها را همگام با تغییرات کدها به‌روز نگه دارید!"
 
 #: ../../_pep8.rst:687
 msgid ""
-"Comments should be complete sentences.  The first word should be "
-"capitalized, unless it is an identifier that begins with a lower case letter"
-" (never alter the case of identifiers!)."
+"Comments should be complete sentences.  The first word should be capitalized, "
+"unless it is an identifier that begins with a lower case letter (never alter "
+"the case of identifiers!)."
 msgstr ""
-"کامنت‌ها باید جملات کامل باشند. کلمهٔ اول باید با حروف بزرگ آغاز شود، مگر "
-"اینکه کلمهٔ اول به یک شناسه (نام یک متغیر، تابع، ماژول و...) اشاره کرده باشد"
-" که با حروف کوچک آغاز شود."
+"کامنت‌ها باید جملات کامل باشند. کلمهٔ اول باید با حروف بزرگ آغاز شود، مگر اینکه "
+"کلمهٔ اول به یک شناسه (نام یک متغیر، تابع، ماژول و...) اشاره کرده باشد که با "
+"حروف کوچک آغاز شود."
 
 #: ../../_pep8.rst:691
 msgid ""
@@ -873,8 +856,8 @@ msgid ""
 "You should use two spaces after a sentence-ending period in multi- sentence "
 "comments, except after the final sentence."
 msgstr ""
-"در کامنت‌های چندجمله‌ای، شما باید پس از نقطهٔ آخر هر جمله از دو فاصله "
-"استفاده کنید؛ به استثنای آخرین جمله."
+"در کامنت‌های چندجمله‌ای، شما باید پس از نقطهٔ آخر هر جمله از دو فاصله استفاده "
+"کنید؛ به استثنای آخرین جمله."
 
 #: ../../_pep8.rst:697
 msgid ""
@@ -884,13 +867,13 @@ msgstr "اطمینان حاصل کنید که کامنت‌های شما واض�
 
 #: ../../_pep8.rst:700
 msgid ""
-"Python coders from non-English speaking countries: please write your "
-"comments in English, unless you are 120% sure that the code will never be "
-"read by people who don't speak your language."
+"Python coders from non-English speaking countries: please write your comments "
+"in English, unless you are 120% sure that the code will never be read by "
+"people who don't speak your language."
 msgstr ""
-"برنامه‌نویسانِ پایتون غیرانگلیسی‌زبان: لطفاً کامنت‌های خود را به زبان "
-"انگلیسی بنویسید، مگر اینکه ۱۲۰٪ مطمئن باشید که کدهای شما را هرگز هیچ "
-"برنامه‌نویس غیرهمزبان شما نخواهد خواند."
+"برنامه‌نویسانِ پایتون غیرانگلیسی‌زبان: لطفاً کامنت‌های خود را به زبان انگلیسی "
+"بنویسید، مگر اینکه ۱۲۰٪ مطمئن باشید که کدهای شما را هرگز هیچ برنامه‌نویس "
+"غیرهمزبان شما نخواهد خواند."
 
 #: ../../_pep8.rst:705
 msgid "Block Comments"
@@ -900,8 +883,8 @@ msgstr "کامنت‌های بلوکی"
 msgid ""
 "Block comments generally apply to some (or all) code that follows them, and "
 "are indented to the same level as that code.  Each line of a block comment "
-"starts with a ``#`` and a single space (unless it is indented text inside "
-"the comment)."
+"starts with a ``#`` and a single space (unless it is indented text inside the "
+"comment)."
 msgstr ""
 "کامنت‌های بلوکی معمولا به کدهایی که بعد از آن‌ها نوشته می‌شود اشاره دارند. "
 "تورفتگی این کامنت‌ها باید به اندازه تورفتگی کدهای مربوطه باشد. هر خط از "
@@ -910,11 +893,11 @@ msgstr ""
 
 #: ../../_pep8.rst:712
 msgid ""
-"Paragraphs inside a block comment are separated by a line containing a "
-"single ``#``."
+"Paragraphs inside a block comment are separated by a line containing a single "
+"``#``."
 msgstr ""
-"پاراگراف‌های درون یک بلوک کامنت، توسط خطی که با یک علامت ``#`` شروع می‌شود "
-"از هم جدا می‌شوند."
+"پاراگراف‌های درون یک بلوک کامنت، توسط خطی که با یک علامت ``#`` شروع می‌شود از هم "
+"جدا می‌شوند."
 
 #: ../../_pep8.rst:716
 msgid "Inline Comments"
@@ -927,20 +910,20 @@ msgstr "تا حد امکان از کامنت‌های درون‌خطی استف
 #: ../../_pep8.rst:720
 msgid ""
 "An inline comment is a comment on the same line as a statement. Inline "
-"comments should be separated by at least two spaces from the statement.  "
-"They should start with a # and a single space."
+"comments should be separated by at least two spaces from the statement.  They "
+"should start with a # and a single space."
 msgstr ""
 "کامنت درون‌خطی در واقع کامنتی است که در همان خط کد نوشته می‌شود. کامنت‌های "
-"درون‌خطی باید حداقل با دو فاصله از کد نوشته شوند. آن‌ها باید با یک علامت # و"
-" یک فاصله بعد از آن آغاز شوند."
+"درون‌خطی باید حداقل با دو فاصله از کد نوشته شوند. آن‌ها باید با یک علامت # و یک "
+"فاصله بعد از آن آغاز شوند."
 
 #: ../../_pep8.rst:724
 msgid ""
 "Inline comments are unnecessary and in fact distracting if they state the "
 "obvious.  Don't do this::"
 msgstr ""
-"کامنت‌های درون‌خطی در صورتی که توضیح واضحات باشند، کاملا غیرضروری و مزاحم "
-"هستند. این کار را انجام ندهید::"
+"کامنت‌های درون‌خطی در صورتی که توضیح واضحات باشند، کاملا غیرضروری و مزاحم هستند. "
+"این کار را انجام ندهید::"
 
 #: ../../_pep8.rst:729
 msgid "But sometimes, this is useful::"
@@ -952,37 +935,35 @@ msgstr "رشته‌های مستندات"
 
 #: ../../_pep8.rst:736
 msgid ""
-"Conventions for writing good documentation strings (a.k.a. \"docstrings\") "
-"are immortalized in :pep:`257`."
+"Conventions for writing good documentation strings (a.k.a. \"docstrings\") are "
+"immortalized in :pep:`257`."
 msgstr "اصول کامل برای نوشتن مستندات خوب در پپ ۲۵۷ شرح داده شده‌اند."
 
 #: ../../_pep8.rst:739
 msgid ""
 "Write docstrings for all public modules, functions, classes, and methods.  "
 "Docstrings are not necessary for non-public methods, but you should have a "
-"comment that describes what the method does.  This comment should appear "
-"after the ``def`` line."
+"comment that describes what the method does.  This comment should appear after "
+"the ``def`` line."
 msgstr ""
-"برای تمام ماژول‌ها، توابع، کلاس‌ها و متدهای خود که به صورت عمومی تعریف "
-"کرده‌اید مستندات مربوط به آن‌ها را بنویسید. نوشتن این مستندات برای سایر "
-"متدهایی که به صورت عمومی تعریف نشده‌اند الزامی نیست؛ اما باید برای این متدها"
-" نیز یک کامنت بنویسید تا عمکلرد آن را شرح دهد. این کامنت باید در پایین خط "
-"``def`` (اولین خط درون متد شما) نوشته شود."
+"برای تمام ماژول‌ها، توابع، کلاس‌ها و متدهای خود که به صورت عمومی تعریف کرده‌اید "
+"مستندات مربوط به آن‌ها را بنویسید. نوشتن این مستندات برای سایر متدهایی که به "
+"صورت عمومی تعریف نشده‌اند الزامی نیست؛ اما باید برای این متدها نیز یک کامنت "
+"بنویسید تا عمکلرد آن را شرح دهد. این کامنت باید در پایین خط ``def`` (اولین خط "
+"درون متد شما) نوشته شود."
 
 #: ../../_pep8.rst:744
 msgid ""
-":pep:`257` describes good docstring conventions.  Note that most "
-"importantly, the ``\"\"\"`` that ends a multiline docstring should be on a "
-"line by itself::"
+":pep:`257` describes good docstring conventions.  Note that most importantly, "
+"the ``\"\"\"`` that ends a multiline docstring should be on a line by itself::"
 msgstr ""
-"پپ ۲۵۷ اصول مستندنویسی را به خوبی توضیح می‌دهد. نکته مهم این است که عبارت "
-"``\\\"\\\"\\\"`` که برای پایان دادن به مستندات استفاده می‌شود باید در یک خط "
-"جداگانه قرار گیرد."
+"پپ ۲۵۷ اصول مستندنویسی را به خوبی توضیح می‌دهد. نکته مهم این است که عبارت ``\\"
+"\"\\\"\\\"`` که برای پایان دادن به مستندات استفاده می‌شود باید در یک خط جداگانه "
+"قرار گیرد."
 
 #: ../../_pep8.rst:753
 msgid ""
-"For one liner docstrings, please keep the closing ``\"\"\"`` on the same "
-"line::"
+"For one liner docstrings, please keep the closing ``\"\"\"`` on the same line::"
 msgstr "برای مستندات یک خطی، لطفاً ``\"\"\"`` پایانی را در همان خط قرار دهید::"
 
 #: ../../_pep8.rst:760
@@ -991,18 +972,18 @@ msgstr "اصول نامگذاری"
 
 #: ../../_pep8.rst:762
 msgid ""
-"The naming conventions of Python's library are a bit of a mess, so we'll "
-"never get this completely consistent -- nevertheless, here are the currently"
-" recommended naming standards.  New modules and packages (including third "
-"party frameworks) should be written to these standards, but where an "
-"existing library has a different style, internal consistency is preferred."
+"The naming conventions of Python's library are a bit of a mess, so we'll never "
+"get this completely consistent -- nevertheless, here are the currently "
+"recommended naming standards.  New modules and packages (including third party "
+"frameworks) should be written to these standards, but where an existing "
+"library has a different style, internal consistency is preferred."
 msgstr ""
-"اصول نامگذاری در کتابخانه اصلی پایتون کمی شلوغ و نامنظم است، به همین دلیل در"
-" این زمینه هیچگاه به یکدست بودن ایده‌آل نخواهیم رسید. ماژول‌ها و کدهای جدید "
+"اصول نامگذاری در کتابخانه اصلی پایتون کمی شلوغ و نامنظم است، به همین دلیل در "
+"این زمینه هیچگاه به یکدست بودن ایده‌آل نخواهیم رسید. ماژول‌ها و کدهای جدید "
 "پایتون باید با رعایت نکات زیر نوشته شوند، هرچند اگر در کتابخانه‌ای از اصول "
-"دیگری پیروی شده بود، حفظ یکدست بودن داخلی کدها، بر اصول پیشنهادی این "
-"شیوه‌نامه اولویت دارد. استانداردهای کنونی و پیشنهادی برای نامگذاری در پایتون"
-" به شرح زیر است."
+"دیگری پیروی شده بود، حفظ یکدست بودن داخلی کدها، بر اصول پیشنهادی این شیوه‌نامه "
+"اولویت دارد. استانداردهای کنونی و پیشنهادی برای نامگذاری در پایتون به شرح زیر "
+"است."
 
 #: ../../_pep8.rst:770
 msgid "Overriding Principle"
@@ -1013,8 +994,8 @@ msgid ""
 "Names that are visible to the user as public parts of the API should follow "
 "conventions that reflect usage rather than implementation."
 msgstr ""
-"نام‌هایی که به عنوان بخشی از یک API عمومی به کاربران نمایش داده می‌شوند، "
-"بهتر است با توجه به نوع کارکرد آن بخش از API انتخاب شوند."
+"نام‌هایی که به عنوان بخشی از یک API عمومی به کاربران نمایش داده می‌شوند، بهتر "
+"است با توجه به نوع کارکرد آن بخش از API انتخاب شوند."
 
 #: ../../_pep8.rst:776
 msgid "Descriptive: Naming Styles"
@@ -1022,13 +1003,11 @@ msgstr "توصیفی: سبک‌های نام‌گذاری"
 
 #: ../../_pep8.rst:778
 msgid ""
-"There are a lot of different naming styles.  It helps to be able to "
-"recognize what naming style is being used, independently from what they are "
-"used for."
+"There are a lot of different naming styles.  It helps to be able to recognize "
+"what naming style is being used, independently from what they are used for."
 msgstr ""
 "سبک‌های نامگذاری مختلف زیادی وجود دارند و مستقل از آنچه که برای آن استفاده "
-"می‌شوند، کمک می‌کنند که بتوانیم تشخیص دهیم از چه سبک نامگذاری استفاده "
-"می‌شود."
+"می‌شوند، کمک می‌کنند که بتوانیم تشخیص دهیم از چه سبک نامگذاری استفاده می‌شود."
 
 #: ../../_pep8.rst:782
 msgid "The following naming styles are commonly distinguished:"
@@ -1061,29 +1040,27 @@ msgstr "``UPPER_CASE_WITH_UNDERSCORES``"
 #: ../../_pep8.rst:790
 msgid ""
 "``CapitalizedWords`` (or CapWords, or CamelCase -- so named because of the "
-"bumpy look of its letters [4]_).  This is also sometimes known as "
-"StudlyCaps."
+"bumpy look of its letters [4]_).  This is also sometimes known as StudlyCaps."
 msgstr ""
-"``CapitalizedWords`` (یا CapWords نگارش کلمات به هم چسبیده با حرف اول بزرگ ،"
-" یا CamelCase (نگارش شتری) -- که این نام گذاری به دلیل ظاهر ناهموار حروف آن "
-"است [4]_). این نوع نگارش گاهی اوقات به عنوان StudlyCaps  نیز شناخته میشود."
+"``CapitalizedWords`` (یا CapWords نگارش کلمات به هم چسبیده با حرف اول بزرگ ، "
+"یا CamelCase (نگارش شتری) -- که این نام گذاری به دلیل ظاهر ناهموار حروف آن است "
+"[4]_). این نوع نگارش گاهی اوقات به عنوان StudlyCaps  نیز شناخته میشود."
 
 #: ../../_pep8.rst:794
 msgid ""
 "Note: When using acronyms in CapWords, capitalize all the letters of the "
 "acronym.  Thus HTTPServerError is better than HttpServerError."
 msgstr ""
-"نکته: هنگام استفاده از کلمات اختصاری در نگارش CapWords، تمام حروفِ کلمه "
-"اختصاری با حروف بزرگ نوشته می‌شود. بنابراین نوشتن HTTPServerError بهتر از "
+"نکته: هنگام استفاده از کلمات اختصاری در نگارش CapWords، تمام حروفِ کلمه اختصاری "
+"با حروف بزرگ نوشته می‌شود. بنابراین نوشتن HTTPServerError بهتر از "
 "HttpServerError است."
 
 #: ../../_pep8.rst:797
 msgid ""
-"``mixedCase`` (differs from CapitalizedWords by initial lowercase "
-"character!)"
+"``mixedCase`` (differs from CapitalizedWords by initial lowercase character!)"
 msgstr ""
-"``mixedCase`` (تفاوت آن با نگارش CapitalizedWords این است که اولین حرف آن به"
-" صورت کوچک نوشته می شود!)"
+"``mixedCase`` (تفاوت آن با نگارش CapitalizedWords این است که اولین حرف آن به "
+"صورت کوچک نوشته می شود!)"
 
 #: ../../_pep8.rst:799
 msgid "``Capitalized_Words_With_Underscores`` (ugly!)"
@@ -1091,27 +1068,26 @@ msgstr "``Capitalized_Words_With_Underscores`` (زشت!)"
 
 #: ../../_pep8.rst:801
 msgid ""
-"There's also the style of using a short unique prefix to group related names"
-" together.  This is not used much in Python, but it is mentioned for "
-"completeness.  For example, the ``os.stat()`` function returns a tuple whose"
-" items traditionally have names like ``st_mode``, ``st_size``, ``st_mtime`` "
-"and so on.  (This is done to emphasize the correspondence with the fields of"
-" the POSIX system call struct, which helps programmers familiar with that.)"
+"There's also the style of using a short unique prefix to group related names "
+"together.  This is not used much in Python, but it is mentioned for "
+"completeness.  For example, the ``os.stat()`` function returns a tuple whose "
+"items traditionally have names like ``st_mode``, ``st_size``, ``st_mtime`` and "
+"so on.  (This is done to emphasize the correspondence with the fields of the "
+"POSIX system call struct, which helps programmers familiar with that.)"
 msgstr ""
-"همچنین سبک استفاده از یک پیشوند منحصر به فرد کوتاه برای گروه‌بندی نام‌های "
-"مرتبط باهم وجود دارد. این سبک خیلی در پایتون استفاده نمی‌شود، اما برای کامل "
-"بودن ذکر شده است. برای مثال، تابع ``os.stat()`` یک تاپل را برمی‌گرداند که "
-"آیتم‌های آن معمولاً دارای نام‌هایی مانند ``st_mode``، ``st_size``، "
-"``st_mtime`` و غیره هستند. (این کار برای تأکید بر مطابقت با فیلدهای ساختار "
-"سیستم کال POSIX انجام می شود که به برنامه‌نویسانی که با آن آشنا هستند کمک می"
-" کند.)"
+"همچنین سبک استفاده از یک پیشوند منحصر به فرد کوتاه برای گروه‌بندی نام‌های مرتبط "
+"باهم وجود دارد. این سبک خیلی در پایتون استفاده نمی‌شود، اما برای کامل بودن ذکر "
+"شده است. برای مثال، تابع ``os.stat()`` یک تاپل را برمی‌گرداند که آیتم‌های آن "
+"معمولاً دارای نام‌هایی مانند ``st_mode``، ``st_size``، ``st_mtime`` و غیره "
+"هستند. (این کار برای تأکید بر مطابقت با فیلدهای ساختار سیستم کال POSIX انجام "
+"می شود که به برنامه‌نویسانی که با آن آشنا هستند کمک می کند.)"
 
 #: ../../_pep8.rst:809
 msgid ""
 "The X11 library uses a leading X for all its public functions.  In Python, "
-"this style is generally deemed unnecessary because attribute and method "
-"names are prefixed with an object, and function names are prefixed with a "
-"module name."
+"this style is generally deemed unnecessary because attribute and method names "
+"are prefixed with an object, and function names are prefixed with a module "
+"name."
 msgstr ""
 "کتابخانه X11 از یک پیشوند X برای تمام توابع عمومی خود استفاده می‌کند. در "
 "پایتون، این سبک به طور کلی غیرضروری تلقی می‌شود زیرا پیشوند نام مشخصه‌ها و "
@@ -1119,40 +1095,38 @@ msgstr ""
 
 #: ../../_pep8.rst:814
 msgid ""
-"In addition, the following special forms using leading or trailing "
-"underscores are recognized (these can generally be combined with any case "
-"convention):"
+"In addition, the following special forms using leading or trailing underscores "
+"are recognized (these can generally be combined with any case convention):"
 msgstr ""
 "علاوه بر این، فرم‌های ویژه زیر که زیرخط‌هایی در ابتدا یا انتهای خود دارند، "
-"شناخته شده هستند (این‌ فرم‌ها را معمولا می‌توان با هر کدام از شیوه‌های "
-"نامگذاری ترکیب کرد):"
+"شناخته شده هستند (این‌ فرم‌ها را معمولا می‌توان با هر کدام از شیوه‌های نامگذاری "
+"ترکیب کرد):"
 
 #: ../../_pep8.rst:818
 msgid ""
-"``_single_leading_underscore``: weak \"internal use\" indicator. E.g. ``from"
-" M import *`` does not import objects whose names start with an underscore."
+"``_single_leading_underscore``: weak \"internal use\" indicator. E.g. ``from M "
+"import *`` does not import objects whose names start with an underscore."
 msgstr ""
-"``_single_leading_underscore``: نشانهٔ ضعیف برای «استفاده داخلی». برای نمونه"
-" عبارت ``from M import *`` اشیائی که اسم آن‌ها با یک زیرخط شروع می‌شود را "
-"ایمپورت نمی‌کند."
+"``_single_leading_underscore``: نشانهٔ ضعیف برای «استفاده داخلی». برای نمونه "
+"عبارت ``from M import *`` اشیائی که اسم آن‌ها با یک زیرخط شروع می‌شود را ایمپورت "
+"نمی‌کند."
 
 #: ../../_pep8.rst:822
 msgid ""
 "``single_trailing_underscore_``: used by convention to avoid conflicts with "
 "Python keyword, e.g. ::"
 msgstr ""
-"``single_trailing_underscore_``: طبق قرارداد برای جلوگیری از مغایرت با "
-"کلمه‌های کلیدی پایتون استفاده می‌شود، برای نمونه::"
+"``single_trailing_underscore_``: طبق قرارداد برای جلوگیری از مغایرت با کلمه‌های "
+"کلیدی پایتون استفاده می‌شود، برای نمونه::"
 
 #: ../../_pep8.rst:827
 msgid ""
-"``__double_leading_underscore``: when naming a class attribute, invokes name"
-" mangling (inside class FooBar, ``__boo`` becomes ``_FooBar__boo``; see "
-"below)."
+"``__double_leading_underscore``: when naming a class attribute, invokes name "
+"mangling (inside class FooBar, ``__boo`` becomes ``_FooBar__boo``; see below)."
 msgstr ""
 "``__double_leading_underscore``: هنگام نامگذاری یک مشخصه کلاس، دستکاری نام "
-"(name mangling) را فراخوانی می‌کند (در داخل کلاس FooBar،  ``__boo`` تبدیل به"
-" ``_FooBar__boo`` می‌شود؛ زیر را ببینید)."
+"(name mangling) را فراخوانی می‌کند (در داخل کلاس FooBar،  ``__boo`` تبدیل به "
+"``_FooBar__boo`` می‌شود؛ زیر را ببینید)."
 
 #: ../../_pep8.rst:831
 msgid ""
@@ -1161,10 +1135,10 @@ msgid ""
 "``__import__`` or ``__file__``.  Never invent such names; only use them as "
 "documented."
 msgstr ""
-"``__double_leading_and_trailing_underscore__``: اشیاء و مشخصه‌های «جادویی» "
-"که در فضانام‌های تحت کنترل کاربر قرار دارند. برای مثال ``__init__``, "
-"``__import__`` or ``__file__``. هرگز چنین اسم‌هایی را نسازید؛ فقط از آن‌ها "
-"طبق مستندات پایتون استفاده کنید."
+"``__double_leading_and_trailing_underscore__``: اشیاء و مشخصه‌های «جادویی» که "
+"در فضانام‌های تحت کنترل کاربر قرار دارند. برای مثال ``__init__``, "
+"``__import__`` or ``__file__``. هرگز چنین اسم‌هایی را نسازید؛ فقط از آن‌ها طبق "
+"مستندات پایتون استفاده کنید."
 
 #: ../../_pep8.rst:837
 msgid "Prescriptive: Naming Conventions"
@@ -1176,11 +1150,11 @@ msgstr "نام‌های نامناسب"
 
 #: ../../_pep8.rst:842
 msgid ""
-"Never use the characters 'l' (lowercase letter el), 'O' (uppercase letter "
-"oh), or 'I' (uppercase letter eye) as single character variable names."
+"Never use the characters 'l' (lowercase letter el), 'O' (uppercase letter oh), "
+"or 'I' (uppercase letter eye) as single character variable names."
 msgstr ""
-"هرگز از 'l' (حرف کوچک L)، 'O' (حرف بزرگ o) یا 'I' (حرف بزرگ i) برای نامگذاری"
-" متغیرهای تک‌حرفی استفاده نکنید."
+"هرگز از 'l' (حرف کوچک L)، 'O' (حرف بزرگ o) یا 'I' (حرف بزرگ i) برای نامگذاری "
+"متغیرهای تک‌حرفی استفاده نکنید."
 
 #: ../../_pep8.rst:846
 msgid ""
@@ -1196,13 +1170,12 @@ msgstr "سازگاری اَسکی"
 
 #: ../../_pep8.rst:852
 msgid ""
-"Identifiers used in the standard library must be ASCII compatible as "
-"described in the :pep:`policy section <3131#policy-specification>` of "
-":pep:`3131`."
+"Identifiers used in the standard library must be ASCII compatible as described "
+"in the :pep:`policy section <3131#policy-specification>` of :pep:`3131`."
 msgstr ""
 "شناسه‌های استفاده شده در کتابخانه استاندارد باید طبق تعریف `بخش سیاستگذاری "
-"<https://www.python.org/dev/peps/pep-3131/#policy-specification>`_ پپ ۳۱۳۱ "
-"با اسکی سازگار باشند."
+"<https://www.python.org/dev/peps/pep-3131/#policy-specification>`_ پپ ۳۱۳۱ با "
+"اسکی سازگار باشند."
 
 #: ../../_pep8.rst:858
 msgid "Package and Module Names"
@@ -1211,25 +1184,23 @@ msgstr "نام ماژول‌ها و بسته‌ها"
 #: ../../_pep8.rst:860
 msgid ""
 "Modules should have short, all-lowercase names.  Underscores can be used in "
-"the module name if it improves readability.  Python packages should also "
-"have short, all-lowercase names, although the use of underscores is "
-"discouraged."
+"the module name if it improves readability.  Python packages should also have "
+"short, all-lowercase names, although the use of underscores is discouraged."
 msgstr ""
-"ماژول‌ها باید نام‌هایی کوتاه با حروف کوچک داشته باشند. اگر استفاده از زیرخط "
-"در نام ماژول می‌تواند خوانایی را بالاتر ببرد، استفاده از آن مانعی ندارد. "
-"بسته‌های پایتون هم باید نام‌هایی کوتاه با حروف کوچک داشته باشند و استفاده از"
-" زیرخط در نامگذاری بسته‌ها پیشنهاد نمی‌شود."
+"ماژول‌ها باید نام‌هایی کوتاه با حروف کوچک داشته باشند. اگر استفاده از زیرخط در "
+"نام ماژول می‌تواند خوانایی را بالاتر ببرد، استفاده از آن مانعی ندارد. بسته‌های "
+"پایتون هم باید نام‌هایی کوتاه با حروف کوچک داشته باشند و استفاده از زیرخط در "
+"نامگذاری بسته‌ها پیشنهاد نمی‌شود."
 
 #: ../../_pep8.rst:865
 msgid ""
-"When an extension module written in C or C++ has an accompanying Python "
-"module that provides a higher level (e.g. more object oriented) interface, "
-"the C/C++ module has a leading underscore (e.g. ``_socket``)."
+"When an extension module written in C or C++ has an accompanying Python module "
+"that provides a higher level (e.g. more object oriented) interface, the C/C++ "
+"module has a leading underscore (e.g. ``_socket``)."
 msgstr ""
-"وقتی یک ماژول با زبان C یا ++C نوشته شده و یک ماژول هم‌نام با آن در محیط "
-"پایتون وجود دارد، به گونه‌ای که ماژول پایتونی، خدمات سطح بالاتر را ارائه "
-"می‌دهد، ماژول نوشته شده با ++C/C باید با یک زیرخط شروع شود (برای مثال "
-"``_socket``)."
+"وقتی یک ماژول با زبان C یا ++C نوشته شده و یک ماژول هم‌نام با آن در محیط پایتون "
+"وجود دارد، به گونه‌ای که ماژول پایتونی، خدمات سطح بالاتر را ارائه می‌دهد، ماژول "
+"نوشته شده با ++C/C باید با یک زیرخط شروع شود (برای مثال ``_socket``)."
 
 #: ../../_pep8.rst:871
 msgid "Class Names"
@@ -1251,13 +1222,13 @@ msgstr ""
 
 #: ../../_pep8.rst:878
 msgid ""
-"Note that there is a separate convention for builtin names: most builtin "
-"names are single words (or two words run together), with the CapWords "
-"convention used only for exception names and builtin constants."
+"Note that there is a separate convention for builtin names: most builtin names "
+"are single words (or two words run together), with the CapWords convention "
+"used only for exception names and builtin constants."
 msgstr ""
-"توجه داشته باشید که برای نام‌های داخلی یک قاعده جداگانه وجود دارد: اکثر "
-"نام‌های داخلی تک کلمه‌ای (یا دو کلمه به هم چسبیده) با قاعده نگارشی CapWords "
-"هستند که فقط برای نام‌های استثنا و ثابت‌های داخلی استفاده می‌شود."
+"توجه داشته باشید که برای نام‌های داخلی یک قاعده جداگانه وجود دارد: اکثر نام‌های "
+"داخلی تک کلمه‌ای (یا دو کلمه به هم چسبیده) با قاعده نگارشی CapWords هستند که "
+"فقط برای نام‌های استثنا و ثابت‌های داخلی استفاده می‌شود."
 
 #: ../../_pep8.rst:883
 msgid "Type Variable Names"
@@ -1265,15 +1236,15 @@ msgstr "نام متغیر‌های گونه (تایپ)"
 
 #: ../../_pep8.rst:885
 msgid ""
-"Names of type variables introduced in :pep:`484` should normally use "
-"CapWords preferring short names: ``T``, ``AnyStr``, ``Num``. It is "
-"recommended to add suffixes ``_co`` or ``_contra`` to the variables used to "
-"declare covariant or contravariant behavior correspondingly::"
+"Names of type variables introduced in :pep:`484` should normally use CapWords "
+"preferring short names: ``T``, ``AnyStr``, ``Num``. It is recommended to add "
+"suffixes ``_co`` or ``_contra`` to the variables used to declare covariant or "
+"contravariant behavior correspondingly::"
 msgstr ""
-"نام گونه‌های متغیرهای معرفی شده در پپ ۴۸۴ معمولاً باید از قاعدهٔ نگارشی "
-"CapWords استفاده کند که نام‌های کوتاه را ترجیح می‌دهد: ``T``, ``AnyStr``, "
-"``Num``. توصیه می شود که پسوندهای ``_co`` یا ``_contra`` را به ترتیب به "
-"متغیرهای مورد استفاده برای تعریف رفتار هم‌وردایی یا پادوردایی اضافه کنید::"
+"نام گونه‌های متغیرهای معرفی شده در پپ ۴۸۴ معمولاً باید از قاعدهٔ نگارشی CapWords "
+"استفاده کند که نام‌های کوتاه را ترجیح می‌دهد: ``T``, ``AnyStr``, ``Num``. توصیه "
+"می شود که پسوندهای ``_co`` یا ``_contra`` را به ترتیب به متغیرهای مورد استفاده "
+"برای تعریف رفتار هم‌وردایی یا پادوردایی اضافه کنید::"
 
 #: ../../_pep8.rst:896
 msgid "Exception Names"
@@ -1285,9 +1256,9 @@ msgid ""
 "here.  However, you should use the suffix \"Error\" on your exception names "
 "(if the exception actually is an error)."
 msgstr ""
-"از آنجا که استثناها باید کلاس باشند، اصول نامگذاری کلاس‌ها نیز باید روی "
-"آن‌ها اعمال شود. با این حال، شما باید از پسوند \"Error\" برای استثناهایی که "
-"تعریف می‌کنید، استفاده کنید (اگر استثناء شما واقعا یک خطا است)."
+"از آنجا که استثناها باید کلاس باشند، اصول نامگذاری کلاس‌ها نیز باید روی آن‌ها "
+"اعمال شود. با این حال، شما باید از پسوند \"Error\" برای استثناهایی که تعریف "
+"می‌کنید، استفاده کنید (اگر استثناء شما واقعا یک خطا است)."
 
 #: ../../_pep8.rst:903
 msgid "Global Variable Names"
@@ -1295,24 +1266,24 @@ msgstr "نام متغیرهای عمومی"
 
 #: ../../_pep8.rst:905
 msgid ""
-"(Let's hope that these variables are meant for use inside one module only.)"
-"  The conventions are about the same as those for functions."
+"(Let's hope that these variables are meant for use inside one module only.)  "
+"The conventions are about the same as those for functions."
 msgstr ""
-"قواعد تقریباً همان مواردی است که برای توابع اعمال می‌شود. ( البته این "
-"متغیرها باید برای استفاده در یک ماژول در نظر گرفته شده باشند)"
+"قواعد تقریباً همان مواردی است که برای توابع اعمال می‌شود. ( البته این متغیرها "
+"باید برای استفاده در یک ماژول در نظر گرفته شده باشند)"
 
 #: ../../_pep8.rst:908
 msgid ""
 "Modules that are designed for use via ``from M import *`` should use the "
 "``__all__`` mechanism to prevent exporting globals, or use the older "
-"convention of prefixing such globals with an underscore (which you might "
-"want to do to indicate these globals are \"module non-public\")."
+"convention of prefixing such globals with an underscore (which you might want "
+"to do to indicate these globals are \"module non-public\")."
 msgstr ""
-"ماژول‌هایی که برای استفاده از طریق ``from M import *`` طراحی شده‌اند، باید "
-"از مکانیسم ``__all__`` برای جلوگیری از نشان دادن متغیرهای عمومی، یا از "
-"قرارداد قدیمی‌تر قرار دادن زیرخط در اول این متغیرهای عمومی استفاده کنند. (که"
-" ممکن است بخواهید این کار را بکنید تا نشان دهید این متغیرهای عمومی \"ماژول "
-"غیرعمومی\" هستند)."
+"ماژول‌هایی که برای استفاده از طریق ``from M import *`` طراحی شده‌اند، باید از "
+"مکانیسم ``__all__`` برای جلوگیری از نشان دادن متغیرهای عمومی، یا از قرارداد "
+"قدیمی‌تر قرار دادن زیرخط در اول این متغیرهای عمومی استفاده کنند. (که ممکن است "
+"بخواهید این کار را بکنید تا نشان دهید این متغیرهای عمومی \"ماژول غیرعمومی\" "
+"هستند)."
 
 #: ../../_pep8.rst:915
 msgid "Function and Variable Names"
@@ -1323,8 +1294,8 @@ msgid ""
 "Function names should be lowercase, with words separated by underscores as "
 "necessary to improve readability."
 msgstr ""
-"نام تابع باید از حروف کوچک تشکیل شده باشد و برای بالا بردن خوانایی، کلمات "
-"باید با استفاده از زیرخط از هم جدا شوند."
+"نام تابع باید از حروف کوچک تشکیل شده باشد و برای بالا بردن خوانایی، کلمات باید "
+"با استفاده از زیرخط از هم جدا شوند."
 
 #: ../../_pep8.rst:920
 msgid "Variable names follow the same convention as function names."
@@ -1335,9 +1306,9 @@ msgid ""
 "mixedCase is allowed only in contexts where that's already the prevailing "
 "style (e.g. threading.py), to retain backwards compatibility."
 msgstr ""
-"استفاده از قاعدهٔ نگارشی mixedCase فقط در زمینه‌هایی مجاز است که قبلاً سبک "
-"غالب بوده است (مانند نام‌هایی که در ماژول threading.py استفاده شده است)، تا "
-"سازگاری با نسخه‌های پیشن را حفظ کند."
+"استفاده از قاعدهٔ نگارشی mixedCase فقط در زمینه‌هایی مجاز است که قبلاً سبک غالب "
+"بوده است (مانند نام‌هایی که در ماژول threading.py استفاده شده است)، تا سازگاری "
+"با نسخه‌های پیشن را حفظ کند."
 
 #: ../../_pep8.rst:927
 msgid "Function and Method Arguments"
@@ -1350,22 +1321,21 @@ msgstr "همیشه از ``self`` به عنوان آرگومان اول متده�
 #: ../../_pep8.rst:931
 msgid "Always use ``cls`` for the first argument to class methods."
 msgstr ""
-"همیشه از ``cls`` به عنوان آرگومان اول متدهای نوع ``classmethod`` استفاده "
-"کنید."
+"همیشه از ``cls`` به عنوان آرگومان اول متدهای نوع ``classmethod`` استفاده کنید."
 
 #: ../../_pep8.rst:933
 msgid ""
-"If a function argument's name clashes with a reserved keyword, it is "
-"generally better to append a single trailing underscore rather than use an "
-"abbreviation or spelling corruption.  Thus ``class_`` is better than "
-"``clss``.  (Perhaps better is to avoid such clashes by using a synonym.)"
+"If a function argument's name clashes with a reserved keyword, it is generally "
+"better to append a single trailing underscore rather than use an abbreviation "
+"or spelling corruption.  Thus ``class_`` is better than ``clss``.  (Perhaps "
+"better is to avoid such clashes by using a synonym.)"
 msgstr ""
-"یکسان بودن نام آرگومان‌های تابع با کلیدواژه‌های ذخیره شدهٔ هستهٔ پایتون، "
-"باعث به وجود آمدن ناسازگاری می‌شود. برای رفع این مشکل بهتر است یک زیرخط به "
-"انتهای نام آن آرگومان تابع افزوده شود. استفاده از زیرخط بهتر از مخفف کردن "
-"نام آرگومان است. برای نمونه، ``class_`` بهتر از ``clss`` است. (هرچند راه‌حل "
-"بهتر آن است که از نام‌هایی برای آرگومان‌ها استفاده شود که شبیه کلیدواژه‌های "
-"اصلی پایتون نباشند و از اساس این ناسازگاری به وجود نیاید.)"
+"یکسان بودن نام آرگومان‌های تابع با کلیدواژه‌های ذخیره شدهٔ هستهٔ پایتون، باعث به "
+"وجود آمدن ناسازگاری می‌شود. برای رفع این مشکل بهتر است یک زیرخط به انتهای نام "
+"آن آرگومان تابع افزوده شود. استفاده از زیرخط بهتر از مخفف کردن نام آرگومان "
+"است. برای نمونه، ``class_`` بهتر از ``clss`` است. (هرچند راه‌حل بهتر آن است که "
+"از نام‌هایی برای آرگومان‌ها استفاده شود که شبیه کلیدواژه‌های اصلی پایتون نباشند و "
+"از اساس این ناسازگاری به وجود نیاید.)"
 
 #: ../../_pep8.rst:940
 msgid "Method Names and Instance Variables"
@@ -1373,41 +1343,40 @@ msgstr "نام متدها و متغیرهای کلاس"
 
 #: ../../_pep8.rst:942
 msgid ""
-"Use the function naming rules: lowercase with words separated by underscores"
-" as necessary to improve readability."
+"Use the function naming rules: lowercase with words separated by underscores "
+"as necessary to improve readability."
 msgstr ""
-"از اصول نام‌گذاری تابع پیروی کنید: کلماتی با حروف کوچک که به وسیله زیرخط از "
-"هم جدا شده‌اند تا خوانایی بالاتر برود."
+"از اصول نام‌گذاری تابع پیروی کنید: کلماتی با حروف کوچک که به وسیله زیرخط از هم "
+"جدا شده‌اند تا خوانایی بالاتر برود."
 
 #: ../../_pep8.rst:945
 msgid ""
-"Use one leading underscore only for non-public methods and instance "
-"variables."
+"Use one leading underscore only for non-public methods and instance variables."
 msgstr ""
-"از زیرخط ابتدای کلمات فقط برای متدهای غیرعمومی و متغیرهای داخلی کلاس استفاده"
-" کنید."
+"از زیرخط ابتدای کلمات فقط برای متدهای غیرعمومی و متغیرهای داخلی کلاس استفاده "
+"کنید."
 
 #: ../../_pep8.rst:948
 msgid ""
-"To avoid name clashes with subclasses, use two leading underscores to invoke"
-" Python's name mangling rules."
+"To avoid name clashes with subclasses, use two leading underscores to invoke "
+"Python's name mangling rules."
 msgstr ""
-"برای جلوگیری از تداخل نام‌ها با زیرکلاس‌ها، با استفاده از قوانین دستکاری "
-"نام‌ها در پایتون، از دو زیرخط در اول نام‌ها استفاده کنید."
+"برای جلوگیری از تداخل نام‌ها با زیرکلاس‌ها، با استفاده از قوانین دستکاری نام‌ها "
+"در پایتون، از دو زیرخط در اول نام‌ها استفاده کنید."
 
 #: ../../_pep8.rst:951
 msgid ""
-"Python mangles these names with the class name: if class Foo has an "
-"attribute named ``__a``, it cannot be accessed by ``Foo.__a``.  (An "
-"insistent user could still gain access by calling ``Foo._Foo__a``.) "
-"Generally, double leading underscores should be used only to avoid name "
-"conflicts with attributes in classes designed to be subclassed."
+"Python mangles these names with the class name: if class Foo has an attribute "
+"named ``__a``, it cannot be accessed by ``Foo.__a``.  (An insistent user could "
+"still gain access by calling ``Foo._Foo__a``.) Generally, double leading "
+"underscores should be used only to avoid name conflicts with attributes in "
+"classes designed to be subclassed."
 msgstr ""
-"پایتون نام کلاس را به این نام‌ها می‌چسباند: اگر کلاس Foo مشخصه‌ای به نام "
-"``__a`` دارد، نمی‌توان با ‍‍‍‍‍‍‍``Foo.__a`` به آن دسترسی پیدا کرد. (اگر مصر"
-" به دسترسی به آن هستید باید از عبارت ``Foo._Foo__a`` استفده کنید.) به طور "
-"کل، استفاده از دو زیرخط اول فقط باید برای جلوگیری از تداخل نام‌ها با نام "
-"مشخصه‌های کلاس‌هایی که زیرکلاس هستند، استفاده شوند."
+"پایتون نام کلاس را به این نام‌ها می‌چسباند: اگر کلاس Foo مشخصه‌ای به نام ``__a`` "
+"دارد، نمی‌توان با ‍‍‍‍‍‍‍``Foo.__a`` به آن دسترسی پیدا کرد. (اگر مصر به دسترسی به آن "
+"هستید باید از عبارت ``Foo._Foo__a`` استفده کنید.) به طور کل، استفاده از دو "
+"زیرخط اول فقط باید برای جلوگیری از تداخل نام‌ها با نام مشخصه‌های کلاس‌هایی که "
+"زیرکلاس هستند، استفاده شوند."
 
 #: ../../_pep8.rst:957
 msgid "Note: there is some controversy about the use of __names (see below)."
@@ -1422,12 +1391,12 @@ msgstr "ثابت‌ها"
 #: ../../_pep8.rst:962
 msgid ""
 "Constants are usually defined on a module level and written in all capital "
-"letters with underscores separating words.  Examples include "
-"``MAX_OVERFLOW`` and ``TOTAL``."
+"letters with underscores separating words.  Examples include ``MAX_OVERFLOW`` "
+"and ``TOTAL``."
 msgstr ""
-"ثابت‌ها معمولاً در سطح ماژول تعریف می‌شوند و تماماً با حروف بزرگ نوشته شده و"
-" کلمات آن‌ها با زیرخط از هم جدا می‌شوند. برای نمونه می‌توان ثابت‌هایی با نام"
-" ``MAX_OVERFLOW`` و ``TOTAL`` تعریف کرد."
+"ثابت‌ها معمولاً در سطح ماژول تعریف می‌شوند و تماماً با حروف بزرگ نوشته شده و کلمات "
+"آن‌ها با زیرخط از هم جدا می‌شوند. برای نمونه می‌توان ثابت‌هایی با نام "
+"``MAX_OVERFLOW`` و ``TOTAL`` تعریف کرد."
 
 #: ../../_pep8.rst:967
 msgid "Designing for Inheritance"
@@ -1435,34 +1404,33 @@ msgstr "طراحی برای ارث‌بری"
 
 #: ../../_pep8.rst:969
 msgid ""
-"Always decide whether a class's methods and instance variables "
-"(collectively: \"attributes\") should be public or non-public.  If in doubt,"
-" choose non-public; it's easier to make it public later than to make a "
-"public attribute non-public."
+"Always decide whether a class's methods and instance variables (collectively: "
+"\"attributes\") should be public or non-public.  If in doubt, choose non-"
+"public; it's easier to make it public later than to make a public attribute "
+"non-public."
 msgstr ""
-"همیشه تصمیم بگیرید که کدام متدها و متغیرهای داخلی کلاس (به صورت کلی، "
-"مشخصه‌های کلاس) باید عمومی و کدام یک غیرعمومی باشند. هرگاه شک داشتید، گزینه "
-"غیرعمومی را انتخاب کنید؛ زیرا تبدیل کردن یک مشخصه غیرعمومی به عمومی، ساده‌تر"
-" از تبدیل یک مشخصه عمومی به غیرعمومی است."
+"همیشه تصمیم بگیرید که کدام متدها و متغیرهای داخلی کلاس (به صورت کلی، مشخصه‌های "
+"کلاس) باید عمومی و کدام یک غیرعمومی باشند. هرگاه شک داشتید، گزینه غیرعمومی را "
+"انتخاب کنید؛ زیرا تبدیل کردن یک مشخصه غیرعمومی به عمومی، ساده‌تر از تبدیل یک "
+"مشخصه عمومی به غیرعمومی است."
 
 #: ../../_pep8.rst:974
 msgid ""
-"Public attributes are those that you expect unrelated clients of your class "
-"to use, with your commitment to avoid backwards incompatible changes.  Non-"
-"public attributes are those that are not intended to be used by third "
-"parties; you make no guarantees that non-public attributes won't change or "
-"even be removed."
+"Public attributes are those that you expect unrelated clients of your class to "
+"use, with your commitment to avoid backwards incompatible changes.  Non-public "
+"attributes are those that are not intended to be used by third parties; you "
+"make no guarantees that non-public attributes won't change or even be removed."
 msgstr ""
-"مشخصه‌های عمومی آن دسته از مشخصه‌های کلاس هستند که شما انتظار دارید "
-"مصرف‌کنندگان آن کلاس بتوانند از آن‌ها استفاده کنند و همچنین شما تضمین "
-"می‌دهید که از انجام تغییرات ناسازگار [با نگارش‌های پیشین نرم‌افزار] در آن‌ها"
-" جلوگیری کنید. مشخصه‌های غیرعمومی آن‌هایی هستند که قرار نیست از بیرون "
-"استفاده شوند و شما تعهدی برای عدم حذف یا عدم تغییر آن‌ها ندارید."
+"مشخصه‌های عمومی آن دسته از مشخصه‌های کلاس هستند که شما انتظار دارید مصرف‌کنندگان "
+"آن کلاس بتوانند از آن‌ها استفاده کنند و همچنین شما تضمین می‌دهید که از انجام "
+"تغییرات ناسازگار [با نگارش‌های پیشین نرم‌افزار] در آن‌ها جلوگیری کنید. مشخصه‌های "
+"غیرعمومی آن‌هایی هستند که قرار نیست از بیرون استفاده شوند و شما تعهدی برای عدم "
+"حذف یا عدم تغییر آن‌ها ندارید."
 
 #: ../../_pep8.rst:980
 msgid ""
-"We don't use the term \"private\" here, since no attribute is really private"
-" in Python (without a generally unnecessary amount of work)."
+"We don't use the term \"private\" here, since no attribute is really private "
+"in Python (without a generally unnecessary amount of work)."
 msgstr ""
 "اینجا ما از عبارت «خصوصی» استفاده نمی‌کنیم، به این دلیل که هیچ مشخصه‌ای در "
 "پایتون واقعاً خصوصی نیست."
@@ -1477,12 +1445,12 @@ msgid ""
 "API, and which are truly only to be used by your base class."
 msgstr ""
 "دسته‌ی دیگر مشخصه‌های کلاس آنهایی هستند که بخشی از \"زیرکلاس واسط "
-"برنامه‌نویسی\" (subclass API) هستند (اغلب در دیگر زبان های برنامه‌نویسی به "
-"آن‌ها \"حفاظت شده\" (protected) گفته می‌شود). برخی از کلاس‌ها به گونه‌ای "
-"طراحی شده‌اند که از آن‌ها ارث‌بری شود، یا بخش‌هایی از رفتارشان گسترش یا "
-"تغییر پیدا کند. هنگام طراحی چنین کلاسی، مواظب تصمیم‌های صریح درباره‌ی اینکه "
-"کدام مشخصه‌ها عمومی هستند، کدامشان بخشی از زیرکلاس واسط برنامه‌نویسی و "
-"کدامشان فقط قرار است توسط کلاس پایه شما استفاده شود، باشید."
+"برنامه‌نویسی\" (subclass API) هستند (اغلب در دیگر زبان های برنامه‌نویسی به آن‌ها "
+"\"حفاظت شده\" (protected) گفته می‌شود). برخی از کلاس‌ها به گونه‌ای طراحی شده‌اند "
+"که از آن‌ها ارث‌بری شود، یا بخش‌هایی از رفتارشان گسترش یا تغییر پیدا کند. هنگام "
+"طراحی چنین کلاسی، مواظب تصمیم‌های صریح درباره‌ی اینکه کدام مشخصه‌ها عمومی هستند، "
+"کدامشان بخشی از زیرکلاس واسط برنامه‌نویسی و کدامشان فقط قرار است توسط کلاس پایه "
+"شما استفاده شود، باشید."
 
 #: ../../_pep8.rst:991
 msgid "With this in mind, here are the Pythonic guidelines:"
@@ -1495,36 +1463,34 @@ msgstr "مشخصه‌های عمومی نباید با زیرخط (underscore) �
 #: ../../_pep8.rst:995
 msgid ""
 "If your public attribute name collides with a reserved keyword, append a "
-"single trailing underscore to your attribute name.  This is preferable to an"
-" abbreviation or corrupted spelling.  (However, notwithstanding this rule, "
-"'cls' is the preferred spelling for any variable or argument which is known "
-"to be a class, especially the first argument to a class method.)"
+"single trailing underscore to your attribute name.  This is preferable to an "
+"abbreviation or corrupted spelling.  (However, notwithstanding this rule, "
+"'cls' is the preferred spelling for any variable or argument which is known to "
+"be a class, especially the first argument to a class method.)"
 msgstr ""
-"اگر نام مشخصه‌های عمومی شما با کلیدواژه‌های از پیش رزرو شده تداخل دارد، یک "
-"زیرخط به ابتدای نام مشخصهٔ خود اضافه کنید. این کار نسبت به استفاده از یک "
-"مخفف یا یک املای خراب شده ترجیح داده می‌شود. (با این حال و با وجود این "
-"قوانین، املای 'cls' برای هر متغیر یا آرگومانی که می‌تواند یک کلاس باشد ترجیح"
-" داده می‌شود؛ خصوصاً اگر آرگومان اول یک کلاس‌متد باشد.)"
+"اگر نام مشخصه‌های عمومی شما با کلیدواژه‌های از پیش رزرو شده تداخل دارد، یک زیرخط "
+"به ابتدای نام مشخصهٔ خود اضافه کنید. این کار نسبت به استفاده از یک مخفف یا یک "
+"املای خراب شده ترجیح داده می‌شود. (با این حال و با وجود این قوانین، املای 'cls' "
+"برای هر متغیر یا آرگومانی که می‌تواند یک کلاس باشد ترجیح داده می‌شود؛ خصوصاً اگر "
+"آرگومان اول یک کلاس‌متد باشد.)"
 
 #: ../../_pep8.rst:1002
 msgid "Note 1: See the argument name recommendation above for class methods."
-msgstr ""
-"نکته ۱: برای کلاس‌متدها به توصیه‌های نام‌گذاری آرگومان‌ها در بالا دقت کنید."
+msgstr "نکته ۱: برای کلاس‌متدها به توصیه‌های نام‌گذاری آرگومان‌ها در بالا دقت کنید."
 
 #: ../../_pep8.rst:1004
 msgid ""
 "For simple public data attributes, it is best to expose just the attribute "
-"name, without complicated accessor/mutator methods.  Keep in mind that "
-"Python provides an easy path to future enhancement, should you find that a "
-"simple data attribute needs to grow functional behavior.  In that case, use "
+"name, without complicated accessor/mutator methods.  Keep in mind that Python "
+"provides an easy path to future enhancement, should you find that a simple "
+"data attribute needs to grow functional behavior.  In that case, use "
 "properties to hide functional implementation behind simple data attribute "
 "access syntax."
 msgstr ""
-"برای مشخصه‌های دادهٔ عمومی ساده، بهتر است فقط نام مشخصه، بدون روش‌های "
-"پیچیدهٔ کمک‌کننده نمایش داده شود. به خاطر داشته باشید، پایتون مسیر بهبود "
-"رفتار عملکردی مشخصه‌های داده را در آینده همیشه هموار نگاه می‌دارد. برای این "
-"کار، از ویژگی‌های کلاس استفاده کنید تا پیاده سازی عملکردی را در پشت مشخصهٔ "
-"داده، پنهان کنید."
+"برای مشخصه‌های دادهٔ عمومی ساده، بهتر است فقط نام مشخصه، بدون روش‌های پیچیدهٔ "
+"کمک‌کننده نمایش داده شود. به خاطر داشته باشید، پایتون مسیر بهبود رفتار عملکردی "
+"مشخصه‌های داده را در آینده همیشه هموار نگاه می‌دارد. برای این کار، از ویژگی‌های "
+"کلاس استفاده کنید تا پیاده سازی عملکردی را در پشت مشخصهٔ داده، پنهان کنید."
 
 #: ../../_pep8.rst:1012
 msgid ""
@@ -1536,38 +1502,36 @@ msgstr ""
 
 #: ../../_pep8.rst:1015
 msgid ""
-"Note 2: Avoid using properties for computationally expensive operations; the"
-" attribute notation makes the caller believe that access is (relatively) "
-"cheap."
+"Note 2: Avoid using properties for computationally expensive operations; the "
+"attribute notation makes the caller believe that access is (relatively) cheap."
 msgstr ""
-"نکته ۲: از ویژگی‌های کلاس برای اجرای عملیات سنگین محاسباتی استفاده نکنید. "
-"مشخصه باعث می شود که تابع صدا زننده گمان کند که دسترسی (نسبتا) کم‌هزینه است."
+"نکته ۲: از ویژگی‌های کلاس برای اجرای عملیات سنگین محاسباتی استفاده نکنید. مشخصه "
+"باعث می شود که تابع صدا زننده گمان کند که دسترسی (نسبتا) کم‌هزینه است."
 
 #: ../../_pep8.rst:1019
 msgid ""
-"If your class is intended to be subclassed, and you have attributes that you"
-" do not want subclasses to use, consider naming them with double leading "
-"underscores and no trailing underscores.  This invokes Python's name "
-"mangling algorithm, where the name of the class is mangled into the "
-"attribute name.  This helps avoid attribute name collisions should "
-"subclasses inadvertently contain attributes with the same name."
+"If your class is intended to be subclassed, and you have attributes that you "
+"do not want subclasses to use, consider naming them with double leading "
+"underscores and no trailing underscores.  This invokes Python's name mangling "
+"algorithm, where the name of the class is mangled into the attribute name.  "
+"This helps avoid attribute name collisions should subclasses inadvertently "
+"contain attributes with the same name."
 msgstr ""
-"اگر قرار است از کلاس شما ارث‌بری شود، و مشخصه‌هایی دارد که نمی‌خواهید "
-"زیرکلاس‌ها از آن‌ها استفاده کنند، آن‌ها را با دو زیرخط‌ آغازین و بدون زیرخط "
-"پایانی نام‌گذاری کنید. این کار الگوریتم دستکاری نام‌ها در پایتون را فراخوانی"
-" می‌کند، که نام کلاس را با نام مشخصه کلاس پیوند می‌زند. این کمک می کند تا "
-"اگر زیرکلاس‌ها به طور ناخواسته دارای مشخصه‌هایی با همان نام باشند، از تداخل "
-"نام مشخصه‌ها جلوگیری شود."
+"اگر قرار است از کلاس شما ارث‌بری شود، و مشخصه‌هایی دارد که نمی‌خواهید زیرکلاس‌ها "
+"از آن‌ها استفاده کنند، آن‌ها را با دو زیرخط‌ آغازین و بدون زیرخط پایانی نام‌گذاری "
+"کنید. این کار الگوریتم دستکاری نام‌ها در پایتون را فراخوانی می‌کند، که نام کلاس "
+"را با نام مشخصه کلاس پیوند می‌زند. این کمک می کند تا اگر زیرکلاس‌ها به طور "
+"ناخواسته دارای مشخصه‌هایی با همان نام باشند، از تداخل نام مشخصه‌ها جلوگیری شود."
 
 #: ../../_pep8.rst:1027
 msgid ""
-"Note 1: Note that only the simple class name is used in the mangled name, so"
-" if a subclass chooses both the same class name and attribute name, you can "
+"Note 1: Note that only the simple class name is used in the mangled name, so "
+"if a subclass chooses both the same class name and attribute name, you can "
 "still get name collisions."
 msgstr ""
 "نکته ۱: توجه داشته باشید که فقط نام کلاس با نام مشخصه کلاس پیوند می‌خورد، "
-"بنابراین اگر نام یک زیرکلاس و مشخصه آن با نام کلاس و مشخصه بالادستی یکی "
-"باشد، همچنان دچار تداخل نام میشوید."
+"بنابراین اگر نام یک زیرکلاس و مشخصه آن با نام کلاس و مشخصه بالادستی یکی باشد، "
+"همچنان دچار تداخل نام میشوید."
 
 #: ../../_pep8.rst:1031
 msgid ""
@@ -1576,17 +1540,16 @@ msgid ""
 "well documented and easy to perform manually."
 msgstr ""
 "نکته ۲: دستکاری نام می‌تواند کاربردهای خاصی مانند اشکال‌زدایی و "
-"``__getattr__()`` را سخت‌تر کند. با این حال، الگوریتم دستکاری نام به خوبی "
-"مستند شده است و به راحتی به صورت دستی انجام می‌شود."
+"``__getattr__()`` را سخت‌تر کند. با این حال، الگوریتم دستکاری نام به خوبی مستند "
+"شده است و به راحتی به صورت دستی انجام می‌شود."
 
 #: ../../_pep8.rst:1035
 msgid ""
 "Note 3: Not everyone likes name mangling.  Try to balance the need to avoid "
 "accidental name clashes with potential use by advanced callers."
 msgstr ""
-"نکته ۳: همه از دستکاری نام خوششان نمی‌آید. سعی کنید تعادل بین «نیاز به "
-"جلوگیری از تصادم نام» و «استفاده احتمالی توسط صدازننده‌های پیشرفته» را "
-"برقرار کنید."
+"نکته ۳: همه از دستکاری نام خوششان نمی‌آید. سعی کنید تعادل بین «نیاز به جلوگیری "
+"از تصادم نام» و «استفاده احتمالی توسط صدازننده‌های پیشرفته» را برقرار کنید."
 
 #: ../../_pep8.rst:1040
 msgid "Public and Internal Interfaces"
@@ -1595,34 +1558,33 @@ msgstr "رابط‌های عمومی و داخلی"
 #: ../../_pep8.rst:1042
 msgid ""
 "Any backwards compatibility guarantees apply only to public interfaces. "
-"Accordingly, it is important that users be able to clearly distinguish "
-"between public and internal interfaces."
+"Accordingly, it is important that users be able to clearly distinguish between "
+"public and internal interfaces."
 msgstr ""
-"هرگونه ضمانت سازگاری با نسخه‌های پیشین فقط برای اینترفیس‌های عمومی اعمال "
-"می‌شود. بر این اساس، مهم است که کاربران بتوانند به وضوح بین اینترفیس‌های "
-"عمومی و داخلی تمایز قائل شوند."
+"هرگونه ضمانت سازگاری با نسخه‌های پیشین فقط برای اینترفیس‌های عمومی اعمال می‌شود. "
+"بر این اساس، مهم است که کاربران بتوانند به وضوح بین اینترفیس‌های عمومی و داخلی "
+"تمایز قائل شوند."
 
 #: ../../_pep8.rst:1046
 msgid ""
 "Documented interfaces are considered public, unless the documentation "
-"explicitly declares them to be provisional or internal interfaces exempt "
-"from the usual backwards compatibility guarantees. All undocumented "
-"interfaces should be assumed to be internal."
+"explicitly declares them to be provisional or internal interfaces exempt from "
+"the usual backwards compatibility guarantees. All undocumented interfaces "
+"should be assumed to be internal."
 msgstr ""
-"اینترفیس‌های مستند شده، عمومی درنظر گرفته می‌شوند، مگر اینکه اسناد به صراحت "
-"آنها را موقت یا اینترفیس‌های داخلی اعلام کند که از ضمانت‌های سازگاری با "
-"نسخه‌های پیشین معمول، مستثنی هستند. همه اینترفیس‌های غیرمستند باید داخلی فرض"
-" شوند."
+"اینترفیس‌های مستند شده، عمومی درنظر گرفته می‌شوند، مگر اینکه اسناد به صراحت آنها "
+"را موقت یا اینترفیس‌های داخلی اعلام کند که از ضمانت‌های سازگاری با نسخه‌های پیشین "
+"معمول، مستثنی هستند. همه اینترفیس‌های غیرمستند باید داخلی فرض شوند."
 
 #: ../../_pep8.rst:1051
 msgid ""
-"To better support introspection, modules should explicitly declare the names"
-" in their public API using the ``__all__`` attribute. Setting ``__all__`` to"
-" an empty list indicates that the module has no public API."
+"To better support introspection, modules should explicitly declare the names "
+"in their public API using the ``__all__`` attribute. Setting ``__all__`` to an "
+"empty list indicates that the module has no public API."
 msgstr ""
-"برای پشتیبانی بهتر از رابط‌های داخلی، ماژول‌ها باید به صراحت نام‌ها را در "
-"API عمومی خود با استفاده از مشخصه ``__all__`` تعریف کنند. تنظیم ``__all__`` "
-"به یک لیست خالی نشان می‌دهد که ماژول فاقد API عمومی است."
+"برای پشتیبانی بهتر از رابط‌های داخلی، ماژول‌ها باید به صراحت نام‌ها را در API "
+"عمومی خود با استفاده از مشخصه ``__all__`` تعریف کنند. تنظیم ``__all__`` به یک "
+"لیست خالی نشان می‌دهد که ماژول فاقد API عمومی است."
 
 #: ../../_pep8.rst:1055
 msgid ""
@@ -1630,31 +1592,29 @@ msgid ""
 "modules, classes, functions, attributes or other names) should still be "
 "prefixed with a single leading underscore."
 msgstr ""
-"حتی با تنظیم ``__all__`` بصورت صحیح، واسط‌های داخلی (بسته‌ها، ماژول‌ها، "
-"کلاس‌ها، توابع، مشخصه‌ها و بقیه نام‌ها) هنوز باید همراه با یک زیرخط به صورت "
-"پیشوند باشند."
+"حتی با تنظیم ``__all__`` بصورت صحیح، واسط‌های داخلی (بسته‌ها، ماژول‌ها، کلاس‌ها، "
+"توابع، مشخصه‌ها و بقیه نام‌ها) هنوز باید همراه با یک زیرخط به صورت پیشوند باشند."
 
 #: ../../_pep8.rst:1059
 msgid ""
-"An interface is also considered internal if any containing namespace "
-"(package, module or class) is considered internal."
+"An interface is also considered internal if any containing namespace (package, "
+"module or class) is considered internal."
 msgstr ""
-"اگر فضانام (بسته، ماژول یا کلاس) دربرگیرندهٔ یک اینترفیس، داخلی در نظر گرفته"
-" شود، آن اینترفیس نیز داخلی در نظر گرفته خواهد شد."
+"اگر فضانام (بسته، ماژول یا کلاس) دربرگیرندهٔ یک اینترفیس، داخلی در نظر گرفته "
+"شود، آن اینترفیس نیز داخلی در نظر گرفته خواهد شد."
 
 #: ../../_pep8.rst:1062
 msgid ""
 "Imported names should always be considered an implementation detail. Other "
 "modules must not rely on indirect access to such imported names unless they "
-"are an explicitly documented part of the containing module's API, such as "
-"``os.path`` or a package's ``__init__`` module that exposes functionality "
-"from submodules."
+"are an explicitly documented part of the containing module's API, such as ``os."
+"path`` or a package's ``__init__`` module that exposes functionality from "
+"submodules."
 msgstr ""
-"نام‌های ایمپورت‌شده همیشه باید به عنوان جزییات پیاده‌سازی در نظر گرفته شوند."
-" ماژول‌های دیگر نباید به دسترسی غیرمستقیم به این نام‌های ایمپورت‌شده متکی "
-"باشند، مگر اینکه بخش به صراحت مستند‌شده از API ماژول باشند، مانند "
-"``os.path`` یا ماژول ``__init__`` در بسته‌ها، که عملکرد زیرماژول‌ها را نشان "
-"می‌دهد."
+"نام‌های ایمپورت‌شده همیشه باید به عنوان جزییات پیاده‌سازی در نظر گرفته شوند. "
+"ماژول‌های دیگر نباید به دسترسی غیرمستقیم به این نام‌های ایمپورت‌شده متکی باشند، "
+"مگر اینکه بخش به صراحت مستند‌شده از API ماژول باشند، مانند ``os.path`` یا ماژول "
+"``__init__`` در بسته‌ها، که عملکرد زیرماژول‌ها را نشان می‌دهد."
 
 #: ../../_pep8.rst:1070
 msgid "Programming Recommendations"
@@ -1663,96 +1623,92 @@ msgstr "پیشنهادات برنامه‌نویسی"
 #: ../../_pep8.rst:1072
 msgid ""
 "Code should be written in a way that does not disadvantage other "
-"implementations of Python (PyPy, Jython, IronPython, Cython, Psyco, and "
-"such)."
+"implementations of Python (PyPy, Jython, IronPython, Cython, Psyco, and such)."
 msgstr ""
-"کد باید به گونه‌ای نوشته شود که با دیگر پیاده‌سازی‌های پایتون (PyPy, Jython,"
-" IronPython, Cython, Psyco, و غیره) ناسازگار نباشد."
+"کد باید به گونه‌ای نوشته شود که با دیگر پیاده‌سازی‌های پایتون (PyPy, Jython, "
+"IronPython, Cython, Psyco, و غیره) ناسازگار نباشد."
 
 #: ../../_pep8.rst:1076
 msgid ""
 "For example, do not rely on CPython's efficient implementation of in-place "
-"string concatenation for statements in the form ``a += b`` or ``a = a + b``."
-"  This optimization is fragile even in CPython (it only works for some "
-"types) and isn't present at all in implementations that don't use "
-"refcounting.  In performance sensitive parts of the library, the "
-"``''.join()`` form should be used instead.  This will ensure that "
-"concatenation occurs in linear time across various implementations."
+"string concatenation for statements in the form ``a += b`` or ``a = a + b``.  "
+"This optimization is fragile even in CPython (it only works for some types) "
+"and isn't present at all in implementations that don't use refcounting.  In "
+"performance sensitive parts of the library, the ``''.join()`` form should be "
+"used instead.  This will ensure that concatenation occurs in linear time "
+"across various implementations."
 msgstr ""
-"برای مثال، به پیاده سازی چسباندن درجای رشته‌ها در CPython برای عباراتی به "
-"شکل ``a += b`` یا ``a = a + b`` تکیه نکنید. این بهینه‌سازی حتی در CPython هم"
-" شکننده است (فقط برای برخی از انواع داده‌ها کار می‌کند) و در پیاده‌سازی‌هایی"
-" که از شمارش ارجاع (refcounting یا Reference counting) استفاده نمی‌کنند اصلا"
-" وجود ندارد. در بخش‌های حساس به عملکرد کتابخانه، باید به جای آن از فرم "
-"``.join()`` استفاده شود. این اطمینان حاصل می‌کند که چسباندن در بین "
-"پیاده‌سازی‌های مختلف با پیچیدگی زمانی خطی رخ می دهد."
+"برای مثال، به پیاده سازی چسباندن درجای رشته‌ها در CPython برای عباراتی به شکل "
+"``a += b`` یا ``a = a + b`` تکیه نکنید. این بهینه‌سازی حتی در CPython هم شکننده "
+"است (فقط برای برخی از انواع داده‌ها کار می‌کند) و در پیاده‌سازی‌هایی که از شمارش "
+"ارجاع (refcounting یا Reference counting) استفاده نمی‌کنند اصلا وجود ندارد. در "
+"بخش‌های حساس به عملکرد کتابخانه، باید به جای آن از فرم ``.join()`` استفاده شود. "
+"این اطمینان حاصل می‌کند که چسباندن در بین پیاده‌سازی‌های مختلف با پیچیدگی زمانی "
+"خطی رخ می دهد."
 
 #: ../../_pep8.rst:1085
 msgid ""
-"Comparisons to singletons like None should always be done with ``is`` or "
-"``is not``, never the equality operators."
+"Comparisons to singletons like None should always be done with ``is`` or ``is "
+"not``, never the equality operators."
 msgstr ""
-"در هنگام بررسی یک متغیر با موارد تک‌نوعی در پایتون مانند None باید از عبارات"
-" ``is`` یا ``is not`` بجای عملگر مساوی استفاده کنید."
+"در هنگام بررسی یک متغیر با موارد تک‌نوعی در پایتون مانند None باید از عبارات "
+"``is`` یا ``is not`` بجای عملگر مساوی استفاده کنید."
 
 #: ../../_pep8.rst:1088
 msgid ""
-"Also, beware of writing ``if x`` when you really mean ``if x is not None`` "
-"-- e.g. when testing whether a variable or argument that defaults to None "
-"was set to some other value.  The other value might have a type (such as a "
-"container) that could be false in a boolean context!"
+"Also, beware of writing ``if x`` when you really mean ``if x is not None`` -- "
+"e.g. when testing whether a variable or argument that defaults to None was set "
+"to some other value.  The other value might have a type (such as a container) "
+"that could be false in a boolean context!"
 msgstr ""
 "همچنین هنگام نوشتن ``if x`` در حالی که واقعاً منظورتان ``if x is not None`` "
-"است، مراقب باشید -- برای نمونه، هنگام آزمایش اینکه آیا متغیر یا آرگومانی که "
-"به صورت پیش‌فرض مقدارش None است، مقدار دیگری دارد یا خیر. مقدار دیگر ممکن "
-"است یک نوع داده (مانند یک نوع داده کانتینری) داشته باشد که در یک شرایط بولی "
-"ممکن است مقدارش False باشد!"
+"است، مراقب باشید -- برای نمونه، هنگام آزمایش اینکه آیا متغیر یا آرگومانی که به "
+"صورت پیش‌فرض مقدارش None است، مقدار دیگری دارد یا خیر. مقدار دیگر ممکن است یک "
+"نوع داده (مانند یک نوع داده کانتینری) داشته باشد که در یک شرایط بولی ممکن است "
+"مقدارش False باشد!"
 
 #: ../../_pep8.rst:1094
 msgid ""
 "Use ``is not`` operator rather than ``not ... is``.  While both expressions "
 "are functionally identical, the former is more readable and preferred::"
 msgstr ""
-"از عملگر ``is not`` به جای ``not ... is`` استفاده کنید. درحالی که هردو "
-"عملکرد مشابهی دارند، فرم اول خوانایی بیشتری نسبت به فرم دوم دارد و ترجیح "
-"داده میشود::"
+"از عملگر ``is not`` به جای ``not ... is`` استفاده کنید. درحالی که هردو عملکرد "
+"مشابهی دارند، فرم اول خوانایی بیشتری نسبت به فرم دوم دارد و ترجیح داده میشود::"
 
 #: ../../_pep8.rst:1106
 msgid ""
 "When implementing ordering operations with rich comparisons, it is best to "
-"implement all six operations (``__eq__``, ``__ne__``, ``__lt__``, "
-"``__le__``, ``__gt__``, ``__ge__``) rather than relying on other code to "
-"only exercise a particular comparison."
+"implement all six operations (``__eq__``, ``__ne__``, ``__lt__``, ``__le__``, "
+"``__gt__``, ``__ge__``) rather than relying on other code to only exercise a "
+"particular comparison."
 msgstr ""
-"هنگام پیاده‌سازی عملکردهای اولویت‌دار با مقایسه‌های زیاد، بهتر است هر شش "
-"عملکرد (``__eq__``, ``__ne__``,``__lt__``, ``__le__``,``__gt__``, ``__ge__ "
-"``) را پیاده‌سازی کنید به جای اینکه به کدی دیگر فقط برای انجام یک مقایسه خاص"
-" تکیه کنید."
+"هنگام پیاده‌سازی عملکردهای اولویت‌دار با مقایسه‌های زیاد، بهتر است هر شش عملکرد "
+"(``__eq__``, ``__ne__``,``__lt__``, ``__le__``,``__gt__``, ``__ge__ ``) را "
+"پیاده‌سازی کنید به جای اینکه به کدی دیگر فقط برای انجام یک مقایسه خاص تکیه کنید."
 
 #: ../../_pep8.rst:1111
 msgid ""
-"To minimize the effort involved, the ``functools.total_ordering()`` "
-"decorator provides a tool to generate missing comparison methods."
+"To minimize the effort involved, the ``functools.total_ordering()`` decorator "
+"provides a tool to generate missing comparison methods."
 msgstr ""
-"برای به حداقل رساندن پیچیدگی، دکوراتور ``functools.total_ordering()`` ابزاری"
-" است برای ساختن متدهای مقایسهٔ گم شده."
+"برای به حداقل رساندن پیچیدگی، دکوراتور ``functools.total_ordering()`` ابزاری "
+"است برای ساختن متدهای مقایسهٔ گم شده."
 
 #: ../../_pep8.rst:1114
 msgid ""
-":pep:`207` indicates that reflexivity rules *are* assumed by Python. Thus, "
-"the interpreter may swap ``y > x`` with ``x < y``, ``y >= x`` with ``x <= "
-"y``, and may swap the arguments of ``x == y`` and ``x != y``.  The "
-"``sort()`` and ``min()`` operations are guaranteed to use the ``<`` operator"
-" and the ``max()`` function uses the ``>`` operator.  However, it is best to"
-" implement all six operations so that confusion doesn't arise in other "
-"contexts."
+":pep:`207` indicates that reflexivity rules *are* assumed by Python. Thus, the "
+"interpreter may swap ``y > x`` with ``x < y``, ``y >= x`` with ``x <= y``, and "
+"may swap the arguments of ``x == y`` and ``x != y``.  The ``sort()`` and "
+"``min()`` operations are guaranteed to use the ``<`` operator and the "
+"``max()`` function uses the ``>`` operator.  However, it is best to implement "
+"all six operations so that confusion doesn't arise in other contexts."
 msgstr ""
-"پپ ۲۰۷ نشان می‌دهد که قوانین بازتاب توسط پایتون در نظر گرفته شده است. "
-"بنابراین، مفسر ممکن است ``y > x`` را با ``y >= x``، ``x < y`` را با ``x <= "
-"y``، و ممکن است آرگومان های ``x == y`` و ``x != y`` را تعویض کند. عملکرد "
-"توابع `` sort()`` و ``min()`` برای استفاده از عملگر ``<`` تضمین شده و تابع "
-"``max()`` از عملگر ``>`` استفاده می کند. با این حال، بهتر است هر شش عملکرد "
-"را پیاده‌سازی کنید تا سردرگمی در زمینه‌های دیگر ایجاد نشود."
+"پپ ۲۰۷ نشان می‌دهد که قوانین بازتاب توسط پایتون در نظر گرفته شده است. بنابراین، "
+"مفسر ممکن است ``y > x`` را با ``y >= x``، ``x < y`` را با ``x <= y``، و ممکن "
+"است آرگومان های ``x == y`` و ``x != y`` را تعویض کند. عملکرد توابع `` sort()`` "
+"و ``min()`` برای استفاده از عملگر ``<`` تضمین شده و تابع ``max()`` از عملگر "
+"``>`` استفاده می کند. با این حال، بهتر است هر شش عملکرد را پیاده‌سازی کنید تا "
+"سردرگمی در زمینه‌های دیگر ایجاد نشود."
 
 #: ../../_pep8.rst:1122
 msgid ""
@@ -1771,17 +1727,17 @@ msgid ""
 "explicit def statement (i.e. that it can be embedded inside a larger "
 "expression)"
 msgstr ""
-"شکل اول به این معنی است که نام شی تابع به‌دست‌آمده به‌جای کلمه '<lambda>' به"
-" طور خاص ``f`` است. به طور کلی این کار در ردیابی‌ها و نمایش رشته‌ها  مفیدتر "
-"است. استفاده از دستور انتساب، تنها مزیتی را که یک عبارت لامبدا می‌تواند نسبت"
-" به یک عبارت def صریح ارائه دهد، حذف می‌کند (یعنی اینکه می‌توان آن را در یک "
-"عبارت بزرگ‌تر جا کرد)"
+"شکل اول به این معنی است که نام شی تابع به‌دست‌آمده به‌جای کلمه '<lambda>' به طور "
+"خاص ``f`` است. به طور کلی این کار در ردیابی‌ها و نمایش رشته‌ها  مفیدتر است. "
+"استفاده از دستور انتساب، تنها مزیتی را که یک عبارت لامبدا می‌تواند نسبت به یک "
+"عبارت def صریح ارائه دهد، حذف می‌کند (یعنی اینکه می‌توان آن را در یک عبارت "
+"بزرگ‌تر جا کرد)"
 
 #: ../../_pep8.rst:1140
 msgid ""
 "Derive exceptions from ``Exception`` rather than ``BaseException``. Direct "
-"inheritance from ``BaseException`` is reserved for exceptions where catching"
-" them is almost always the wrong thing to do."
+"inheritance from ``BaseException`` is reserved for exceptions where catching "
+"them is almost always the wrong thing to do."
 msgstr ""
 "استثناها را به جای ``BaseException`` از ``Exception`` ارث‌بری کنید. ارث‌بری "
 "مستقیم از ``BaseException`` برای استثناهایی است که رخ دادن و گرفتن آن‌ها، "
@@ -1792,49 +1748,48 @@ msgid ""
 "Design exception hierarchies based on the distinctions that code *catching* "
 "the exceptions is likely to need, rather than the locations where the "
 "exceptions are raised. Aim to answer the question \"What went wrong?\" "
-"programmatically, rather than only stating that \"A problem occurred\" (see "
-":pep:`3151` for an example of this lesson being learned for the builtin "
+"programmatically, rather than only stating that \"A problem occurred\" (see :"
+"pep:`3151` for an example of this lesson being learned for the builtin "
 "exception hierarchy)"
 msgstr ""
-"سلسله مراتب استثناها را بر اساس تمایزاتی طراحی کنید که *رخ دادن* آن‌ها در کد"
-" احتمالاً لازم باشد، نه مکان‌هایی که استثناها در آنجا رخ می‌دهند. هدف پاسخ "
-"برنامه‌ریزی شده به سوال \\\"چه اشتباهی رخ داد؟\\\" است، به جای اینکه فقط "
-"بیان کند که \\\"یک مشکل رخ داده است\\\". (برای مثالی از این نکته که برای "
-"سلسله مراتب استثناء داخلی گفته شد، پپ ۳۱۵۱ را ببینید)"
+"سلسله مراتب استثناها را بر اساس تمایزاتی طراحی کنید که *رخ دادن* آن‌ها در کد "
+"احتمالاً لازم باشد، نه مکان‌هایی که استثناها در آنجا رخ می‌دهند. هدف پاسخ "
+"برنامه‌ریزی شده به سوال \\\"چه اشتباهی رخ داد؟\\\" است، به جای اینکه فقط بیان "
+"کند که \\\"یک مشکل رخ داده است\\\". (برای مثالی از این نکته که برای سلسله "
+"مراتب استثناء داخلی گفته شد، پپ ۳۱۵۱ را ببینید)"
 
 #: ../../_pep8.rst:1151
 msgid ""
 "Class naming conventions apply here, although you should add the suffix "
-"\"Error\" to your exception classes if the exception is an error.  Non-error"
-" exceptions that are used for non-local flow control or other forms of "
+"\"Error\" to your exception classes if the exception is an error.  Non-error "
+"exceptions that are used for non-local flow control or other forms of "
 "signaling need no special suffix."
 msgstr ""
-"قراردادهای نامگذاری کلاس در اینجا اعمال می‌شود، اگرچه اگر استثنا یک خطا "
-"باشد، باید پسوند \"Error\" را به کلاس‌های استثنای خود اضافه کنید. استثناهایی"
-" که نوع آن‌ها خطا نیست و برای کنترل جریان غیرمحلی یا سایر اشکال سیگنال‌دهی "
-"استفاده می‌شوند، نیازی به پسوند خاصی ندارند."
+"قراردادهای نامگذاری کلاس در اینجا اعمال می‌شود، اگرچه اگر استثنا یک خطا باشد، "
+"باید پسوند \"Error\" را به کلاس‌های استثنای خود اضافه کنید. استثناهایی که نوع "
+"آن‌ها خطا نیست و برای کنترل جریان غیرمحلی یا سایر اشکال سیگنال‌دهی استفاده "
+"می‌شوند، نیازی به پسوند خاصی ندارند."
 
 #: ../../_pep8.rst:1156
 msgid ""
 "Use exception chaining appropriately. ``raise X from Y`` should be used to "
 "indicate explicit replacement without losing the original traceback."
 msgstr ""
-"از زنجیره‌ای کردن استثناها به درستی استفاده کنید. «رخ دادن استثناء X به دلیل"
-" استثناء Y» باید برای نشان دادن جایگزینی صریح، بدون از دست دادن ردیابی رخداد"
-" اصلی استفاده شود."
+"از زنجیره‌ای کردن استثناها به درستی استفاده کنید. «رخ دادن استثناء X به دلیل "
+"استثناء Y» باید برای نشان دادن جایگزینی صریح، بدون از دست دادن ردیابی رخداد "
+"اصلی استفاده شود."
 
 #: ../../_pep8.rst:1160
 msgid ""
-"When deliberately replacing an inner exception (using ``raise X from "
-"None``), ensure that relevant details are transferred to the new exception "
-"(such as preserving the attribute name when converting KeyError to "
-"AttributeError, or embedding the text of the original exception in the new "
-"exception message)."
+"When deliberately replacing an inner exception (using ``raise X from None``), "
+"ensure that relevant details are transferred to the new exception (such as "
+"preserving the attribute name when converting KeyError to AttributeError, or "
+"embedding the text of the original exception in the new exception message)."
 msgstr ""
-"هنگام جایگزینی عمدی یک استثناء داخلی (با استفاده از فرم \"رخ دادن استثناء X "
-"از None\")، اطمینان حاصل کنید که جزئیات مربوطه، به استثناء جدید منتقل شده "
-"است (مانند حفظ نام مشخصه هنگام تبدیل استثناء KeyError به استثناء "
-"AttributeError، یا قرار دادن متن استثناء اصلی در پیام استثناء جدید)."
+"هنگام جایگزینی عمدی یک استثناء داخلی (با استفاده از فرم \"رخ دادن استثناء X از "
+"None\")، اطمینان حاصل کنید که جزئیات مربوطه، به استثناء جدید منتقل شده است "
+"(مانند حفظ نام مشخصه هنگام تبدیل استثناء KeyError به استثناء AttributeError، "
+"یا قرار دادن متن استثناء اصلی در پیام استثناء جدید)."
 
 #: ../../_pep8.rst:1166
 msgid ""
@@ -1852,26 +1807,26 @@ msgid ""
 "program errors, use ``except Exception:`` (bare except is equivalent to "
 "``except BaseException:``)."
 msgstr ""
-"یک عبارت ساده ``except:`` استثناهای SystemExit و KeyboardInterrupt را "
-"می‌گیرد و بستن برنامه با کلیدهای ترکیبی Control-C را دشوارتر می‌کند و "
-"می‌تواند مشکلات دیگر را پنهان کند. اگر می‌خواهید همه استثناهایی را که به "
-"خطاهای برنامه سیگنال می‌دهند، بیابید، از ``except Exception:`` استفاده کنید "
-"(except ساده معادل ``except BaseException:`` است)."
+"یک عبارت ساده ``except:`` استثناهای SystemExit و KeyboardInterrupt را می‌گیرد و "
+"بستن برنامه با کلیدهای ترکیبی Control-C را دشوارتر می‌کند و می‌تواند مشکلات دیگر "
+"را پنهان کند. اگر می‌خواهید همه استثناهایی را که به خطاهای برنامه سیگنال "
+"می‌دهند، بیابید، از ``except Exception:`` استفاده کنید (except ساده معادل "
+"``except BaseException:`` است)."
 
 #: ../../_pep8.rst:1181
 msgid ""
 "A good rule of thumb is to limit use of bare 'except' clauses to two cases:"
 msgstr ""
-"یک قانون سرانگشتی خوب این است که استفاده از عبارت‌های ساده 'except' را به دو"
-" مورد محدود کنید:"
+"یک قانون سرانگشتی خوب این است که استفاده از عبارت‌های ساده 'except' را به دو "
+"مورد محدود کنید:"
 
 #: ../../_pep8.rst:1184
 msgid ""
 "If the exception handler will be printing out or logging the traceback; at "
 "least the user will be aware that an error has occurred."
 msgstr ""
-"اگر کنترل‌کننده استثنا در حال چاپ کردن یا لاگ کردن ردیابی رخدادها باشد. "
-"حداقل کاربر متوجه خواهد شد که یک خطا رخ داده است."
+"اگر کنترل‌کننده استثنا در حال چاپ کردن یا لاگ کردن ردیابی رخدادها باشد. حداقل "
+"کاربر متوجه خواهد شد که یک خطا رخ داده است."
 
 #: ../../_pep8.rst:1188
 msgid ""
@@ -1879,14 +1834,14 @@ msgid ""
 "propagate upwards with ``raise``.  ``try...finally`` can be a better way to "
 "handle this case."
 msgstr ""
-"اگر کد نیاز به بازنویسی و تمیزکاری دارد، اما اجازه می‌دهد تا استثنا با عبارت"
-" ``raise`` بهتر شود. ساختار ``try...finally`` می‌تواند راه بهتری برای بکار "
-"بردن این مورد باشد."
+"اگر کد نیاز به بازنویسی و تمیزکاری دارد، اما اجازه می‌دهد تا استثنا با عبارت "
+"``raise`` بهتر شود. ساختار ``try...finally`` می‌تواند راه بهتری برای بکار بردن "
+"این مورد باشد."
 
 #: ../../_pep8.rst:1192
 msgid ""
-"When catching operating system errors, prefer the explicit exception "
-"hierarchy introduced in Python 3.3 over introspection of ``errno`` values."
+"When catching operating system errors, prefer the explicit exception hierarchy "
+"introduced in Python 3.3 over introspection of ``errno`` values."
 msgstr ""
 "هنگام گرفتن خطاهای سیستم عامل، سلسله مراتب استثناء واضح معرفی شده در پایتون "
 "۳.۳ را به تشخیص نوع مقادیر ``errno`` ترجیح دهید."
@@ -1894,56 +1849,52 @@ msgstr ""
 #: ../../_pep8.rst:1196
 msgid ""
 "Additionally, for all try/except clauses, limit the ``try`` clause to the "
-"absolute minimum amount of code necessary.  Again, this avoids masking "
-"bugs::"
+"absolute minimum amount of code necessary.  Again, this avoids masking bugs::"
 msgstr ""
-"علاوه بر این، برای تمام عبارات try/except در بند ``try`` سعی کنید کمترین "
-"میزان کد را بنویسید. این کار از پوشاندن سایر اشکالات در برنامه جلوگیری "
-"می‌کند::"
+"علاوه بر این، برای تمام عبارات try/except در بند ``try`` سعی کنید کمترین میزان "
+"کد را بنویسید. این کار از پوشاندن سایر اشکالات در برنامه جلوگیری می‌کند::"
 
 #: ../../_pep8.rst:1218
 msgid ""
 "When a resource is local to a particular section of code, use a ``with`` "
-"statement to ensure it is cleaned up promptly and reliably after use. A "
-"try/finally statement is also acceptable."
+"statement to ensure it is cleaned up promptly and reliably after use. A try/"
+"finally statement is also acceptable."
 msgstr ""
 "وقتی منبعی متعلق به بخش خاصی از کد است، از عبارت ``with`` استفاده کنید تا "
-"مطمئن شوید که پس از استفاده، به سرعت و با اطمینان پاکسازی می‌شود. عبارت "
-"try/finally نیز قابل قبول است."
+"مطمئن شوید که پس از استفاده، به سرعت و با اطمینان پاکسازی می‌شود. عبارت try/"
+"finally نیز قابل قبول است."
 
 #: ../../_pep8.rst:1222
 msgid ""
 "Context managers should be invoked through separate functions or methods "
 "whenever they do something other than acquire and release resources::"
 msgstr ""
-"مدیران زمینه (Context managers) باید از طریق توابع یا متدهای جداگانه، هر "
-"زمان که کاری غیر از گرفتن و آزادسازی منابع انجام می‌دهند، فراخوانی شوند::"
+"مدیران زمینه (Context managers) باید از طریق توابع یا متدهای جداگانه، هر زمان "
+"که کاری غیر از گرفتن و آزادسازی منابع انجام می‌دهند، فراخوانی شوند::"
 
 #: ../../_pep8.rst:1235
 msgid ""
 "The latter example doesn't provide any information to indicate that the "
-"``__enter__`` and ``__exit__`` methods are doing something other than "
-"closing the connection after a transaction.  Being explicit is important in "
-"this case."
+"``__enter__`` and ``__exit__`` methods are doing something other than closing "
+"the connection after a transaction.  Being explicit is important in this case."
 msgstr ""
 "مثال دوم هیچ اطلاعاتی ارائه نمی‌دهد که نشان دهد متدهای ``__enter__`` و "
-"``__exit__`` کاری غیر از بستن اتصال پس از تراکنش انجام می‌دهند. صریح بودن در"
-" این مورد مهم است."
+"``__exit__`` کاری غیر از بستن اتصال پس از تراکنش انجام می‌دهند. صریح بودن در "
+"این مورد مهم است."
 
 #: ../../_pep8.rst:1240
 msgid ""
 "Be consistent in return statements.  Either all return statements in a "
-"function should return an expression, or none of them should.  If any return"
-" statement returns an expression, any return statements where no value is "
+"function should return an expression, or none of them should.  If any return "
+"statement returns an expression, any return statements where no value is "
 "returned should explicitly state this as ``return None``, and an explicit "
-"return statement should be present at the end of the function (if "
-"reachable)::"
+"return statement should be present at the end of the function (if reachable)::"
 msgstr ""
-"درمورد دستورات return ثابت قدم باشید. یا تمام دستورات return در یک تابع باید"
-" یک عبارت را برگردانند یا هیچ کدام نباید. اگر هر دستور return یک عبارت را "
+"درمورد دستورات return ثابت قدم باشید. یا تمام دستورات return در یک تابع باید "
+"یک عبارت را برگردانند یا هیچ کدام نباید. اگر هر دستور return یک عبارت را "
 "برمی‌گرداند، هر دستور return که در آن هیچ مقداری برگردانده نشده است باید به "
-"صراحت آن را به عنوان ``return None`` بیان کند، و یک دستور return صریح باید "
-"در انتهای تابع وجود داشته باشد (اگر قابل دسترسی باشد)::"
+"صراحت آن را به عنوان ``return None`` بیان کند، و یک دستور return صریح باید در "
+"انتهای تابع وجود داشته باشد (اگر قابل دسترسی باشد)::"
 
 #: ../../_pep8.rst:1273
 msgid ""
@@ -1967,11 +1918,11 @@ msgstr ""
 
 #: ../../_pep8.rst:1297
 msgid ""
-"For sequences, (strings, lists, tuples), use the fact that empty sequences "
-"are false::"
+"For sequences, (strings, lists, tuples), use the fact that empty sequences are "
+"false::"
 msgstr ""
-"برای نوع داده‌هایی که دارای ترتیب هستند (رشته‌ها، لیست‌ها و تاپل‌ها)، به این"
-" واقعیت اتکا کنید که مقادیر خالی آن‌ها غلط هستند::"
+"برای نوع داده‌هایی که دارای ترتیب هستند (رشته‌ها، لیست‌ها و تاپل‌ها)، به این "
+"واقعیت اتکا کنید که مقادیر خالی آن‌ها غلط هستند::"
 
 #: ../../_pep8.rst:1310
 msgid ""
@@ -1980,8 +1931,8 @@ msgid ""
 "more recently, reindent.py) will trim them."
 msgstr ""
 "حروف رشته‌ای که متکی به فضای خالی انتهایی قابل توجهی هستند را ننویسید. چنین "
-"فضای خالی انتهایی از نظر بصری قابل تشخیص نیست و برخی از ویرایشگرها (یا "
-"اخیراً، reindent.py) آنها را حذف می‌کنند."
+"فضای خالی انتهایی از نظر بصری قابل تشخیص نیست و برخی از ویرایشگرها (یا اخیراً، "
+"reindent.py) آنها را حذف می‌کنند."
 
 #: ../../_pep8.rst:1314
 msgid "Don't compare boolean values to True or False using ``==``::"
@@ -1999,10 +1950,10 @@ msgid ""
 "statements will implicitly cancel any active exception that is propagating "
 "through the finally suite::"
 msgstr ""
-"استفاده از عبارات کنترل جریان ``return``/``break``/``continue`` در سلسله "
-"نهایی ساختار ``try...finally``، جایی که دستور کنترل جریان به خارج از سلسله "
-"نهایی می‌پرد، کارایی ندارد. دلیل این امر این است که چنین عباراتی به طور ضمنی"
-" هر استثنا فعالی را که در سلسله نهایی رخ می‌دهد، لغو می‌کنند::"
+"استفاده از عبارات کنترل جریان ``return``/``break``/``continue`` در سلسله نهایی "
+"ساختار ``try...finally``، جایی که دستور کنترل جریان به خارج از سلسله نهایی "
+"می‌پرد، کارایی ندارد. دلیل این امر این است که چنین عباراتی به طور ضمنی هر "
+"استثنا فعالی را که در سلسله نهایی رخ می‌دهد، لغو می‌کنند::"
 
 #: ../../_pep8.rst:1343
 msgid "Function Annotations"
@@ -2016,86 +1967,86 @@ msgstr "با پذیرش پپ ۴۸۴ شیوه نگارش انوتیشن تواب�
 
 #: ../../_pep8.rst:1348
 msgid ""
-"Function annotations should use :pep:`484` syntax (there are some formatting"
-" recommendations for annotations in the previous section)."
+"Function annotations should use :pep:`484` syntax (there are some formatting "
+"recommendations for annotations in the previous section)."
 msgstr ""
-"انوتیشن‌های توابع باید مطابق با شیوه‌نامه پپ ۴۸۴ باشند. (در بخش قبل، برخی "
-"اصول پیشنهادی برای انوتیشن‌ها آورده شده)."
+"انوتیشن‌های توابع باید مطابق با شیوه‌نامه پپ ۴۸۴ باشند. (در بخش قبل، برخی اصول "
+"پیشنهادی برای انوتیشن‌ها آورده شده)."
 
 #: ../../_pep8.rst:1351
 msgid ""
-"The experimentation with annotation styles that was recommended previously "
-"in this PEP is no longer encouraged."
+"The experimentation with annotation styles that was recommended previously in "
+"this PEP is no longer encouraged."
 msgstr ""
-"استفاده‌های آزمایشی از انوتیشن‌ها که در نسخه‌های پیشین پپ ۸ گفته شده بود از "
-"این به بعد پیشنهاد نمی‌شود."
+"استفاده‌های آزمایشی از انوتیشن‌ها که در نسخه‌های پیشین پپ ۸ گفته شده بود از این "
+"به بعد پیشنهاد نمی‌شود."
 
 #: ../../_pep8.rst:1354
 msgid ""
 "However, outside the stdlib, experiments within the rules of :pep:`484` are "
 "now encouraged.  For example, marking up a large third party library or "
-"application with :pep:`484` style type annotations, reviewing how easy it "
-"was to add those annotations, and observing whether their presence increases"
-" code understandability."
+"application with :pep:`484` style type annotations, reviewing how easy it was "
+"to add those annotations, and observing whether their presence increases code "
+"understandability."
 msgstr ""
-"با این حال اکنون، آزمایش قوانین پپ ۴۸۴ خارج از کتابخانه استاندارد نیز "
-"پیشنهاد می‌شوند. برای نمونه، علامت‌گذاری یک کتابخانه یا برنامه شخص ثالث بزرگ"
-" با سبک انوتیشن‌های پپ ۴۸۴، بررسی آسان بودن افزودن آن انوتیشن‌ها، و مشاهده "
-"اینکه آیا وجود آنها درک کد را افزایش می دهد یا خیر."
+"با این حال اکنون، آزمایش قوانین پپ ۴۸۴ خارج از کتابخانه استاندارد نیز پیشنهاد "
+"می‌شوند. برای نمونه، علامت‌گذاری یک کتابخانه یا برنامه شخص ثالث بزرگ با سبک "
+"انوتیشن‌های پپ ۴۸۴، بررسی آسان بودن افزودن آن انوتیشن‌ها، و مشاهده اینکه آیا "
+"وجود آنها درک کد را افزایش می دهد یا خیر."
 
 #: ../../_pep8.rst:1360
 msgid ""
 "The Python standard library should be conservative in adopting such "
 "annotations, but their use is allowed for new code and for big refactorings."
 msgstr ""
-"کتابخانه استاندارد پایتون باید در پذیرش چنین انوتیشن‌هایی محافظه‌کار باشد، "
-"اما استفاده از آن‌ها برای کدهای جدید و بازسازی‌های بزرگ کدها مجاز است."
+"کتابخانه استاندارد پایتون باید در پذیرش چنین انوتیشن‌هایی محافظه‌کار باشد، اما "
+"استفاده از آن‌ها برای کدهای جدید و بازسازی‌های بزرگ کدها مجاز است."
 
 #: ../../_pep8.rst:1364
 msgid ""
 "For code that wants to make a different use of function annotations it is "
 "recommended to put a comment of the form::"
 msgstr ""
-"برای کدهایی که می‌خواهند استفادهٔ دیگری از انوتیشن‌های تابع داشته باشند، "
-"پیشنهاد می‌شود از کامنت‌هایی با فرم زیر استفاده شود::"
+"برای کدهایی که می‌خواهند استفادهٔ دیگری از انوتیشن‌های تابع داشته باشند، پیشنهاد "
+"می‌شود از کامنت‌هایی با فرم زیر استفاده شود::"
 
 #: ../../_pep8.rst:1369
 msgid ""
-"near the top of the file; this tells type checkers to ignore all "
-"annotations.  (More fine-grained ways of disabling complaints from type "
-"checkers can be found in :pep:`484`.)"
+"near the top of the file; this tells type checkers to ignore all annotations.  "
+"(More fine-grained ways of disabling complaints from type checkers can be "
+"found in :pep:`484`.)"
 msgstr ""
-"در خطوط اولیهٔ فایل؛ این خط به چک‌کننده‌های تایپ‌ها پیغام می‌دهد که "
-"انوتیشن‌ها را در این فایل نادیده بگیرند. (برای دیدن روش‌های دیگر غیرفعال "
-"کردن انوتیشن‌ها به پپ ۴۸۴ مراجعه کنید)."
+"در خطوط اولیهٔ فایل؛ این خط به چک‌کننده‌های تایپ‌ها پیغام می‌دهد که انوتیشن‌ها را در "
+"این فایل نادیده بگیرند. (برای دیدن روش‌های دیگر غیرفعال کردن انوتیشن‌ها به پپ "
+"۴۸۴ مراجعه کنید)."
 
 #: ../../_pep8.rst:1373
 msgid ""
-"Like linters, type checkers are optional, separate tools.  Python "
-"interpreters by default should not issue any messages due to type checking "
-"and should not alter their behavior based on annotations."
+"Like linters, type checkers are optional, separate tools.  Python interpreters "
+"by default should not issue any messages due to type checking and should not "
+"alter their behavior based on annotations."
 msgstr ""
 "مانند لینترها، چک‌کننده‌های نوع داده اختیاری هستند و ابزارهایی جدا به حساب "
-"می‌آیند. مفسرهای پایتون به طور پیش‌فرض نباید هیچ پیامی را به دلیل بررسی نوع "
-"داده نشان دهند و نباید رفتار خود را بر اساس انوتیشن‌ها تغییر دهند."
+"می‌آیند. مفسرهای پایتون به طور پیش‌فرض نباید هیچ پیامی را به دلیل بررسی نوع داده "
+"نشان دهند و نباید رفتار خود را بر اساس انوتیشن‌ها تغییر دهند."
 
 #: ../../_pep8.rst:1377
 msgid ""
-"Users who don't want to use type checkers are free to ignore them. However, "
-"it is expected that users of third party library packages may want to run "
-"type checkers over those packages.  For this purpose :pep:`484` recommends "
-"the use of stub files: .pyi files that are read by the type checker in "
-"preference of the corresponding .py files. Stub files can be distributed "
-"with a library, or separately (with the library author's permission) through"
-" the typeshed repo [5]_."
+"Users who don't want to use type checkers are free to ignore them. However, it "
+"is expected that users of third party library packages may want to run type "
+"checkers over those packages.  For this purpose :pep:`484` recommends the use "
+"of stub files: .pyi files that are read by the type checker in preference of "
+"the corresponding .py files. Stub files can be distributed with a library, or "
+"separately (with the library author's permission) through the typeshed repo "
+"[5]_."
 msgstr ""
-"کاربرانی که نمی‌خواهند از چک‌کننده‌های نوع داده استفاده کنند، می‌توانند "
-"آن‌ها را نادیده بگیرند. با این حال، انتظار می‌رود که کاربران بسته‌های "
-"کتابخانه شخص ثالث ممکن است بخواهند بررسی‌های نوع داده را روی آن بسته‌ها "
-"انجام دهند. برای این منظور پپ ۴۸۴ استفاده از فایل‌های خرد (stub files) را "
-"توصیه می‌کند: فایل‌های .pyi که توسط چک‌کننده نوع داده در اولویت فایل‌های .py"
-" مربوطه خوانده می‌شوند. فایل‌های خرد را می‌توان با کتابخانه، یا به صورت "
-"جداگانه (با اجازه نویسنده کتابخانه) از طریق مخزن typeshed [5]_ توزیع کرد."
+"کاربرانی که نمی‌خواهند از چک‌کننده‌های نوع داده استفاده کنند، می‌توانند آن‌ها را "
+"نادیده بگیرند. با این حال، انتظار می‌رود که کاربران بسته‌های کتابخانه شخص ثالث "
+"ممکن است بخواهند بررسی‌های نوع داده را روی آن بسته‌ها انجام دهند. برای این منظور "
+"پپ ۴۸۴ استفاده از فایل‌های خرد (stub files) را توصیه می‌کند: فایل‌های .pyi که "
+"توسط چک‌کننده نوع داده در اولویت فایل‌های .py مربوطه خوانده می‌شوند. فایل‌های خرد "
+"را می‌توان با کتابخانه، یا به صورت جداگانه (با اجازه نویسنده کتابخانه) از طریق "
+"مخزن typeshed [5]_ توزیع کرد."
 
 #: ../../_pep8.rst:1387
 msgid "Variable Annotations"
@@ -2103,11 +2054,11 @@ msgstr "انوتیشن‌های متغیرها"
 
 #: ../../_pep8.rst:1389
 msgid ""
-":pep:`526` introduced variable annotations. The style recommendations for "
-"them are similar to those on function annotations described above:"
+":pep:`526` introduced variable annotations. The style recommendations for them "
+"are similar to those on function annotations described above:"
 msgstr ""
-"پپ ۲۵۶ انوتیشن‌های متغیر را معرفی کرد. شیوه‌نامه پیشنهادی شامل قانون‌های "
-"مشابه با انوتیشن توابع است که بالاتر توضیح داده شد:"
+"پپ ۲۵۶ انوتیشن‌های متغیر را معرفی کرد. شیوه‌نامه پیشنهادی شامل قانون‌های مشابه با "
+"انوتیشن توابع است که بالاتر توضیح داده شد:"
 
 #: ../../_pep8.rst:1392
 msgid ""
@@ -2132,12 +2083,12 @@ msgstr ""
 #: ../../_pep8.rst:1418
 msgid ""
 "Although the :pep:`526` is accepted for Python 3.6, the variable annotation "
-"syntax is the preferred syntax for stub files on all versions of Python (see"
-" :pep:`484` for details)."
+"syntax is the preferred syntax for stub files on all versions of Python (see :"
+"pep:`484` for details)."
 msgstr ""
-"هرچند پپ ۵۲۶ برای پایتون ۳,۶ پذیرفته شده است، ساختار انوتیشن متغیرها، ساختار"
-" ترجیح داده شده برای فایل‌های stub در تمام نگارش‌های پایتون است (برای جزئیات"
-" بیشتر پپ ۴۸۴ را ببینید)."
+"هرچند پپ ۵۲۶ برای پایتون ۳,۶ پذیرفته شده است، ساختار انوتیشن متغیرها، ساختار "
+"ترجیح داده شده برای فایل‌های stub در تمام نگارش‌های پایتون است (برای جزئیات "
+"بیشتر پپ ۴۸۴ را ببینید)."
 
 #: ../../_pep8.rst:1423
 msgid "Footnotes"
@@ -2146,15 +2097,15 @@ msgstr "پانویس‌ها"
 #: ../../_pep8.rst:1424
 msgid ""
 "*Hanging indentation* is a type-setting style where all the lines in a "
-"paragraph are indented except the first line.  In the context of Python, the"
-" term is used to describe a style where the opening parenthesis of a "
-"parenthesized statement is the last non-whitespace character of the line, "
-"with subsequent lines being indented until the closing parenthesis."
+"paragraph are indented except the first line.  In the context of Python, the "
+"term is used to describe a style where the opening parenthesis of a "
+"parenthesized statement is the last non-whitespace character of the line, with "
+"subsequent lines being indented until the closing parenthesis."
 msgstr ""
-"*تورفتگی آویزان* یک سبک چیدن حروف است که در آن تمام خطوط یک پاراگراف به جز "
-"خط اول تورفتگی دارند. در پایتون، این اصطلاح برای توصیف سبکی استفاده می‌شود "
-"که در آن پرانتز آغازین یک عبارتِ پرانتزشده، آخرین کاراکترِ یک خط است، و خطوط"
-" بعدی تا پرانتز پایانی تورفتگی دارند."
+"*تورفتگی آویزان* یک سبک چیدن حروف است که در آن تمام خطوط یک پاراگراف به جز خط "
+"اول تورفتگی دارند. در پایتون، این اصطلاح برای توصیف سبکی استفاده می‌شود که در "
+"آن پرانتز آغازین یک عبارتِ پرانتزشده، آخرین کاراکترِ یک خط است، و خطوط بعدی تا "
+"پرانتز پایانی تورفتگی دارند."
 
 #: ../../_pep8.rst:1433
 msgid "References"
@@ -2162,13 +2113,12 @@ msgstr "منابع"
 
 #: ../../_pep8.rst:1435
 msgid ""
-"Barry's GNU Mailman style guide "
-"http://barry.warsaw.us/software/STYLEGUIDE.txt"
+"Barry's GNU Mailman style guide http://barry.warsaw.us/software/STYLEGUIDE.txt"
 msgstr "شیوه‌نامه نگارش گنو میل‌من https://bit.ly/3wZ7J5I"
 
 #: ../../_pep8.rst:1438
 msgid "Donald Knuth's *The TeXBook*, pages 195 and 196."
-msgstr "دانلد ناتس *The TeXBook*، صفحات ۱۹۵ و ۱۹۶."
+msgstr "دانلد کِنوث *The TeXBook*، صفحات ۱۹۵ و ۱۹۶."
 
 #: ../../_pep8.rst:1440
 msgid "http://www.wikipedia.com/wiki/CamelCase"
@@ -2224,16 +2174,16 @@ msgstr "مشارکت در ترجمه"
 
 #: ../../translation.rst:10
 msgid ""
-"برای مشارکت در ترجمه این متن به `مخزن گیتهاب پروژه "
-"<https://github.com/hanifbirgani/pep8ir>`_ مراجعه کنید."
+"برای مشارکت در ترجمه این متن به `مخزن گیتهاب پروژه <https://github.com/"
+"hanifbirgani/pep8ir>`_ مراجعه کنید."
 msgstr ""
-"برای مشارکت در ترجمه این متن به `مخزن گیتهاب پروژه "
-"<https://github.com/hanifbirgani/pep8ir>`_ مراجعه کنید."
+"برای مشارکت در ترجمه این متن به `مخزن گیتهاب پروژه <https://github.com/"
+"hanifbirgani/pep8ir>`_ مراجعه کنید."
 
 #: ../../translation.rst:12
 msgid ""
-"سایت `پپ ۸ <https://pep8.ir>`_ فارسی، پروژه‌ای از `حنیف بیرگانی "
-"<https://github.com/hanifbirgani/>`_."
+"سایت `پپ ۸ <https://pep8.ir>`_ فارسی، پروژه‌ای از `حنیف بیرگانی <https://github."
+"com/hanifbirgani/>`_."
 msgstr ""
-"سایت `پپ ۸ <https://pep8.ir>`_ فارسی، پروژه‌ای از `حنیف بیرگانی "
-"<https://github.com/hanifbirgani/>`_."
+"سایت `پپ ۸ <https://pep8.ir>`_ فارسی، پروژه‌ای از `حنیف بیرگانی <https://github."
+"com/hanifbirgani/>`_."
